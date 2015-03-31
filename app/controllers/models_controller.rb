@@ -5,6 +5,11 @@ class ModelsController < ApplicationController
     @model = Model.new
   end
 
+  def show
+    @manufacturer = Manufacturer.find(params[:id])
+    @model = @manufacturer.models.find(params[:id])
+  end
+
   def create
     @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = @manufacturer.models.new(model_params)

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150331172222) do
+ActiveRecord::Schema.define(version: 20150331230548) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,11 @@ ActiveRecord::Schema.define(version: 20150331172222) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.string   "name"
+    t.decimal  "price",              precision: 12, scale: 2
+    t.decimal  "parts_cost",         precision: 12, scale: 2
+    t.text     "description"
+    t.decimal  "labor_cost",         precision: 12, scale: 2
   end
 
   add_index "accessories", ["model_id"], name: "index_accessories_on_model_id", using: :btree
