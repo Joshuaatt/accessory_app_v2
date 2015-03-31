@@ -1,0 +1,34 @@
+.model-cards {
+  margin-top: 20px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+}
+
+.model-image, .model-year, .model-name {
+
+}
+
+.model-image {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.model-year-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.model-year {
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+.model-name {
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+
+.edit-model {
+  margin-top: 40px;
+}
