@@ -1,0 +1,18 @@
+<div class="page-header">
+  <h1>Pick your new <%= @manufacturer.name %> model <small><%= link_to 'Add Model', new_manufacturer_model_path(@manufacturer, @model), id: "add_link" %></small></h1>
+</div>
+
+<% if @manufacturer.models.any? %>
+  <ul class="list-container">
+      <% @manufacturer.models.each do |model| %>
+        <li>
+          <%= model.image %> <%= model.year %> <% model.name %>
+          <div class="admin-controls">
+            <%= link_to 'edit', edit_manufacturer_model_path(@manufacturer, model) %> | <%= link_to 'delete', manufacturer_model_path(@manufacturer, model), data: { confirm: "This will delete the model and all accessories associated with this model. Are you sure?", method: "delete" } %></li>
+          </div>
+        </li>
+      <% end %>
+  </ul>
+<% end %>
+
+<p class="btn return"><%= link_to 'Return to main page', manufacturers_path %></p>
