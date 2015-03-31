@@ -2,9 +2,9 @@
   <h1>Select accessories for your <%= @model.name %> <small><%= link_to 'Add Accessory', new_manufacturer_model_accessory_path(@manufacturer, @model, @accessory), id: "add_link" %></small></h1>
 </div>
 
-<% if @manufacturer.model.accessories.any? %>
+<% if @manufacturer.models.accessories.any? %>
   <ul class="list-container">
-      <% @manufacturer.model.accessories.each do |accessory| %>
+      <% @manufacturer.models.accessories.each do |accessory| %>
         <div class="model-cards col-md-12"
           <li>
             <div class="model-image col-md-2">

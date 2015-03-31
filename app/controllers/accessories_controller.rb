@@ -1,0 +1,62 @@
+class AccessoriesController < ApplicationController
+  def new
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @model = Model.find(params[:model_id])
+    @accessory = Accessory.new
+  end
+
+  def show
+    # @manufacturer = Manufacturer.find(params[:id])
+    @model = @manufacturer.models.find(params[:id])
+    @accessory = @manufacturer.model.find(parms[:id])
+  end
+
+  def create
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @model = Model.find(params[:model_id])
+    @accessory = @model.accessory.new(accessory_params)
+    if @accessory.save
+      flash[:notice] = "Accessory submitted"
+      redirect_to model_path(@accessory.model)
+    else
+      render :new
+    end
+  end
+
+  def edit
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @model = Model.find(params[:model_id])
+    @accessory = @model.accessory.find(params[:id])
+  end
+
+  def update
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @model = Model.find(params[:model_id])
+    @accessory = @model.accessory.find(params[:id])
+    if @accessory.update(accessory_params)
+      flash[:notice] = "Your accessory has been changed successfully"
+      redirect_to model_path(@model)
+    else
+      flash[:error] = "There was an error with your edit"
+      render action: :edit
+    end
+  end
+
+  def destroy
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @model = Model.find(params[:model_id])
+    @accessory = @model.accessory.find(params[:id])
+    if @accessory.destroy
+      flash[:notice] = "Your accessory has been deleted"
+    else
+      flash[:error] = "There was an error when deleting"
+    end
+    redirect_to model_path(@model)
+  end
+
+
+private
+  def accessory_params
+    params.require(:accessory).permit(:name, :price, :parts_cost, :description, :labor_cost, :image)
+  end
+end
