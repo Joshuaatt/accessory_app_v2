@@ -2,9 +2,9 @@
   <h1>Select accessories for your <%= @model.name %> <small><%= link_to 'Add Accessory', new_manufacturer_model_accessory_path(@manufacturer, @model, @accessory), id: "add_link" %></small></h1>
 </div>
 
-<% if @manufacturer.models.accessories.any? %>
+<% if @model.accessories.any? %>
   <ul class="list-container">
-      <% @manufacturer.models.accessories.each do |accessory| %>
+      <% @model.accessories.each do |accessory| %>
         <div class="model-cards col-md-12"
           <li>
             <div class="model-image col-md-2">
@@ -12,14 +12,14 @@
             </div>
             <div class="model-year-name">
               <div class="model-year col-md-2">
-                <%= accessory.year %>
+                <%= accessory.name %>
               </div>
               <div class="model-name col-md-3">
-                <%= model.name %>
+                <%= accessory.description %>
               </div>
             </div>
             <div class="admin-controls edit-model col-md-5">
-              <%= link_to 'edit', edit_manufacturer_model_path(@manufacturer, model) %> | <%= link_to 'delete', manufacturer_model_path(@manufacturer, model), data: { confirm: "This will delete the model and all accessories associated with this model. Are you sure?", method: "delete" } %></li>
+              <%= link_to 'edit', edit_manufacturer_model_accessory_path(@manufacturer, @model, accessory ) %> | <%= link_to 'delete', manufacturer_model_accessory_path(@manufacturer, @model, accessory), data: { confirm: "This will delete the model and all accessories associated with this model. Are you sure?", method: "delete" } %></li>
             </div>
           </li>
         </div>

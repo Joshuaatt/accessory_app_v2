@@ -1,23 +1,23 @@
 class AccessoriesController < ApplicationController
   def new
-    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
     @accessory = Accessory.new
   end
 
   def show
-    # @manufacturer = Manufacturer.find(params[:id])
+    @manufacturer = Manufacturer.find(params[:id])
     @model = @manufacturer.models.find(params[:id])
     @accessory = @manufacturer.model.find(parms[:id])
   end
 
   def create
-    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
-    @accessory = @model.accessory.new(accessory_params)
+    @accessory = @model.accessories.new(accessory_params)
     if @accessory.save
       flash[:notice] = "Accessory submitted"
-      redirect_to model_path(@accessory.model)
+      redirect_to manufacturer_model_path(@accessory.model.manufacturer_id, @accessory.model)
     else
       render :new
     end
@@ -43,15 +43,15 @@ class AccessoriesController < ApplicationController
   end
 
   def destroy
-    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
-    @accessory = @model.accessory.find(params[:id])
+    @accessory = @model.accessories.find(params[:id])
     if @accessory.destroy
       flash[:notice] = "Your accessory has been deleted"
     else
       flash[:error] = "There was an error when deleting"
     end
-    redirect_to model_path(@model)
+    redirect_to manufacturer_model_path(@accessory.model.manufacturer_id, @accessory.model)
   end
 
 

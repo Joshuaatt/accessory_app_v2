@@ -1,0 +1,11 @@
+<%= render 'layouts/errors', object: @accessory %>
+
+<%= bootstrap_form_for [ @model, @accessory ], :url => manufacturer_model_accessories_path, :html => { :multipart => true } do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_area :description %>
+  <%= f.number_field :price %>
+  <%= f.number_field :parts_cost %>
+  <%= f.number_field :labor_cost %>
+  <%= f.file_field :image %>
+  <%= f.submit %>
+<% end %>
