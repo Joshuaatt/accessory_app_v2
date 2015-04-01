@@ -1,12 +1,14 @@
 <%= render 'shared/navbar' %>
 <div class="row row-centered">
   <div class="col-md-6 col-centered">
+    <ul class="manufacturer-buttons">
     <% @manufacturers.each do |manufacturer| %>
       <button type="button" class="btn btn-lg btn-custom-manufacturer"><%= link_to manufacturer.name, manufacturer_path(manufacturer) %></button>
     <% end %>
+    </ul>
   </div>
 </div>
 
-<div class="admin-controls">
+<!-- <div class="admin-controls">
   <p><%= link_to "Add manufacturer", new_manufacturer_path %></p>
-</div>
+</div> -->

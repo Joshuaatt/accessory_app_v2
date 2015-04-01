@@ -1,3 +1,16 @@
+h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+}
+
+ul {
+  padding: 0;
+}
+
+ul.manufacturer-buttons {
+  text-align: center;
+}
+
 .btn-custom-manufacturer {
    background-color: hsl(192, 92%, 41%) !important;
    background-repeat: repeat-x;
@@ -13,17 +26,30 @@
    color: #fff !important;
    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
    -webkit-font-smoothing: antialiased;
+   max-width: 220px;
    padding: 20px 60px;
    font-size: 2em;
    margin-top: 20px;
-   display: inline-block;
-   margin-right: 8%;
- }
-
- .col-centered {
-   float: none;
-   margin-right: auto;
+   display: block;
    margin-left: auto;
+   margin-right: auto;
+
+   font-family: 'Oxygen', sans-serif;
  }
 
- 
+
+
+ // .col-centered {
+ //   float: none;
+ //   margin-right: auto;
+ //   margin-left: auto;
+ // }
+
+ @media only screen and (min-width: 545px) {
+   .btn-custom-manufacturer {
+     display: inline-block;
+     margin-right: 2%;
+
+
+   }
+ }

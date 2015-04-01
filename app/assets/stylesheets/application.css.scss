@@ -17,7 +17,8 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "manufacturer";
- @import "cards";
+ @import "model-cards";
+ @import "accessory-cards";
 
 
  a {
@@ -25,6 +26,4 @@
    text-decoration: none;
  }
 
- .page-header {
-   font-family: 'Oxygen', sans-serif;
- }
+ 

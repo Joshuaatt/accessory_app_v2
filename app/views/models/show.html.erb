@@ -5,26 +5,27 @@
 <% if @model.accessories.any? %>
   <ul class="list-container">
       <% @model.accessories.each do |accessory| %>
-        <div class="model-cards col-md-12"
+        <div class="accessory-cards col-md-12"
           <li>
-            <div class="model-image col-md-2">
+            <div class="accessory-image col-md-2">
               <%= image_tag accessory.image.url(:thumb) %>
             </div>
-            <div class="model-year-name">
-              <div class="model-year col-md-2">
+            <div class="accessory-name-description">
+              <div class="accessory-name col-md-2">
                 <%= accessory.name %>
               </div>
-              <div class="model-name col-md-3">
+              <div class="accessory-description col-md-7">
                 <%= accessory.description %>
               </div>
-            </div>
-            <div class="admin-controls edit-model col-md-5">
-              <%= link_to 'edit', edit_manufacturer_model_accessory_path(@manufacturer, @model, accessory ) %> | <%= link_to 'delete', manufacturer_model_accessory_path(@manufacturer, @model, accessory), data: { confirm: "This will delete the model and all accessories associated with this model. Are you sure?", method: "delete" } %></li>
+              <div class="accessory-price">
+                <%= accessory.price %>
+              </div>
             </div>
           </li>
+        </div>
+        <div class="admin-controls edit-accessory col-md-2">
+          <%= link_to 'edit', edit_manufacturer_model_accessory_path(@manufacturer, @model, accessory ) %> | <%= link_to 'delete', manufacturer_model_accessory_path(@manufacturer, @model, accessory), data: { confirm: "This will permenately delete this accessory. Are you sure?", method: "delete" } %></li>
         </div>
       <% end %>
   </ul>
 <% end %>
-
-<p class="btn return"><%= link_to 'Return to main page', manufacturers_path %></p>

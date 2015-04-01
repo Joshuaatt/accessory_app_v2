@@ -5,12 +5,18 @@
   <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300|Open+Sans:400,300' rel='stylesheet' type='text/css'>  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width" />
 </head>
 <body>
   <div class="container">
 
     <%= yield %>
 
+  </div>
+  <div class="navbar navbar-fixed-bottom" role="navigation">
+    <div class="container">
+      <p><%= link_to 'Return to main page', manufacturers_path %></p>
+    </div>
   </div>
 </body>
 </html>
