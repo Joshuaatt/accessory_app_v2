@@ -1,5 +1,8 @@
 class Accessory < ActiveRecord::Base
   belongs_to :model
+  has_many :order_items
+
+  default_scope { where(active: true) }
 
   has_attached_file :image, :path => ":rails_root/public/system/:attachment/:id/:basename_:style.:extension",
     :url => "/system/:attachment/:id/:basename_:style.:extension",
@@ -18,4 +21,5 @@ class Accessory < ActiveRecord::Base
   validates_attachment :image, :presence => true,
     :size => { :in => 0..10.megabytes },
     :content_type => { :content_type => /^image\/(jpeg|png|gif|tiff)$/ }
+
 end

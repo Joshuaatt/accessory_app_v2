@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'carts/show'
+
   root :to => 'manufacturers#index'
 
   resources :manufacturers do
