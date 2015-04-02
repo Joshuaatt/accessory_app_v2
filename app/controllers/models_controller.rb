@@ -8,6 +8,8 @@ class ModelsController < ApplicationController
   def show
     @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = @manufacturer.models.find(params[:id])
+    # creates new instance of order_item for use in forms
+    @order_item = current_order.order_items.new
   end
 
   def create

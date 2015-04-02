@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-  get 'carts/show'
-
   root :to => 'manufacturers#index'
-
+  resource :cart, only: [:show]
+  resources :order_items, only: [:create, :update, :destroy]
+  
   resources :manufacturers do
     resources :models do
       resources :accessories

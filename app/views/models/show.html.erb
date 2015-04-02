@@ -18,9 +18,17 @@
                 <%= accessory.description %>
               </div>
               <div class="accessory-price">
-                <%= accessory.price %>
               </div>
-              <button class="btn">Select</button>
+              <%= form_for @order_item, remote: true do |f| %>
+                <h4 class="text-right"><span style="color: green"><%= number_to_currency accessory.price %></span></h4>
+                  <div class="input-group">
+                    <%= f.number_field :quantity, value: 1, class: "form-control", min: 1 %>
+                    <div class="input-group-btn">
+                      <%= f.hidden_field :accessory_id, value: accessory.id %>
+                      <%= f.submit "Add to Cart", class: "btn btn-primary" %>
+                    </div>
+                  </div>
+                <% end %>
             </div>
           </li>
         </div>
@@ -30,3 +38,5 @@
       <% end %>
   </ul>
 <% end %>
+
+<p class="cart-text"><%= render 'layouts/cart_text' %></p>
