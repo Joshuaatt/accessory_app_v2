@@ -3,11 +3,12 @@ Rails.application.routes.draw do
   root :to => 'manufacturers#index'
   resource :cart, only: [:show]
   resources :order_items, only: [:create, :update, :destroy]
-  
+
   resources :manufacturers do
-    resources :models do
-      resources :accessories
-    end
+    resources :models
+  end
+  resources :models do
+    resources :accessories
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
