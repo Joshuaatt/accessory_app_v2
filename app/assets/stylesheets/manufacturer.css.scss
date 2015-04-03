@@ -33,7 +33,6 @@ ul.manufacturer-buttons {
    display: block;
    margin-left: auto;
    margin-right: auto;
-
    font-family: 'Oxygen', sans-serif;
  }
 
@@ -49,7 +48,8 @@ ul.manufacturer-buttons {
    .btn-custom-manufacturer {
      display: inline-block;
      margin-right: 2%;
-
-
+   }
+   ul.manufacturer-buttons {
+     text-align: center;
    }
  }
