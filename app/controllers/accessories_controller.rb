@@ -1,6 +1,6 @@
 class AccessoriesController < ApplicationController
   def new
-    @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
     @accessory = Accessory.new
   end
@@ -12,7 +12,7 @@ class AccessoriesController < ApplicationController
   end
 
   def create
-    @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
     @accessory = @model.accessories.new(accessory_params)
     if @accessory.save
@@ -43,7 +43,7 @@ class AccessoriesController < ApplicationController
   end
 
   def destroy
-    @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
     @accessory = @model.accessories.find(params[:id])
     if @accessory.destroy

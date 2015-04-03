@@ -7,7 +7,7 @@
 
       <% @manufacturer.models.each do |model| %>
         <%= link_to manufacturer_model_path(@manufacturer, model) do %>
-          <div class="model-cards col-xs-12">
+          <div class="cards col-md-12">
             <div class="row">
               <div class="model-image col-xs-4">
                 <%= image_tag model.image.url(:large), class: "large-image" %>

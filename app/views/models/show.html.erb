@@ -4,32 +4,28 @@
 
 <% if @model.accessories.any? %>
   <% @model.accessories.each do |accessory| %>
-    <div class="accessory-cards col-xs-12">
+    <div class="cards col-xs-12 col-md-12">
       <div class="row">
-        <div class="accessory-image col-xs-2">
-          <%= image_tag accessory.image.url(:thumb) %>
+        <div class="accessory-image col-xs-12 col-md-4">
+          <%= image_tag accessory.image.url(:large), class: "large-image" %>
         </div>
-        <div class="accessory-name col-xs-2">
+        <div class="accessory-name col-xs-12 col-md-2">
           <%= accessory.name %>
         </div>
-        <div class="accessory-description col-xs-7">
+        <div class="accessory-description col-xs-12 col-md-4">
           <%= accessory.description %>
         </div>
-        <div class="accessory-price">
+        <div class="col-xs-12 col-md-2">
+          <%= form_for @order_item, remote: true do |f| %>
+            <h4><%= number_to_currency accessory.price %></h4>
+            <%= f.hidden_field :quantity, value: 1, class: "form-control", min: 1 %>
+            <%= f.hidden_field :accessory_id, value: accessory.id %>
+            <%= f.submit "Add to Cart", class: "btn btn-primary" %>
+          <% end %>
         </div>
-        <%= form_for @order_item, remote: true do |f| %>
-          <h4 class="text-right"><span style="color: green"><%= number_to_currency accessory.price %></span></h4>
-          <div class="input-group">
-            <div class="input-group-btn">
-              <%= f.hidden_field :quantity, value: 1, class: "form-control", min: 1 %>
-              <%= f.hidden_field :accessory_id, value: accessory.id %>
-              <%= f.submit "Add to Cart", class: "btn btn-primary" %>
-            </div>
-          </div>
-        <% end %>
       </div>
     </div>
-    <div class="admin-controls edit-accessory col-xs-2">
+    <div class="admin-controls edit-accessory col-md-2">
       <%= link_to 'edit', edit_model_accessory_path(@model, accessory ) %> | <%= link_to 'delete', model_accessory_path(@model, accessory), data: { confirm: "This will permenately delete this accessory. Are you sure?", method: "delete" } %></li>
     </div>
   <% end %>
