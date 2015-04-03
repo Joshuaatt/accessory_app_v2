@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>Select accessories for your <%= @model.name %> <small><%= link_to 'Add Accessory', new_model_accessory_path(@model, @accessory), id: "add_link" %></small></h1>
+  <h1><%= link_to "Select accessories for your ", root_path %> <%= @model.name %> <small><%= link_to 'Add Accessory', new_model_accessory_path(@model, @accessory), id: "add_link" %></small></h1>
 </div>
 
 <% if @model.accessories.any? %>
@@ -15,12 +15,19 @@
         <div class="accessory-description col-xs-12 col-md-4">
           <%= accessory.description %>
         </div>
-        <div class="col-xs-12 col-md-2">
+        <div class="price-and-button col-xs-12 col-md-2">
           <%= form_for @order_item, remote: true do |f| %>
-            <h4><%= number_to_currency accessory.price %></h4>
+            <div class="price-and-price-per-month">
+              <div class="price">
+                <h4><%= number_to_currency accessory.price %></h4>
+              </div>
+              <div class="price-per-month">
+                <h4>$2.66/mo *</h4>
+              </div>
+            </div>
             <%= f.hidden_field :quantity, value: 1, class: "form-control", min: 1 %>
             <%= f.hidden_field :accessory_id, value: accessory.id %>
-            <%= f.submit "Add to Cart", class: "btn btn-primary" %>
+            <%= f.submit "Add", class: "btn btn-primary add-button" %>
           <% end %>
         </div>
       </div>
@@ -30,5 +37,8 @@
     </div>
   <% end %>
 <% end %>
-
-<p class="cart-text"><%= render 'layouts/cart_text' %></p>
+<div class="navbar navbar-fixed-bottom" role="navigation">
+  <div class="container">
+    <p class="cart-text"><%= render 'layouts/cart_text' %></p>
+  </div>
+</div>

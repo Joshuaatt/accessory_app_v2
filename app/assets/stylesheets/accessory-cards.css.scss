@@ -1,26 +1,46 @@
 
 .accessory-image {
- // margin-top: 20px;
- // margin-bottom: 20px;
+  text-align: center;
 }
 
 
 .accessory-name {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  // margin-top: 25px;
-  font-size: 2em;
-  // margin-left: -30px;
+  font-size: 2.2em;
 }
 
 .accessory-description {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  // margin-top: 20px;
-  font-size: 1.55vw;
+  font-size: 1.2em;
+  text-align: justify;
 }
 
-// .edit-accessory {
-//   margin-top: 58px;
-//
-// }
+.price-and-button {
+  text-align: center;
+}
+
+.price-and-price-per-month {
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.price {
+  padding-top: .5px;
+  padding-bottom: .5px;
+  background: gray;
+  color: white;
+}
+
+.add-button {
+  min-width: 100%;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 545px) {
+  .accessory-description {
+    font-size: 1.5em;
+  }
+}
