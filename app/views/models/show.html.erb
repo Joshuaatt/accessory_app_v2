@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1><%= link_to "Select accessories for your ", root_path %> <%= @model.name %> <small><%= link_to 'Add Accessory', new_model_accessory_path(@model, @accessory), id: "add_link" %></small></h1>
+  <h1><%= @model.year %> <%= @model.name %> <%= link_to "Accessories", root_path %> <small><%= link_to 'Add Accessory', new_model_accessory_path(@model, @accessory), id: "add_link" %></small></h1>
 </div>
 
 <% if @model.accessories.any? %>
@@ -9,11 +9,13 @@
         <div class="accessory-image col-xs-12 col-md-4">
           <%= image_tag accessory.image.url(:large), class: "large-image" %>
         </div>
-        <div class="accessory-name col-xs-12 col-md-2">
-          <%= accessory.name %>
-        </div>
-        <div class="accessory-description col-xs-12 col-md-4">
-          <%= accessory.description %>
+        <div class="col-xs-12 col-md-6">
+          <div class="accessory-name">
+            <%= accessory.name %>
+          </div>
+          <div class="accessory-description">
+            <%= accessory.description %>
+          </div>
         </div>
         <div class="price-and-button col-xs-12 col-md-2">
           <%= form_for @order_item, remote: true do |f| %>
@@ -37,8 +39,5 @@
     </div>
   <% end %>
 <% end %>
-<div class="navbar navbar-fixed-bottom" role="navigation">
-  <div class="container">
-    <p class="cart-text"><%= render 'layouts/cart_text' %></p>
-  </div>
-</div>
+
+<%= render 'layouts/cart_text' %>
