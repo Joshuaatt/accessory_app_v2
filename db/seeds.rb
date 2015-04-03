@@ -36,6 +36,28 @@ Model.find_or_create_by id: 4,
   image_file_name: "2015-toyota-corolla.jpg",
   image_content_type: "image/jpeg"
 
+  # 2014 Tundra
+  # 2015 4Runner
+  # 2015 Avalon
+  # 2015 Camry
+  # 2015 Corolla
+  # 2015 FR-S
+  # 2015 Highlander
+  # 2015 iQ
+  # 2015 Land Cruiser
+  # 2015 Prius
+  # 2015 Prius C
+  # 2015 Prius V
+  # 2015 RAV4
+  # 2015 Sequoia
+  # 2015 Sienna
+  # 2015 Tacoma
+  # 2015 tC
+  # 2015 Tundra
+  # 2015 Venza
+  # 2015 xB
+  # 2015 xD
+  # 2015 Yaris
 
 Accessory.find_or_create_by id: 21,
   model_id: 1,
@@ -68,25 +90,22 @@ OrderStatus.create! id: 3, name: "Shipped"
 OrderStatus.create! id: 4, name: "Cancelled"
 
 
-# 2014 Tundra
-# 2015 4Runner
-# 2015 Avalon
-# 2015 Camry
-# 2015 Corolla
-# 2015 FR-S
-# 2015 Highlander
-# 2015 iQ
-# 2015 Land Cruiser
-# 2015 Prius
-# 2015 Prius C
-# 2015 Prius V
-# 2015 RAV4
-# 2015 Sequoia
-# 2015 Sienna
-# 2015 Tacoma
-# 2015 tC
-# 2015 Tundra
-# 2015 Venza
-# 2015 xB
-# 2015 xD
-# 2015 Yaris
+Associate.find_or_create_by name: "Brian Mcmullen"
+Associate.find_or_create_by name: "Charles Pankey"
+Associate.find_or_create_by name: "Chris Hoopes"
+Associate.find_or_create_by name: "Gary Creese"
+Associate.find_or_create_by name: "Greg Poris"
+Associate.find_or_create_by name: "Jake Chappell"
+Associate.find_or_create_by name: "Jason Burcina"
+Associate.find_or_create_by name: "Joe Hergert"
+Associate.find_or_create_by name: "Kristopher Jerome"
+Associate.find_or_create_by name: "Kyran Pope"
+Associate.find_or_create_by name: "Larry Vehrs"
+Associate.find_or_create_by name: "Marcus Olmstead"
+Associate.find_or_create_by name: "Mike Grattan"
+Associate.find_or_create_by name: "Nat Weinstein"
+Associate.find_or_create_by name: "Rebecca Bray"
+Associate.find_or_create_by name: "Rodney II Witherspoon"
+Associate.find_or_create_by name: "Rodney Witherspoon"
+Associate.find_or_create_by name: "Scott Goff"
+Associate.find_or_create_by name: "Steven Younger"
