@@ -83,11 +83,10 @@ Accessory.find_or_create_by id: 22,
 
 
 
-OrderStatus.delete_all
-OrderStatus.create! id: 1, name: "In Progress"
-OrderStatus.create! id: 2, name: "Placed"
-OrderStatus.create! id: 3, name: "Shipped"
-OrderStatus.create! id: 4, name: "Cancelled"
+OrderStatus.find_or_create_by id: 1, name: "In Progress"
+OrderStatus.find_or_create_by id: 2, name: "Placed"
+OrderStatus.find_or_create_by id: 3, name: "Shipped"
+OrderStatus.find_or_create_by id: 4, name: "Cancelled"
 
 
 Associate.find_or_create_by name: "Brian Mcmullen"

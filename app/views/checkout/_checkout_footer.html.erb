@@ -2,7 +2,7 @@
   <div class="container-fluid checkout-bar">
     <div class="row">
       <div class="col-xs-4 cart-text col-xs-offset-4">
-        <%= link_to "Confirm order", cart_path, class: "btn btn-success continue-button" %>
+        <%= link_to "Confirm order", youre_done_index_path, class: "btn btn-success continue-button" %>
         <%= link_to "#{current_order.order_items.size} Items in Cart ( #{number_to_currency current_order.subtotal} )", cart_path, class: "btn btn-link" %>
       </div>
     </div>

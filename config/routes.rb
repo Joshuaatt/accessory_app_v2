@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   root :to => 'manufacturers#index'
   resource :cart, only: [:show]
   resources :order_items, only: [:create, :update, :destroy]
-  resources :customer_info
+  resources :youre_done, only: [:index]
+  resources :associates
 
   resources :manufacturers do
     resources :models
