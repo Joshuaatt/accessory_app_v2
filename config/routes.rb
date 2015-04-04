@@ -4,7 +4,10 @@ Rails.application.routes.draw do
   resource :cart, only: [:show]
   resources :order_items, only: [:create, :update, :destroy]
   resources :youre_done, only: [:index]
-  resources :associates
+  resources :associates do
+    resources :checkouts, only: [:index]
+  end
+
 
   resources :manufacturers do
     resources :models

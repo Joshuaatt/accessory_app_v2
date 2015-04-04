@@ -3,6 +3,6 @@
 </div>
 <% @associates.each do |associate| %>
   <div class="col-md-4 col-md-offset-4 col-xs-12 associate-align-center-small">
-    <%= link_to associate.name, cart_path, class: "btn btn-success associate" %>
+    <%= link_to associate.name, associate_path(associate.id), class: "btn btn-success associate" %>
   </div>
 <% end %>
