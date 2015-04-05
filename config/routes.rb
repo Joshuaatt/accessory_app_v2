@@ -1,13 +1,5 @@
 Rails.application.routes.draw do
-
   root :to => 'manufacturers#index'
-  resource :cart, only: [:show]
-  resources :order_items, only: [:create, :update, :destroy]
-  resources :youre_done, only: [:index]
-  resources :associates do
-    resources :checkouts, only: [:index]
-  end
-
 
   resources :manufacturers do
     resources :models
@@ -15,6 +7,13 @@ Rails.application.routes.draw do
   resources :models do
     resources :accessories
   end
+
+  resources :order_items, only: [:create, :update, :destroy]
+  resource :cart, only: [:show]
+  resources :youre_done, only: [:index]
+  resources :associates
+
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -59,6 +59,14 @@ Model.find_or_create_by id: 4,
   # 2015 xD
   # 2015 Yaris
 
+# 2014 Tribeca
+# 2015 BRZ
+# 2015 Forester
+# 2015 Impreza & Cross
+# 2015 Legacy
+# 2015 Outback
+# 2015 WRX & STI
+
 Accessory.find_or_create_by id: 21,
   model_id: 1,
   image_file_name: "NEEDS_IMAGE.jpg",
