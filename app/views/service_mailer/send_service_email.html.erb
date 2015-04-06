@@ -1,16 +1,10 @@
-<div class="page-header">
-  <h1>Last step!</h1>
-</div>
-<%= bootstrap_form_for [@associate, @checkout] do |f| %>
-  <%= f.text_field :customer_name %>
-  <%= f.text_field :customer_email %>
-  <%= f.text_field :customer_phone %>
-  <%= f.text_field :stock_number %>
-  <%= f.hidden_field :associate, :value => @associate %>
-  <%= f.submit "Send" %>
-<% end %>
+<h2>Customer Accessory Request</h2>
 
+<%= @associate.name %>
 
+<%= @checkout.customer_name %> requests the following accessories for a <%= Model.find_by_id(Accessory.find_by_id(order_item.accessory_id).model_id).name %>
+
+<h3>Accessory</h3> <h3>Parts</h3> <h3>Labor</h3> <h3>Total</h3> <h3>Part #</h3>
 <% current_order.order_items.each do |order_item| %>
 <div>
   <h1 class="checkout-list">Model:</h1>
@@ -27,7 +21,3 @@
 </div>
 
 <% end %>
-
-<%= @associate.name %>
-
-<!-- , :url => associate_path, :html => { :multipart => true } -->
