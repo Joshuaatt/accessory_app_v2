@@ -1,23 +1,5 @@
+
 <h2>Customer Accessory Request</h2>
 
-<%= @associate.name %>
-
-<%= @checkout.customer_name %> requests the following accessories for a <%= Model.find_by_id(Accessory.find_by_id(order_item.accessory_id).model_id).name %>
-
-<h3>Accessory</h3> <h3>Parts</h3> <h3>Labor</h3> <h3>Total</h3> <h3>Part #</h3>
-<% current_order.order_items.each do |order_item| %>
-<div>
-  <h1 class="checkout-list">Model:</h1>
-  <%= Model.find_by_id(Accessory.find_by_id(order_item.accessory_id).model_id).name %><br />
-
-  <h1 class="checkout-list">Accessory:</h1>
-  <%= Accessory.find_by_id(order_item.accessory_id).name %>
-  <%= number_to_currency Accessory.find_by_id(order_item.accessory_id).parts_cost %>
-  <%= number_to_currency Accessory.find_by_id(order_item.accessory_id).labor_cost %>
-  <%= number_to_currency order_item.total_price %>
-  <%= Accessory.find_by_id(order_item.accessory_id).part_number %>
-
-  <%= Order.find_by_id(order_item.order_id).total %>
-</div>
-
-<% end %>
+<% binding.pry %>
+<%= @checkout.customer_name %> requests the following accessories for a MODEL NAME HERE
