@@ -1,4 +1,6 @@
 class CheckoutsController < ApplicationController
+  # helper_method :current_order
+
   def new
     @checkout = Checkout.new
   end

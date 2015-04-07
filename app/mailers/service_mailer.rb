@@ -1,6 +1,7 @@
 class ServiceMailer < ApplicationMailer
   default :from => "joshuaatteberry@gmail.com"
-
+  helper :application
+  
   def send_service_email(checkout)
     @checkout = checkout
     @customer_name = @checkout.customer_name
@@ -12,3 +13,6 @@ class ServiceMailer < ApplicationMailer
         "charlesp@toyotacorvallis.com"])
   end
 end
+
+
+# add_template_helper(ApplicationHelper)

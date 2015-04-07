@@ -7,6 +7,7 @@
   <%= f.text_field :customer_phone %>
   <%= f.text_field :stock_number %>
   <%= f.hidden_field :associate, :value => @associate %>
+  <%= f.hidden_field :current_order, :value => current_order %>
   <%= f.submit "Send" %>
 <% end %>
 
