@@ -1,4 +1,4 @@
 
 Customer Accessory Request
 
-<%= @checkout.customer_name %> requests the following accessories for a <%= Model.find(Accessory.find(current_order.order_item.accessory_id).model_id).name %>
+<%= @checkout.customer_name %> requests the following accessories for a <%= Model.find(Accessory.find(@current_order.order_item.accessory_id).model_id).name %>
