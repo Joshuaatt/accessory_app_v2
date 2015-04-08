@@ -22,4 +22,11 @@ class Accessory < ActiveRecord::Base
     :size => { :in => 0..10.megabytes },
     :content_type => { :content_type => /^image\/(jpeg|png|gif|tiff)$/ }
 
+  def discount
+    self.price * 0.85
+  end
+
+  def monthly
+    (self.price * (1 + 0.1 * 5))/60
+  end
 end
