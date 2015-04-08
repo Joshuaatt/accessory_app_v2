@@ -2,7 +2,7 @@
 
 <%= @associate.name %>
 
-<%= @checkout.customer_name %> requests the following accessories for a MODEL NAME HERE %>
+<%= @checkout.customer_name %> requests the following accessories for a <%= @model_name %>
 
 <h3>Accessory</h3> <h3>Parts</h3> <h3>Labor</h3> <h3>Total</h3> <h3>Part #</h3>
 <% current_order.order_items.each do |order_item| %>

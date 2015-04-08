@@ -57,6 +57,6 @@ class AccessoriesController < ApplicationController
 
 private
   def accessory_params
-    params.require(:accessory).permit(:name, :price, :parts_cost, :description, :labor_cost, :image)
+    params.require(:accessory).permit(:name, :price, :parts_cost, :description, :labor_cost, :image, :part_number)
   end
 end
