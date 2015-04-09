@@ -27,6 +27,6 @@ class Accessory < ActiveRecord::Base
   end
 
   def monthly
-    (self.price * (1 + 0.1 * 5))/60
+    (self.discount * (1 + 0.1 * 5))/60
   end
 end

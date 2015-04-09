@@ -36,6 +36,13 @@ Model.find_or_create_by id: 4,
   image_file_name: "2015-toyota-corolla.jpg",
   image_content_type: "image/jpeg"
 
+Model.find_or_create_by id: 5,
+  name: "Tribeca",
+  year: "2014",
+  manufacturer_id: 2,
+  image_file_name: "2014-subaru-tribeca.jpg",
+  image_content_type: "image/jpeg"
+
   # 2014 Tundra
   # 2015 4Runner
   # 2015 Avalon
