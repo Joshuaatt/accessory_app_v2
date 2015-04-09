@@ -226,7 +226,7 @@ Accessory.find_or_create_by id: 25,
   model_id: 6,
   image_file_name: "subaru-brz-2013-subwoofer-speaker.jpg",
   image_content_type: "image/jpeg",
-  name: "10 Inch Powered Subwoofer"
+  name: "10 Inch Powered Subwoofer",
   price: 599.99,
   parts_cost: 449.99,
   description: 'Provides powerful deep bass, and also assists in clean sound reproduction from all vehicle speakers. This is achieved by its integrated 100W amplifier and a passive crossover network. The self-contained unit mounts in the trunk of the vehicle. Manufactured for Subaru of America by Kicker®. Cannot be installed with Cargo Tray.'
