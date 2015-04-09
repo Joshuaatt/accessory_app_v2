@@ -229,7 +229,7 @@ Accessory.find_or_create_by id: 25,
   name: "10 Inch Powered Subwoofer",
   price: 599.99,
   parts_cost: 449.99,
-  description: 'Provides powerful deep bass, and also assists in clean sound reproduction from all vehicle speakers. This is achieved by its integrated 100W amplifier and a passive crossover network. The self-contained unit mounts in the trunk of the vehicle. Manufactured for Subaru of America by Kicker®. Cannot be installed with Cargo Tray.'
+  description: 'Provides powerful deep bass, and also assists in clean sound reproduction from all vehicle speakers. This is achieved by its integrated 100W amplifier and a passive crossover network. The self-contained unit mounts in the trunk of the vehicle. Manufactured for Subaru of America by Kicker®. Cannot be installed with Cargo Tray.',
   labor_cost: 0,
   active: true,
   part_number: "H630SCA000"
@@ -241,7 +241,7 @@ Accessory.find_or_create_by id: 26,
   name: 'Auto-dimming Mirror/Compass',
   price: 165.00,
   parts_cost: 107.25,
-  description: "Mirror darkens when headlights are detected from behind the vehicle. Includes integrated electronic compass."
+  description: "Mirror darkens when headlights are detected from behind the vehicle. Includes integrated electronic compass.",
   labor_cost: 0,
   active: true,
   part_number: 'H501SCA000, H501SSA041 Mirror adapter required for installation @ $10.00'
@@ -257,7 +257,7 @@ Accessory.find_or_create_by id: 27,
     vehicle. Includes electronic compass and three integrated HomeLink
     buttons which can be programmed to operate most garage door openers and
     openers and other HomeLink compatible devices. (MSRP includes
-    Installation Kit and adapter)"
+    Installation Kit and adapter)",
   labor_cost: 0,
   active: true,
   part_number: 'H501SCA101, H501SSA041 Mirror adapter required for installation @ $10.00'
@@ -269,7 +269,7 @@ Accessory.find_or_create_by id: 28,
   name: 'Car Cover',
   price: 139.00,
   parts_cost: 90.35,
-  description: "Helps protect the exterior of your vehicle. Made of lightweight breathable material. Car Cover Bag M0010AS020 - $14.95"
+  description: "Helps protect the exterior of your vehicle. Made of lightweight breathable material. Car Cover Bag M0010AS020 - $14.95",
   labor_cost: 0,
   active: true,
   part_number: 'M001SCA000, Car Cover Bag M0010AS020 - $14.95'
