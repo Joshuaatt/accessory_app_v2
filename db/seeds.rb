@@ -123,14 +123,48 @@ Model.find_or_create_by id: 23,
   image_file_name: "2015-scion-tc.jpg",
   image_content_type: "image/jpeg"
 
+Model.find_or_create_by id: 24,
+  name: "Tundra",
+  year: "2015",
+  manufacturer_id: 1,
+  image_file_name: "2015-toyota-tundra.jpg",
+  image_content_type: "image/jpeg"
 
+Model.find_or_create_by id: 25,
+  name: "Venza",
+  year: "2015",
+  manufacturer_id: 1,
+  image_file_name: "2015-toyota-venza.jpg",
+  image_content_type: "image/jpeg"
 
-  # 2015 Tundra
-  # 2015 Venza
-  # 2015 xB
-  # 2015 xD
-  # 2015 Yaris
-  # 2014 Tundra
+Model.find_or_create_by id: 26,
+  name: "xB",
+  year: "2015",
+  manufacturer_id: 1,
+  image_file_name: "2015-scion-xb.jpg",
+  image_content_type: "image/jpeg"
+
+Model.find_or_create_by id: 27,
+  name: "xD",
+  year: "2015",
+  manufacturer_id: 1,
+  image_file_name: "2015-scion-xd.jpg",
+  image_content_type: "image/jpeg"
+
+Model.find_or_create_by id: 28,
+  name: "Yaris",
+  year: "2015",
+  manufacturer_id: 1,
+  image_file_name: "2015-toyota-yaris.jpg",
+  image_content_type: "image/jpeg"
+
+Model.find_or_create_by id: 29,
+  name: "Tundra",
+  year: "2014",
+  manufacturer_id: 1,
+  image_file_name: "2014-toyota-tundra.jpg",
+  image_content_type: "image/jpeg"
+  
 
 #### SUBARUS ####
 
