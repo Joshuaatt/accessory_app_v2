@@ -91,8 +91,7 @@ Subaru:
       labor:
       description: "Mirror darkens when headlights are detected from behind the
         vehicle. Includes integrated electronic compass."
-      part_number: 'H501SCA000
-        H501SSA041 Mirror adapter required for installation @ $10.00'
+      part_number: 'H501SCA000, H501SSA041 Mirror adapter required for installation @ $10.00'
 
       name: 'Auto-dimming Mirror/Compass with Homelink'
       price: 239.95

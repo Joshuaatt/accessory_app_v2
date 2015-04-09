@@ -164,7 +164,7 @@ Model.find_or_create_by id: 29,
   manufacturer_id: 1,
   image_file_name: "2014-toyota-tundra.jpg",
   image_content_type: "image/jpeg"
-  
+
 
 #### SUBARUS ####
 
@@ -222,29 +222,173 @@ Model.find_or_create_by id: 11,
 
 
 
-Accessory.find_or_create_by id: 21,
-  model_id: 1,
-  image_file_name: "NEEDS_IMAGE.jpg",
+Accessory.find_or_create_by id: 25,
+  model_id: 6,
+  image_file_name: "subaru-brz-2013-subwoofer-speaker.jpg",
   image_content_type: "image/jpeg",
-  name: "All-Weather Floor Mats",
-  price: 99.00,
-  parts_cost: 59.00,
-  description: "•Replaces standard carpet floor mats •Black mats featuring a debossed gray vehicle logo •Ribbed channel design •Comes in a set of four mats •Easy to clean—can be wiped off",
+  name: "10 Inch Powered Subwoofer"
+  price: 599.99,
+  parts_cost: 449.99,
+  description: 'Provides powerful deep bass, and also assists in clean sound reproduction from all vehicle speakers. This is achieved by its integrated 100W amplifier and a passive crossover network. The self-contained unit mounts in the trunk of the vehicle. Manufactured for Subaru of America by Kicker®. Cannot be installed with Cargo Tray.'
   labor_cost: 0,
   active: true,
-  part_number: "PT908-89130-20"
+  part_number: "H630SCA000"
 
-Accessory.find_or_create_by id: 22,
-  model_id: 3,
-  image_file_name: "NEEDS_IMAGE.jpg",
+Accessory.find_or_create_by id: 26,
+  model_id: 6,
+  image_file_name: "H501SCA000.jpg",
   image_content_type: "image/jpeg",
-  name: "All-Weather Floor Mats",
-  price: 99.00,
-  parts_cost: 59.00,
-  description: "•Helps protect vehicle’s factory carpet against mud, sand, stains and soils •Made from a durable and flexible thermoplastic elastomer that’s easy to clean •Black mats feature ribbed channels and an embossed vehicle logo •Lightweight",
+  name: 'Auto-dimming Mirror/Compass',
+  price: 165.00,
+  parts_cost: 107.25,
+  description: "Mirror darkens when headlights are detected from behind the vehicle. Includes integrated electronic compass."
   labor_cost: 0,
   active: true,
-  part_number: "PT908-03150-20"
+  part_number: 'H501SCA000, H501SSA041 Mirror adapter required for installation @ $10.00'
+
+Accessory.find_or_create_by id: 27,
+  model_id: 6,
+  image_file_name: "H501SCA000.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Auto-dimming Mirror/Compass with Homelink',
+  price: 239.95,
+  parts_cost: 155.97,
+  description: "Mirror darkens when headlights are detected from behind the
+    vehicle. Includes electronic compass and three integrated HomeLink
+    buttons which can be programmed to operate most garage door openers and
+    openers and other HomeLink compatible devices. (MSRP includes
+    Installation Kit and adapter)"
+  labor_cost: 0,
+  active: true,
+  part_number: 'H501SCA101, H501SSA041 Mirror adapter required for installation @ $10.00'
+
+Accessory.find_or_create_by id: 28,
+  model_id: 6,
+  image_file_name: "M001SCA000-brz-car-cover.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Car Cover',
+  price: 139.00,
+  parts_cost: 90.35,
+  description: "Helps protect the exterior of your vehicle. Made of lightweight breathable material. Car Cover Bag M0010AS020 - $14.95"
+  labor_cost: 0,
+  active: true,
+  part_number: 'M001SCA000, Car Cover Bag M0010AS020 - $14.95'
+
+
+
+
+
+
+  # name: 'Cargo Tray'
+  # price: 69.95
+  # parts_cost: 45.47
+  # labor:
+  # description: 'Helps protect the trunk from stains and dirt whle providing
+  #   a surface that helps reduce the shifting of cargo while driving. Cannot
+  #   be installed with Subwoofer.'
+  # part_number: 'J501SCA000'
+  #
+  # name: 'Chrome Fender Trim'
+  # price:
+  # parts_cost:
+  # labor:
+  # description: 'Adds a stylish touch of chrome to the fender grill panels.'
+  # part_number: 'E7110CA000'
+  #
+  # name: 'Chrome Fuel Door Cover'
+  # price: 79.00
+  # parts_cost: 51.35
+  # labor:
+  # description: 'Adds a touch of flair to the fuel door cover.'
+  # part_number: 'J1210CA800'
+  #
+  # name: 'Fog Lamp Kit'
+  # price: 335.00
+  # parts_cost: 251.25
+  # labor:
+  # description:
+  # part_number: 'H4510CA000'
+  #
+  # name: 'Footwell Illumination Kit'
+  # price: 169.95
+  # parts_cost: 110.47
+  # labor:
+  # description: 'Casts a soft glow onto the front floor area. Also available in blue or red.'
+  # part_number: 'H701SCA000 - Red, H701SCA100 - Blue'
+  #
+  # name: 'Key Fob (BRZ ) Carbon Fiber'
+  # price: 19.95
+  # parts_cost: 12.97
+  # labor:
+  # description:
+  # part_number: 'SOA342L148'
+  #
+  # name: 'Parking Only Sign'
+  # price: 29.95
+  # parts_cost: 19.47
+  # labor:
+  # description: 'New! Keep your parking spot exclusive for your BRZ. Kit
+  #   includes 8" x 12" sign, mounting screws and hider caps'
+  # part_number: 'SOA342L151'
+  #
+  # name: 'Rear Bumper Applique'
+  # price: 69.95
+  # parts_cost: 45.47
+  # labor:
+  # description: 'Clear, scratch-resistant vinyl film helps to protect
+  #   bumper upper surface and leading edge. Includes a discrete
+  #   pearl-colored Subaru logo.'
+  # part_number: 'E771SCA700'
+  #
+  # name: 'Rear Bumper Diffuser'
+  # price: 749.00
+  # parts_cost: 561.75
+  # labor:
+  # description: 'Lower rear body panel helps to direct air flow and adds a
+  #   sculpted finishing touch to the BRZ lower rear body line.'
+  # part_number: 'E5610CA000'
+  #
+  # name: 'STI Under Spoiler - Front'
+  # price: 399.99
+  # parts_cost: 299.99
+  # labor:
+  # description: 'New! STI Under Spoiler gives the BRZ a mean, ground-hugging
+  #   attitude. Includes STI logo. '
+  # part_number: 'E2410CA000'
+  #
+  # name: 'STI Under Spoiler - Rear Quarter'
+  # price: 335.00
+  # parts_cost: 251.25
+  # labor:
+  # description: 'New! Complete the ground-hugging look on the side of the
+  #   BRZ with the addition of the rear quarter under spoiler. Kit includes
+  #   both left and right side under spoilers.'
+  # part_number: 'E5610CA100'
+  #
+  # name: 'STI Under Spoiler - Side'
+  # price: 499.99
+  # parts_cost: 374.99
+  # labor:
+  # description: 'New! Continue the mean ground-hugging attitude down the
+  #   rocker panels of the BRZ. Kit includes both left and right side under
+  #   spoilers. Includes STI logo. '
+  # part_number: 'E2610CA000'
+  #
+  # name: 'Trunk Spoiler Kit'
+  # price: 499.00
+  # parts_cost: 374.25
+  # labor:
+  # description: 'Sleek, low profile design adds just the right amount of
+  #   attitude to your vehicle. Comes pre-painted and ready to install.'
+  # part_number: 'E7218CA000XX'
+  #
+  # name: 'Wheel Lock Kit ( Alloy Wheels )'
+  # price: 29.95
+  # parts_cost: 19.47
+  # labor:
+  # description:
+  # part_number: 'B321SFG000'
+
 
 
 
