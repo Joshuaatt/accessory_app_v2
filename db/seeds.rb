@@ -2056,15 +2056,20 @@ part_number: '74102-02140'
 
 Accessory.find_or_create_by id: 175,
 model_id: 1,
-image_file_name: "",
+image_file_name: "PT228-89445-4runner-bal-mount.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
+name: 'Ball Mount',
+price: 57.00,
+parts_cost: 36.00,
 labor_cost: 0,
-description: '',
-part_number: ''
+description: '•Optimized ball placement provides precise drop/rise to maintain vehicle departure angle
+•Powder top coat provides uniform surface coating and helps protect against UV rays and maintains like-new appearance
+•Thorough lab testing—in conjunction with the Genuine Toyota tow hitch—ensures ball mount design meets all Toyota performance standards
+•On-road testing puts the ball mount to the test on the specific vehicle in real world towing conditions to ensure the quality and durability of the entire towing system
+•All Toyota ball mounts meet industry towing standards
+•Trailer ball sold separately',
+part_number: 'PT228-89445'
 
 Accessory.find_or_create_by id: 176,
 model_id: 1,
