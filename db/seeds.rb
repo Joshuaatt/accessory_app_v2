@@ -1678,6 +1678,343 @@ Accessory.find_or_create_by id: 152,
   part_number: 'C1010VA000'
 
 
+#### 4Runner ####
+Accessory.find_or_create_by id: 153,
+model_id: 29,
+image_file_name: "PT206-34141-20-tundra-floor-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: '2 Piece Carpet Floor Mats',
+price: 89.00,
+parts_cost: 54.00,
+labor_cost: 0,
+description: 'Custom-fitted to the vehicle’s floor plan. Made of high-grade plush nylon carpeting with attractive border. Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position. Removable and easy to clean. Quick, easy installation',
+part_number: 'PT206-34141-20'
+
+Accessory.find_or_create_by id: 154,
+model_id: 29,
+image_file_name: "PT206-34143-20-tundra-carpet-3.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: '3 Piece Carpet Floor Mats',
+price: 140.00,
+parts_cost: 91.00,
+labor_cost: 0,
+description: 'Custom-fitted to the vehicle’s floor plan. Made of high-grade plush nylon carpeting with attractive border. Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position. Removable and easy to clean. Quick, easy installation',
+part_number: 'PT206-34143-20'
+
+Accessory.find_or_create_by id: 155,
+model_id: 29,
+image_file_name: "2014-all-weather-floor-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All Weather Floor Mats',
+price: 99.00,
+parts_cost: 69.00,
+labor_cost: 0,
+description: '•Helps protect vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Replaces standard carpet floor mats
+•Black mat featuring a debossed gray Tundra logo
+•Ribbed channels
+•Lightweight
+•Easy to clean—can be wiped off',
+part_number: ''
+
+Accessory.find_or_create_by id: 156,
+model_id: 29,
+image_file_name: "PT276-60070-2014-tundra-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 66.00,
+parts_cost: 40.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft 00
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple, intuitive installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: 'PT276-60070'
+
+Accessory.find_or_create_by id: 157,
+model_id: 29,
+image_file_name: "74101-AE010-2014-tundra-ash-cup.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 17.00,
+parts_cost: 13.00,
+labor_cost: 0,
+description: '•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Easy to empty and clean',
+part_number: '74101-AE010'
+
+Accessory.find_or_create_by id: 158,
+model_id: 29,
+image_file_name: "PT228-34077-2014-tundra-ball-mount.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ball Mount',
+price: 65.00,
+parts_cost: 50.00,
+labor_cost: 0,
+description: '•Optimized ball placement provides precise drop/rise to maintain vehicle departure angle
+•Powder top coat provides uniform surface coating and helps protect against UV rays and maintain a “like-new” appearance
+•Lab and on-road testing—in conjunction with the Genuine Toyota tow hitch—puts the ball mount in real-world towing conditions to guarantee the quality and durability of the entire towing system
+•All Toyota ball mounts meet industry towing standards
+•Trailer ball sold separately',
+part_number: 'PT228-34077'
+
+Accessory.find_or_create_by id: 159,
+model_id: 29,
+image_file_name: "PT392-34145-2014-tundra-bed-extender.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Bed Extender',
+price: 300.00,
+parts_cost: 210.00,
+labor_cost: 75.00,
+description: '•Increases usable cargo length by approximately two feet with tailgate open
+•Helps contain and protect smaller items like tools, camping gear or groceries when tailgate is closed
+•Bed extender cannot be removed when tailgate is up and locked, making theft difficult
+•Lightweight, aircraft-grade aluminum tube construction and rugged, glass-reinforced nylon uprights provide optimum strength
+•Powder coat finish enhances appearance and durability
+•Taillights remain visible when extended, in compliance with DOT lighting requirements
+•Angle-release mounting brackets enable easy installation or removal
+•Adjustable strap latches--attached or removed in seconds--make sure the open bed extender is secured to the tailgate
+•Complements the Tundra’s unique styling cues and enhances its rugged, off-road appearance',
+part_number: 'PT392-34145'
+
+Accessory.find_or_create_by id: 160,
+model_id: 29,
+image_file_name: "2014-tundra-bed-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Bed Mat',
+price: 130.00,
+parts_cost: 70.00,
+labor_cost: 0,
+description: '•Custom-molded, heavyweight bed mat helps protect truck and cargo
+•Provides superior abrasion resistance and tear strength for durable truck bed protection
+•Features stylish pebble finish to help restrict shifting of cargo and raised, lengthwise ribs to facilitate cargo loading/unloading
+•Knobby underside promotes aeration and drainage to keep truck bed dry, helping prevent rust and mildew
+•Manufactured from a high-strength, cord-enhanced rubber compound
+•Tested to help safeguard against fading, rusting, cracking or breaking—even in extreme temperatures
+PRICE IS FOR EITHER STANDARD/SHORT/LONG BED MODELS',
+part_number: ''
+
+Accessory.find_or_create_by id: 161,
+model_id: 29,
+image_file_name: "2014-tundra-step-boards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Brushed Stainless Steel Step Boards',
+price: 585.00,
+parts_cost: 430.00,
+labor_cost: 75.00,
+description: '•Enhances your vehicle’s go-anywhere capability and sophisticated appearance
+•Features two, heavy duty injection-molded step pads providing skid-resistant tread surface at each door
+•Precise fit of plastic to metal components ensures minimal gapping and clean appearance
+•Brackets and structures optimized as a cohesive system for fit, weight and strength using sophisticated CAD modeling techniques
+•Sturdy black-coated steel brackets ensure optimal support for step boards
+•Attachment interface designed for ease of installation using Toyota engineer-approved CAD data
+•Optimized open structure?helps reduce weight up to 25% in comparison to conventional closed-section running boards, while meeting or exceeding load requirements
+•Injection-molded end caps help reduce wind noise and offer a more finished appearance
+•Provides added measure of protection for reducing dirt and stone chipping of lower door and body
+•Manufactured from high-quality stainless steel with superior corrosion resistance',
+part_number: 'PT212-3407B (REGULAR CAB), Part# PT212-3407C (DOUBLE CAB), Part# PT212-3407D (CREW MAX)'
+
+Accessory.find_or_create_by id: 162,
+model_id: 29,
+image_file_name: "PT206-34143-20-tundra-carpet-3.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpeted Platinum Edition Floor Mats',
+price: 239.00,
+parts_cost: 189.00,
+labor_cost: 0,
+description: '•Custom-fitted to the vehicle’s floor plan
+•Made of high-grade plush nylon carpeting with attractive border
+•Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position
+•Removable and easy to clean
+•Quick, easy installation',
+part_number: ''
+
+Accessory.find_or_create_by id: 163,
+model_id: 29,
+image_file_name: "PT278-34073-2014-tundra-bed-rails.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Deck Rail System',
+price: 200.00,
+parts_cost: 178.27,
+labor_cost: 75.00,
+description: '***** CANNOT BE USED WITH DROP IN BEDLINERS FROM TOYOTA *****
+
+•Adds functionality and versatility for optimal truck bed use
+•Custom-fitted for the Tundra truck bed
+•Galvanized steel construction for superior strength
+•Black powder top coat ensures durable corrosion resistance
+•Includes four tie-down bed cleats made of sturdy die-cast aluminum, accommodating a maximum load of 880 lb.(220 lb. each)
+•Includes locators for bed cleats every four inches
+•Deck rails accommodate a variety of additional accessories to enhance utility
+•Deck rail kit fits Tundra with or without Toyota Bed liner
+•Kit includes 4 Deck Rail cleats
+•When installing the Deck Rail System with a Toyota Bed liner a Z Bracket is Required to mount the Deck Rail onto the Header Board
+•The Z Bracket is included in the hardware kit with every Toyota Bed liner made to fit with the Deck Rail System
+•For Toyota Bed liners already installed or Toyota Bed liners that were ordered to fit without the Deck Rail System, a new Hardware Kit that includes the Z Bracket has to be ordered separately
+•The Hardware Kit PT271-34070-HW',
+part_number: 'PT278-34071 (SHORT BED), PT278-34072 (STANDARD BED), PT278-34073 (LONG BED)'
+
+Accessory.find_or_create_by id: 164,
+model_id: 29,
+image_file_name: "PT747-34144-2014-tundra-sill-protectors.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Protectors',
+price: 65.00,
+parts_cost: 29.00,
+labor_cost: 37.95,
+description: '•Durable black-molded door sills helps protect the vehicle\'s interior from everyday scuffs, scrapes and scratches
+•Custom-designed for a precision fit to the vehicle
+•Skid-resistant surface
+•Vehicle name molded into the sill
+•Quick, simple installation',
+part_number: 'PT747-34142 (REGULAR CAB), PT747-34144 (CREW MAX)'
+
+Accessory.find_or_create_by id: 165,
+model_id: 29,
+image_file_name: "PT18A-34090-2014-tundra-exhaust-tip.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Exhaust Tip',
+price: 79.00,
+parts_cost: 48.00,
+labor_cost: 15.95,
+description: '•Constructed of polished, double-walled 304 stainless steel
+•Corrosion resistant, ensuring a “like-new” appearance for years to come
+•Easy-bolt-on installation requires no cutting, drilling or welding; all hardware included',
+part_number: 'PT18A-34090'
+
+Accessory.find_or_create_by id: 166,
+model_id: 29,
+image_file_name: "PT276-34071-2014-tundra-spare-lock.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Spare Tire Lock',
+price: 46.00,
+parts_cost: 28.00,
+labor_cost: 37.95,
+description: '•Made to Toyota’s strict engineering requirements, ensuring fit, quality, durability and performance
+•Lock is installed on the spare tire lowering screw, while the key is installed on the spare tire extension rod',
+part_number: 'PT276-34071'
+
+Accessory.find_or_create_by id: 167,
+model_id: 29,
+image_file_name: "PT278-0C01B-2014-tundra-cleats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tie-Down Cleats',
+price: 115.00,
+parts_cost: 70.00,
+labor_cost: 0,
+description: '•Adds functionality and versatility for optimal truck bed use
+•Made of sturdy die-cast aluminum
+•Slides along Tundra’s deck rail system using a steel locking plate to hold it securely in place
+•Bed cleat holds a maximum of 220 lb.
+•Fully adjustable',
+part_number: 'PT278-0C01B (SET OF 4)'
+
+Accessory.find_or_create_by id: 168,
+model_id: 29,
+image_file_name: "PT228-34074-2014-toyota-tow-hitch.gif",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tow Hitch',
+price: 450.00,
+parts_cost: 350.00,
+labor_cost: 225.95,
+description: '•Electro-deposition coating, or “e-coating”, helps protect against corrosion and the environment
+•Powder top coat protects against ultraviolet rays and helps maintain a “like-new” appearance
+•Advanced, no-drill installation process maintains the structural integrity of the vehicle frame
+•Custom replacement bumper trim panel matches vehicle contours and color
+•16 connection points to the vehicle frame transfer force of towing across vehicle to reduce stress and preserve integrity of the frame and body structure
+•Extensive stress point, fatigue and on-road testing ensure the product’s capabilities to meet or exceed all Toyota durability testing
+•Ball mount and trailer ball sold separately
+•PT228-34074 is for the Tundra with the steel bumper
+•Class IV hitch with 8000 lb tow capacity',
+part_number: 'PT228-34074'
+
+Accessory.find_or_create_by id: 169,
+model_id: 29,
+image_file_name: "2014-tundra-cold-air-intake.JPG",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Cold Air Intake ( Cannot be financed in deal )',
+price: 475.00,
+parts_cost: 285.00,
+labor_cost: 150.95,
+description: '•System takes cool air from behind and below the headlight area (rather than hot air from the engine compartment) to supply the engine with cooler, denser air to increase horsepower and improves cooling
+•Designed to work with the factory ECU and emissions system
+•Features reusable TRD high flow conical air filter with a custom-calibrated filter service gauge that provides visual indication of when filter needs servicing
+•Dyno-tested to deliver an increase in both horsepower and torque for superior acceleration and greater pulling power
+•Tested according to Toyota’s stringent performance standards
+•Emissions legal in all 50 states',
+part_number: ''
+
+Accessory.find_or_create_by id: 170,
+model_id: 29,
+image_file_name: "2014-tundra-dual-exhaust.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Performance Dual Exhaust system',
+price: 1000.00,
+parts_cost: 699.00,
+labor_cost: 150.95,
+description: '•Stainless steel, cat-back exhaust design with TRD-logo-etched tip
+•Allows for a less restrictive path, helping reduce backpressure for added low- to mid-range torque, along with improved horsepower (between 5-to 8-wheel horsepower, depending upon application)
+•Produces a deep, throaty tone while meeting the legal 95-decibel noise limit, as required by law
+•Superior corrosion resistance',
+part_number: 'Will require part# PTR03-34106'
+
+Accessory.find_or_create_by id: 171,
+model_id: 29,
+image_file_name: "2014-tundra-supercharger.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Supercharger',
+price: 6100.00,
+parts_cost: 4500.00,
+labor_cost: 1499.95,
+description: '***** (Cannot be financed in deal,must be purchased seperately) ****
+
+•Crank-driven supercharger increases torque and horsepower from idle to redline, delivering immediate throttle response—producing 504 hp @ 5,500 rpm and 550 lb.-ft. torque @ 5,400 rpm (from 381 hp @ 5600 rpm and 401 lb.-ft. torque @ 3600 rpm)
+•Integral by-pass valve prevents supercharger from going into “boost” when driving at a steady state of speed such as on the highway or light traffic. Takes less the ½ hp to operate when by-pass valve is open, helping reduce parasitic drag from the crankshaft
+•Self-contained air-to-liquid intercooler gives higher performance than non-intercooled, better fuel mileage than non-intercooled and improved towing capacity and passing power than non-intercooled
+•Gen 6 four-lobe rotor design features a high-twist 180-degree helix for improved efficiency, requiring less power to drive—plus it generates less temperature in boost and is substantially quieter than earlier Gen 5 technology
+•Upgrade fuel system includes larger fuel injectors, allowing for proper fuel delivery when using supercharger system at full capacity
+•Factory calibration of ECU gives the best performance with the optimal fuel mileage when combined with the increase in torque and horsepower
+•Greatly increases towing capacity, acceleration
+•Complete kit includes all necessary hardware for “factory installed” appearance. No cutting, welding or fabrication required for supercharger installation
+•Supercharger has self-contained lubrication, so there’s no maintenance required on supercharger—or supercharger system components
+•Emissions legal in all 50 states
+•This supercharger is only approved for installation on Gasoline Fueled vehicle applications. No Flex Fuel vehicle applications are approved.',
+part_number: ''
+
+# Accessory.find_or_create_by id: ,
+# model_id: ,
+# image_file_name: "",
+# image_content_type: "image/jpeg",
+# active: true,
+# name: '',
+# price: ,
+# parts_cost: ,
+# labor_cost: 0,
+# description: '',
+# part_number: ''
 
 
 OrderStatus.find_or_create_by id: 1, name: "In Progress"
