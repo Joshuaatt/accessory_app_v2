@@ -223,6 +223,8 @@ Model.find_or_create_by id: 11,
 
 #### 2015 Subaru BRZ ####
 
+Accessory.delete_all
+
 Accessory.find_or_create_by id: 25,
   model_id: 6,
   image_file_name: "subaru-brz-2013-subwoofer-speaker.jpg",
