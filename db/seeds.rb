@@ -2004,6 +2004,176 @@ description: '***** (Cannot be financed in deal,must be purchased seperately) **
 •This supercharger is only approved for installation on Gasoline Fueled vehicle applications. No Flex Fuel vehicle applications are approved.',
 part_number: ''
 
+#### 4Runner #####
+
+Accessory.find_or_create_by id: 172,
+model_id: 1,
+image_file_name: "PT908-89130-20-4runner-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Mats',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Replaces standard carpet floor mats
+•Black mats featuring a debossed gray vehicle logo
+•Ribbed channel design
+•Comes in a set of four mats
+•Easy to clean—can be wiped off',
+part_number: 'PT908-89130-20'
+
+Accessory.find_or_create_by id: 173,
+model_id: 1,
+image_file_name: "PT276-60070-2014-tundra-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple, intuitive installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: '00276-00901'
+
+Accessory.find_or_create_by id: 174,
+model_id: 1,
+image_file_name: "74102-02140-4runner-ash-cup.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 21.50,
+parts_cost: 13.25,
+labor_cost: 0,
+description: '•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Easy to empty and clean',
+part_number: '74102-02140'
+
+Accessory.find_or_create_by id: 175,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 176,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 177,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 178,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 179,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 180,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 181,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 182,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 183,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
+Accessory.find_or_create_by id: 184,
+model_id: 1,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: '',
+price: ,
+parts_cost: ,
+labor_cost: 0,
+description: '',
+part_number: ''
+
 # Accessory.find_or_create_by id: ,
 # model_id: ,
 # image_file_name: "",
