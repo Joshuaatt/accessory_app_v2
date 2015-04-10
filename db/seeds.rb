@@ -221,7 +221,7 @@ Model.find_or_create_by id: 11,
 
 
 
-#### Subaru BRZ ####
+#### 2015 Subaru BRZ ####
 
 Accessory.find_or_create_by id: 25,
   model_id: 6,
@@ -376,8 +376,8 @@ Accessory.find_or_create_by id: 37,
   image_file_name: "E5610CA000-brz-bumper-diffuser.jpg",
   image_content_type: "image/jpeg",
   name: 'Rear Bumper Diffuser',
-  price: 69.95,
-  parts_cost: 45.47,
+  price: 749.00,
+  parts_cost: 561.75,
   description: 'Lower rear body panel helps to direct air flow and adds a sculpted finishing touch to the BRZ lower rear body line.',
   labor_cost: 0,
   active: true,
@@ -442,6 +442,131 @@ Accessory.find_or_create_by id: 42,
   labor_cost: 0,
   active: true,
   part_number: 'B321SFG000'
+
+#### 2014 Subaru Tribeca ####
+
+Accessory.find_or_create_by id: 43,
+  model_id: 5,
+  image_file_name: "B310SXA000-2014-tribeca-chrome-wheels.jpg",
+  image_content_type: "image/jpeg",
+  name: "18\" Chrome-Finished Alloy Wheel",
+  price: 266.00,
+  parts_cost: 173.00,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'B310SXA000'
+
+Accessory.find_or_create_by id: 44,
+  model_id: 5,
+  image_file_name: "M001SXA000-tribeca-cover.jpg",
+  image_content_type: "image/jpeg",
+  name: "Car Cover, B9 Tribeca",
+  price: 99.95,
+  parts_cost: 64.97,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'M001SXA000'
+
+Accessory.find_or_create_by id: 45,
+  model_id: 5,
+  image_file_name: "E5110XA000-tribeca-under-guard.jpg",
+  image_content_type: "image/jpeg",
+  name: "Front Bumper Under Guard",
+  price: 95.00,
+  parts_cost: 61.75,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'E5110XA000'
+
+Accessory.find_or_create_by id: 46,
+  model_id: 5,
+  image_file_name: "H621SXA200-tribeca-ipod.JPG",
+  image_content_type: "image/jpeg",
+  name: "iPod interface Kit",
+  price: 116.00,
+  parts_cost: 75.40,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'H621SXA200'
+
+Accessory.find_or_create_by id: 47,
+  model_id: 5,
+  image_file_name: "E771SXA000-tribeca-bumper-cover.jpg",
+  image_content_type: "image/jpeg",
+  name: "Rear Bumper Cover",
+  price: 49.95,
+  parts_cost: 32.47,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'E771SXA000'
+
+Accessory.find_or_create_by id: 48,
+  model_id: 5,
+  image_file_name: "J101SXA200-tribeca-splash-guard.jpg",
+  image_content_type: "image/jpeg",
+  name: "Rear Splash Guard Kit",
+  price: 40.00,
+  parts_cost: 26.00,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'J101SXA200'
+
+Accessory.find_or_create_by id: 49,
+  model_id: 5,
+  image_file_name: "H001SXA000-remote-start.jpg",
+  image_content_type: "image/jpeg",
+  name: "Remote Engine Starter",
+  price: 335.00,
+  parts_cost: 217.75,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'H001SXA000'
+
+Accessory.find_or_create_by id: 50,
+  model_id: 5,
+  image_file_name: "H481SXA000-tribeca-reverse-sensors.jpg",
+  image_content_type: "image/jpeg",
+  name: "Reverse Assist Sensors",
+  price: 269.50,
+  parts_cost: 175.47,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'H481SXA000'
+
+Accessory.find_or_create_by id: 51,
+  model_id: 5,
+  image_file_name: "sirius-satellite-radio.jpg",
+  image_content_type: "image/jpeg",
+  name: "SIRIUS Satellite Radio Kit",
+  price: 398.00,
+  parts_cost: 298.50,
+  description: "",
+  labor_cost: 0,
+  active: true,
+  part_number: 'H621SXA100'
+
+Accessory.find_or_create_by id: 52,
+  model_id: 5,
+  image_file_name: "B321SFG000-brz-wheel-lock-kit.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Wheel Lock Kit ( Alloy Wheels )',
+  price: 29.95,
+  parts_cost: 19.47,
+  description: 'Helps to deter theft of wheels and tires.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'B321SFG000'
+
+
+
 
 
 
