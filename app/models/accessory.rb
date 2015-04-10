@@ -4,7 +4,9 @@ class Accessory < ActiveRecord::Base
 
   default_scope { where(active: true) }
 
-  has_attached_file :image, :path => ":rails_root/public/system/:attachment/:id/:basename_:style.:extension",
+  has_attached_file :image,
+    :preserve_files => "true",
+    :path => ":rails_root/public/system/:attachment/:id/:basename_:style.:extension",
     :url => "/system/:attachment/:id/:basename_:style.:extension",
     :styles => {
       :thumb    => ['100x100#',  :jpg, :quality => 70],
