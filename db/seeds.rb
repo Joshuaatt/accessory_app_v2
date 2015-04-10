@@ -221,6 +221,7 @@ Model.find_or_create_by id: 11,
 
 
 
+#### Subaru BRZ ####
 
 Accessory.find_or_create_by id: 25,
   model_id: 6,
@@ -274,120 +275,173 @@ Accessory.find_or_create_by id: 28,
   active: true,
   part_number: 'M001SCA000, Car Cover Bag M0010AS020 - $14.95'
 
+Accessory.find_or_create_by id: 29,
+  model_id: 6,
+  image_file_name: "J501SCA000-brz-trunk-protector.png",
+  image_content_type: "image/jpeg",
+  name: 'Cargo Tray',
+  price: 69.95,
+  parts_cost: 45.47,
+  description: 'Helps protect the trunk from stains and dirt whle providing a surface that helps reduce the shifting of cargo while driving. Cannot be installed with Subwoofer.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'J501SCA000'
 
+Accessory.find_or_create_by id: 30,
+  model_id: 6,
+  image_file_name: "E7110CA000-brz-trim.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Chrome Fender Trim',
+  price: 99.00,
+  parts_cost: 64.35,
+  description: 'Adds a stylish touch of chrome to the fender grill panels.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E7110CA000'
 
+Accessory.find_or_create_by id: 31,
+  model_id: 6,
+  image_file_name: "J1210CA800-brz-chrome-fuel-door-cover.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Chrome Fuel Door Cover',
+  price: 79.00,
+  parts_cost: 51.35,
+  description: 'Adds a touch of flair to the fuel door cover.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'J1210CA800'
 
+Accessory.find_or_create_by id: 32,
+  model_id: 6,
+  image_file_name: "H4510CA000-brz-fog-light.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Fog Lamp Kit',
+  price: 335.00,
+  parts_cost: 251.25,
+  description: 'Casts a low and wide beam of light to help enhance vision in inclement weather.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'H4510CA000'
 
+Accessory.find_or_create_by id: 33,
+  model_id: 6,
+  image_file_name: "2014BRZFootwellIlluminationKit.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Footwell Illumination Kit',
+  price: 169.95,
+  parts_cost: 110.47,
+  description: 'Casts a soft glow onto the front floor area. Also available in blue or red.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'H701SCA000 - Red, H701SCA100 - Blue'
 
-  # name: 'Cargo Tray'
-  # price: 69.95
-  # parts_cost: 45.47
-  # labor:
-  # description: 'Helps protect the trunk from stains and dirt whle providing
-  #   a surface that helps reduce the shifting of cargo while driving. Cannot
-  #   be installed with Subwoofer.'
-  # part_number: 'J501SCA000'
-  #
-  # name: 'Chrome Fender Trim'
-  # price:
-  # parts_cost:
-  # labor:
-  # description: 'Adds a stylish touch of chrome to the fender grill panels.'
-  # part_number: 'E7110CA000'
-  #
-  # name: 'Chrome Fuel Door Cover'
-  # price: 79.00
-  # parts_cost: 51.35
-  # labor:
-  # description: 'Adds a touch of flair to the fuel door cover.'
-  # part_number: 'J1210CA800'
-  #
-  # name: 'Fog Lamp Kit'
-  # price: 335.00
-  # parts_cost: 251.25
-  # labor:
-  # description:
-  # part_number: 'H4510CA000'
-  #
-  # name: 'Footwell Illumination Kit'
-  # price: 169.95
-  # parts_cost: 110.47
-  # labor:
-  # description: 'Casts a soft glow onto the front floor area. Also available in blue or red.'
-  # part_number: 'H701SCA000 - Red, H701SCA100 - Blue'
-  #
-  # name: 'Key Fob (BRZ ) Carbon Fiber'
-  # price: 19.95
-  # parts_cost: 12.97
-  # labor:
-  # description:
-  # part_number: 'SOA342L148'
-  #
-  # name: 'Parking Only Sign'
-  # price: 29.95
-  # parts_cost: 19.47
-  # labor:
-  # description: 'New! Keep your parking spot exclusive for your BRZ. Kit
-  #   includes 8" x 12" sign, mounting screws and hider caps'
-  # part_number: 'SOA342L151'
-  #
-  # name: 'Rear Bumper Applique'
-  # price: 69.95
-  # parts_cost: 45.47
-  # labor:
-  # description: 'Clear, scratch-resistant vinyl film helps to protect
-  #   bumper upper surface and leading edge. Includes a discrete
-  #   pearl-colored Subaru logo.'
-  # part_number: 'E771SCA700'
-  #
-  # name: 'Rear Bumper Diffuser'
-  # price: 749.00
-  # parts_cost: 561.75
-  # labor:
-  # description: 'Lower rear body panel helps to direct air flow and adds a
-  #   sculpted finishing touch to the BRZ lower rear body line.'
-  # part_number: 'E5610CA000'
-  #
-  # name: 'STI Under Spoiler - Front'
-  # price: 399.99
-  # parts_cost: 299.99
-  # labor:
-  # description: 'New! STI Under Spoiler gives the BRZ a mean, ground-hugging
-  #   attitude. Includes STI logo. '
-  # part_number: 'E2410CA000'
-  #
-  # name: 'STI Under Spoiler - Rear Quarter'
-  # price: 335.00
-  # parts_cost: 251.25
-  # labor:
-  # description: 'New! Complete the ground-hugging look on the side of the
-  #   BRZ with the addition of the rear quarter under spoiler. Kit includes
-  #   both left and right side under spoilers.'
-  # part_number: 'E5610CA100'
-  #
-  # name: 'STI Under Spoiler - Side'
-  # price: 499.99
-  # parts_cost: 374.99
-  # labor:
-  # description: 'New! Continue the mean ground-hugging attitude down the
-  #   rocker panels of the BRZ. Kit includes both left and right side under
-  #   spoilers. Includes STI logo. '
-  # part_number: 'E2610CA000'
-  #
-  # name: 'Trunk Spoiler Kit'
-  # price: 499.00
-  # parts_cost: 374.25
-  # labor:
-  # description: 'Sleek, low profile design adds just the right amount of
-  #   attitude to your vehicle. Comes pre-painted and ready to install.'
-  # part_number: 'E7218CA000XX'
-  #
-  # name: 'Wheel Lock Kit ( Alloy Wheels )'
-  # price: 29.95
-  # parts_cost: 19.47
-  # labor:
-  # description:
-  # part_number: 'B321SFG000'
+Accessory.find_or_create_by id: 34,
+  model_id: 6,
+  image_file_name: "SOA342L148-brz-key-fob.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Key Fob (BRZ ) Carbon Fiber',
+  price: 19.95,
+  parts_cost: 12.97,
+  description: "Carbon fiber composite and stainless steel key fobs with leather strap and universal split ring.",
+  labor_cost: 0,
+  active: true,
+  part_number: 'SOA342L148'
+
+Accessory.find_or_create_by id: 35,
+  model_id: 6,
+  image_file_name: "SOA342L151-brz-parking-sign.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Parking Only Sign',
+  price: 29.95,
+  parts_cost: 19.47,
+  description: 'New! Keep your parking spot exclusive for your BRZ. Kit includes 8" x 12" sign, mounting screws and hider caps.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'SOA342L151'
+
+Accessory.find_or_create_by id: 36,
+  model_id: 6,
+  image_file_name: "E771SCA700-brz-bumper-Applique.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Rear Bumper Applique',
+  price: 69.95,
+  parts_cost: 45.47,
+  description: 'Clear, scratch-resistant vinyl film helps to protect bumper upper surface and leading edge. Includes a discrete pearl-colored Subaru logo.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E771SCA700'
+
+Accessory.find_or_create_by id: 37,
+  model_id: 6,
+  image_file_name: "E5610CA000-brz-bumper-diffuser.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Rear Bumper Diffuser',
+  price: 69.95,
+  parts_cost: 45.47,
+  description: 'Lower rear body panel helps to direct air flow and adds a sculpted finishing touch to the BRZ lower rear body line.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E5610CA000'
+
+Accessory.find_or_create_by id: 38,
+  model_id: 6,
+  image_file_name: "E2410CA000-brz-under-spoiler-front.png",
+  image_content_type: "image/jpeg",
+  name: 'STI Under Spoiler - Front',
+  price: 399.99,
+  parts_cost: 299.99,
+  description: 'New! STI Under Spoiler gives the BRZ a mean, ground-hugging attitude. Includes STI logo.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E2410CA000'
+
+Accessory.find_or_create_by id: 39,
+  model_id: 6,
+  image_file_name: "E5610CA100-brz-under-spoiler-rear-quarter.png",
+  image_content_type: "image/jpeg",
+  name: 'STI Under Spoiler - Rear Quarter',
+  price: 335.00,
+  parts_cost: 251.25,
+  description: 'New! Complete the ground-hugging look on the side of the BRZ with the addition of the rear quarter under spoiler. Kit includes both left and right side under spoilers.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E5610CA100'
+
+Accessory.find_or_create_by id: 40,
+  model_id: 6,
+  image_file_name: "E2610CA000-brz-under-spoiler-side.png",
+  image_content_type: "image/jpeg",
+  name: 'STI Under Spoiler - Side',
+  price: 499.99,
+  parts_cost: 374.99,
+  description: 'New! Continue the mean ground-hugging attitude down the rocker panels of the BRZ. Kit includes both left and right side under spoilers. Includes STI logo.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E2610CA000'
+
+Accessory.find_or_create_by id: 41,
+  model_id: 6,
+  image_file_name: "E7218CA000XX-brz-trunk-spoiler.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Trunk Spoiler Kit',
+  price: 499.99,
+  parts_cost: 374.25,
+  description: 'Sleek, low profile design adds just the right amount of attitude to your vehicle. Comes pre-painted and ready to install.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E7218CA000XX'
+
+Accessory.find_or_create_by id: 42,
+  model_id: 6,
+  image_file_name: "B321SFG000-brz-wheel-lock-kit.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Wheel Lock Kit ( Alloy Wheels )',
+  price: 29.95,
+  parts_cost: 19.47,
+  description: 'Helps to deter theft of wheels and tires.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'B321SFG000'
 
 
 
