@@ -25,10 +25,14 @@ class Accessory < ActiveRecord::Base
     :content_type => { :content_type => /^image\/(jpeg|png|gif|tiff)$/ }
 
   def discount
-    self.price * 0.85
+    if self.price != nil
+      self.price * 0.85
+    end
   end
 
   def monthly
-    (self.discount * (1 + 0.1 * 5))/60
+    if self.discount != nil
+      (self.discount * (1 + 0.1 * 5))/60
+    end
   end
 end

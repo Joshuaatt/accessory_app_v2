@@ -547,7 +547,7 @@ Accessory.find_or_create_by id: 50,
   active: true,
   part_number: 'H481SXA000'
 
-Accessory.find_or_create_by id: 51,
+Accessory.find_or_create_by id: 52,
   model_id: 5,
   image_file_name: "sirius-satellite-radio.jpg",
   image_content_type: "image/jpeg",
@@ -559,7 +559,7 @@ Accessory.find_or_create_by id: 51,
   active: true,
   part_number: 'H621SXA100'
 
-Accessory.find_or_create_by id: 52,
+Accessory.find_or_create_by id: 54,
   model_id: 5,
   image_file_name: "B321SFG000-brz-wheel-lock-kit.jpg",
   image_content_type: "image/jpeg",
@@ -570,6 +570,189 @@ Accessory.find_or_create_by id: 52,
   labor_cost: 0,
   active: true,
   part_number: 'B321SFG000'
+
+#### Forester ####
+
+Accessory.find_or_create_by id: 55,
+  model_id: 7,
+  image_file_name: "E361SSG000-forester-crossbars.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Aero Cross Bar Set',
+  price: 179.95,
+  parts_cost: 116.97,
+  description: 'May be used in conjunction with Genuine Subaru roof attachments and carriers. Crossbar Set required for roof accessories. Consult vehicle owner’s manual for total roof load limit. ',
+  labor_cost: 0,
+  active: true,
+  part_number: 'E361SSG000'
+
+Accessory.find_or_create_by id: 63,
+  model_id: 7,
+  image_file_name: "forester-body-side-molding.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Body Side Molding',
+  price: 229.95,
+  parts_cost: 149.47,
+  description: 'Attractive, color-matched moldings coordinate with the styling of the vehicle while helping to protect doors from unsightly dings.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'Prepainted to body color. Please refer to brochure or Parts department for correct part number as per application.'
+
+Accessory.find_or_create_by id: 64,
+  model_id: 7,
+  image_file_name: "J501SSG000-forester-cargo-tray.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Cargo Tray',
+  price: 69.95,
+  parts_cost: 45.47,
+  description: 'Helps protect cargo area from dirt and spills. Can be easily removed and rinsed clean. Not compatible with Rear Bumper Protector.',
+  labor_cost: 0,
+  active: true,
+  part_number: 'J501SSG000'
+
+Accessory.find_or_create_by id: 65,
+  model_id: 7,
+  image_file_name: "J501SSG000-forester-cargo-tray.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Exterior Auto Dim Mirror Kit / With Approach Lighting',
+  price: 199.95,
+  parts_cost: 129.97,
+  description: "Enhance your Auto-Dimming Mirror experience by adding the Exterior Auto-Dimming Mirrors with Approach Light.* Open or unlock the doors with the keyless entry system and LED lights located behind the Subaru logo in each exterior mirror help to light the way. Light is cast down all four doors and onto the ground next to and towards the rear of the vehicle. When in traffic, the Exterior Auto-Dimming Mirrors help add to a safer driving experience by reducing headlight glare on the exterior mirrors. This occurs when excessive light is detected from the rear of the vehicle. The dimming level of the exterior mirrors is regulated by the level of light detected by the Interior Auto-Dimming Mirror.",
+  labor_cost: 0,
+  active: true,
+  part_number: 'J201SSG000'
+
+Accessory.find_or_create_by id: 66,
+  model_id: 7,
+  image_file_name: "H4510SG010-forester-fog-light.jpeg",
+  image_content_type: "image/jpeg",
+  name: 'Fog Lamp Kit',
+  price: 335.00,
+  parts_cost: 251.25,
+  description: "Casts a low and wide beam of light to enhance vision in inclement weather.",
+  labor_cost: 0,
+  active: true,
+  part_number: 'H4510SG000 - Black Switch Panel - Non turbo models, H4510SG080 - Grey Switch Panel - Non turbo models, H4510SG010 - Black Switch Panel - Turbo models'
+
+Accessory.find_or_create_by id: 67,
+  model_id: 7,
+  image_file_name: "E551SAL000-forester-front-bumper.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Front Bumper Underguard',
+  price: 159.95,
+  parts_cost: 103.97,
+  labor_cost: 0,
+  description: 'Adds a rugged styling accent to Forester. Not compatible with Front Underspoiler.',
+  part_number: 'E551SSG200'
+
+Accessory.find_or_create_by id: 68,
+  model_id: 7,
+  image_file_name: "H701SFJ000-forester-footwell-lights.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Interior Illumination Kit',
+  price: 149.95,
+  parts_cost: 97.47,
+  labor_cost: 0,
+  description: 'Casts a soft red glow onto the front floor area. Also available in blue or red.',
+  part_number: 'H701SFJ000 - Blue, H701SFJ100 - Red'
+
+Accessory.find_or_create_by id: 69,
+  model_id: 7,
+  image_file_name: "F541SSG000-forester-moon-roof-deflector.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Moonroof Air Deflector',
+  price: 99.99,
+  parts_cost: 64.99,
+  labor_cost: 0,
+  description: 'Helps reduce wind noise and sun glare. Cannot be used in conjunction with the Extended Roof Cargo Carrier.',
+  part_number: 'F541SSG000'
+
+Accessory.find_or_create_by id: 70,
+  model_id: 7,
+  image_file_name: "E771SSG300-forester-rear-bumper-cover.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Rear Bumper Cover',
+  price: 69.95,
+  parts_cost: 45.47,
+  labor_cost: 0,
+  description: 'Helps protect the upper surface of the painted bumper from scratches and dings.',
+  part_number: 'E771SSG300'
+
+Accessory.find_or_create_by id: 71,
+  model_id: 7,
+  image_file_name: "E551SSG300-subaru-forester-rear-bumper-underguard.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Rear Bumper Underguard',
+  price: 239.95,
+  parts_cost: 155.97,
+  labor_cost: 0,
+  description: 'Completes rugged look on Forester. Not compatible with Reverse Assist Sensors.',
+  part_number: 'E551SSG300'
+
+Accessory.find_or_create_by id: 72,
+  model_id: 7,
+  image_file_name: "H001SSG000-forester-remote-engine-start.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Remote Engine Starter Kit',
+  price: 369.99,
+  parts_cost: 277.49,
+  labor_cost: 0,
+  description: "Allows vehicle to be started by pushing a button from the convenience of home or the office (up to 400 feet away depending on obstructions) so that the vehicle’s interior temperature is more comfortable upon entry. The start/stop button blinks to confirm the engine has started.",
+  part_number: 'H001SSG000 - For Turn Start Models 2014, H001SSG500 - For Turn Start Models 2015, H001SSG800 - For Push Start Models 2014/2015'
+
+Accessory.find_or_create_by id: 73,
+  model_id: 7,
+  image_file_name: "E361SSC200-forester-round-crossbar.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Round Cross Bar Kit',
+  price: 375.00,
+  parts_cost: 281.25,
+  labor_cost: 0,
+  description: "Wider and more rigid bars have a universal round profile that allows the use of numerous attachments. Also compatible with most Genuine Subaru roof carriers.",
+  part_number: 'E361SSC200'
+
+Accessory.find_or_create_by id: 74,
+  model_id: 7,
+  image_file_name: "F0010SG600-subaru-forester-side-window-rain-guards.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Side Window Deflectors',
+  price: 99.95,
+  parts_cost: 64.97,
+  labor_cost: 0,
+  description: 'Lets the fresh air in while helping to keep the weather out. May not be legal in all states. Please check the laws of your state.',
+  part_number: 'F0010SG600'
+
+Accessory.find_or_create_by id: 75,
+  model_id: 7,
+  image_file_name: "J1010SG250MC-forester-splash-guard-kit.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Splash Guard Kit',
+  price: 109.95,
+  parts_cost: 71.47,
+  labor_cost: 0,
+  description: 'Helps protect vehicle paint finish from stones and road grime. Set of four.',
+  part_number: 'J1010SG250MC'
+
+Accessory.find_or_create_by id: 76,
+  model_id: 7,
+  image_file_name: "L1010SG610-forester-hitch.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Trailer Hitch',
+  price: 499.00,
+  parts_cost: 374.00,
+  labor_cost: 0,
+  description: 'Heavy-duty rated at 200 lbs. tongue weight, 1,500 lbs. towing capacity. Hitch ball not included. Trailer brakes may be needed.',
+  part_number: 'L1010SG610 (Trailer Hitch), H771SSG000 (Harness Non-turbo)'
+
 
 
 
