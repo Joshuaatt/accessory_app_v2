@@ -985,6 +985,188 @@ Accessory.find_or_create_by id: 95,
   part_number: 'H631SFJ100'
 
 
+#### Legacy ####
+
+Accessory.find_or_create_by id: 96,
+  model_id: 9,
+  image_file_name: "J501SAL400-legacy-all-weather-floor-mats.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'All-Weather Floor Mats',
+  price: 69.95,
+  parts_cost: 45.47,
+  labor_cost: 0,
+  description: 'Custom-fitted, heavy-gauge floor mats help protect vehicle carpet from sand, dirt and moisture. Not intended for use over top of carpeted floor mats.',
+  part_number: 'J501SAL400'
+
+Accessory.find_or_create_by id: 97,
+  model_id: 9,
+  image_file_name: "28111AL00A-legacy-wheel.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Aluminum Wheel ( 17” )',
+  price: 715.00,
+  parts_cost: 517.16,
+  labor_cost: 0,
+  description: 'Add a touch of flair to your Legacy 2.5i with these alloy wheels. Order four of each part number.',
+  part_number: '28111AL00A'
+
+Accessory.find_or_create_by id: 98,
+  model_id: 9,
+  image_file_name: "H501SAL100-legacy-dimming-mirror-homelink.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Auto-Dimming Mirror with Compass and HomeLink®',
+  price: 260.00,
+  parts_cost: 169.00,
+  labor_cost: 0,
+  description: 'Mirror automatically darkens when headlights are detected from behind the vehicle. Features an electronic compass with a red transflective display. Three HomeLink® buttons can be programmed to operate most garage door openers and other HomeLink® compatible devices.',
+  part_number: 'H501SAL100'
+
+Accessory.find_or_create_by id: 99,
+  model_id: 9,
+  image_file_name: "H501SAL000-legacy-auto-dimming-mirror.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Auto-Dimming Mirror with Compass',
+  price: 175.00,
+  parts_cost: 113.75,
+  labor_cost: 0,
+  description: "Mirror automatically darkens when headlights are detected from behind the vehicle. Features an electronic compass with a red transflective display that projects the current direction onto the mirror's surface.",
+  part_number: 'H501SAL000'
+
+Accessory.find_or_create_by id: 100,
+  model_id: 9,
+  image_file_name: "J101SAL800-legacy-body-molding.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Body Side Molding Kit',
+  price: 249.95,
+  parts_cost: 162.47,
+  labor_cost: 0,
+  description: 'Attractive, color-matched moldings coordinate with the styling of the vehicle while helping to protect doors from unsightly dings.',
+  part_number: 'J101SAL800XX'
+
+Accessory.find_or_create_by id: 101,
+  model_id: 9,
+  image_file_name: "J501SAL510-legacy-cargo-tray.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Cargo Tray',
+  price: 69.95,
+  parts_cost: 24.47,
+  labor_cost: 0,
+  description: "Helps protect the trunk from stains and dirt while providing a surface that helps reduce the shifting of cargo while driving. Not compatible with Rear Bumper Protector",
+  part_number: 'J501SAL510'
+
+Accessory.find_or_create_by id: 102,
+  model_id: 9,
+  image_file_name: "J201SAL000-legacy-exterior-mirror.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Exterior Auto Dimming Mirror with Approach Light',
+  price: 199.95,
+  parts_cost: 129.97,
+  labor_cost: 0,
+  description: 'New! Enhance your Auto-Dimming Mirror experience by adding the Exterior Auto-Dimming Mirrors with Approach Light*. Open or unlock the doors with the keyless entry system and LED lights located behind the Subaru logo in each exterior mirror help to light the way. Light is cast down all four doors and onto the ground next to and towards the rear of the vehicle. When in traffic, the Exterior Auto-Dimming Mirrors help add to a safer driving experience by reducing headlight glare on the exterior mirrors. This occurs when excessive light is detected from the rear of the vehicle. The dimming level of the exterior mirrors is regulated by the level of light detected by the Interior Auto-Dimming Mirror. Requires Interior Auto-Dimming Mirror',
+  part_number: 'J201SAL000'
+
+Accessory.find_or_create_by id: 103,
+  model_id: 9,
+  image_file_name: "H451SAL000-legacy-fog-light.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Fog Lamp Kit',
+  price: 269.95,
+  parts_cost: 175.47,
+  labor_cost: 0,
+  description: 'Casts a low and wide beam of light to enhance vision in inclement weather.',
+  part_number: 'H451SAL000'
+
+Accessory.find_or_create_by id: 104,
+  model_id: 9,
+  image_file_name: "E771SAL300-legacy-bumper-thing.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Rear Bumper Applique',
+  price: 69.95,
+  parts_cost: 45.47,
+  labor_cost: 0,
+  description: 'Clear, scratch-resistant vinyl film helps to protect bumper upper surface and leading edge. Includes a discrete pearl-colored Subaru logo.',
+  part_number: 'E771SAL300'
+
+Accessory.find_or_create_by id: 105,
+  model_id: 9,
+  image_file_name: "H001SAL000-legacy-remote-start-push-start.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Remote Engine Starter ( Push Start Models/Smart Start )',
+  price: 359.95,
+  parts_cost: 269.96,
+  labor_cost: 0,
+  description: 'Allows the vehicle to be started at the push of a buttom from outside the vehicle. Preset the heating or air conditioner controls to help bring the interior temperature to a more comfortable level prior to entry. Smart Engine Start works in conjunction with the Keyless Access and Start system. Operating distance is up to 75 feet away, depending on vehicle obstructions.',
+  part_number: 'H001SAL800'
+
+Accessory.find_or_create_by id: 106,
+  model_id: 9,
+  image_file_name: "H001SAL800-legacy-remote-start-turn.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Remote Engine Starter ( Turn Start Models )',
+  price: 369.95,
+  parts_cost: 277.46,
+  labor_cost: 0,
+  description: 'Allows the vehicle to be started at the push of a button from outside the vehicle. Preset the heating or air conditioner controls to help bring the interior temperature to a more comfortable level prior to entry. Smart Engine Start works in conjunction with the Keyless Access and Start system. Operating distance is up to 75 feet away, depending on vehicle obstructions.',
+  part_number: 'H001SAL000'
+
+Accessory.find_or_create_by id: 107,
+  model_id: 9,
+  image_file_name: "",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Side Window Deflectors',
+  price: 245.00,
+  parts_cost: 159.25,
+  labor_cost: 0,
+  description: 'Lets the fresh air in while helping to keep the weather out. Deflector design includes integrated chrome insert to match window frame trim. May not be legal in all states. Please check the laws of your state.',
+  part_number: 'F0010AL900'
+
+Accessory.find_or_create_by id: 108,
+  model_id: 9,
+  image_file_name: "J101SAL100-legacy-splash-guard.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Splash Guard Kit',
+  price: 109.95,
+  parts_cost: 71.47,
+  labor_cost: 0,
+  description: 'Helps protect vehicle paint finish from stones and road grime.',
+  part_number: 'J101SAL100'
+
+Accessory.find_or_create_by id: 109,
+  model_id: 9,
+  image_file_name: "H631SAL000-legacy-tweeters.jpg",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Tweeter Kit',
+  price: 99.95,
+  parts_cost: 64.97,
+  labor_cost: 0,
+  description: 'Special speakers enhance high-frequency audio as well as improved stereo imaging.',
+  part_number: 'H631SAL000'
+
+Accessory.find_or_create_by id: 110,
+  model_id: 9,
+  image_file_name: "",
+  image_content_type: "image/jpeg",
+  active: true,
+  name: 'Wheel Lock Kit ( Alloy Wheels )',
+  price: 29.95,
+  parts_cost: 19.47,
+  labor_cost: 0,
+  description: 'Helps to deter theft of wheels and tires.',
+  part_number: 'B321SFG000'
+
 
 
 
