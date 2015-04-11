@@ -3604,8 +3604,164 @@ labor_cost: 225.95,
 description: 'Provides automatic rearming, door ajar warning, interior light activation, panic alarm, rolling code technology, disabling of the starter and GBS.',
 part_number: ''
 
+
+#### Prius V ####
+
+Accessory.find_or_create_by id: 282,
+model_id: 18,
+image_file_name: "prius-v-all-weather-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 69.00,
+labor_cost: 0,
+description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+part_number: ''
+
+Accessory.find_or_create_by id: 283,
+model_id: 18,
+image_file_name: "2014-avalon-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+part_number: ''
+
+Accessory.find_or_create_by id: 284,
+model_id: 18,
+image_file_name: "prius-v-cargo-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Capet Cargo Mat',
+price: 94.00,
+parts_cost: 68.00,
+labor_cost: 0,
+description: 'This durable carpet cargo mat helps keep your Prius v cargo area dressed up and looking like new.',
+part_number: ''
+
+Accessory.find_or_create_by id: 285,
+model_id: 18,
+image_file_name: "prius-v-cargo-envelope.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net – Envelope',
+price: 35.00,
+parts_cost: 18.00,
+labor_cost: 0,
+description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+part_number: ''
+
+Accessory.find_or_create_by id: 286,
+model_id: 18,
+image_file_name: "prius-v-cargo-tote.jpeg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tote',
+price: 48.00,
+parts_cost: 29.00,
+labor_cost: 0,
+description: 'The collapsible, soft-sided cargo tote holds a variety of items, helping ensure they don’t shift around or tip over in your cargo area.',
+part_number: ''
+
+Accessory.find_or_create_by id: 287,
+model_id: 18,
+image_file_name: "prius-v-cargo-tray.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tray',
+price: 99.00,
+parts_cost: 69.00,
+labor_cost: 0,
+description: 'Tough and flexible, the cargo tray helps protect your cargo area carpeting when transporting all types of items.',
+part_number: ''
+
+Accessory.find_or_create_by id: 288,
+model_id: 18,
+image_file_name: "prius-v-carpet-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Floor Mats',
+price: 129.00,
+parts_cost: 89.00,
+labor_cost: 0,
+description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Prius v.',
+part_number: ''
+
+Accessory.find_or_create_by id: 289,
+model_id: 18,
+image_file_name: "prius-c-Door-Edge-Guards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Edge Guards',
+price: 94.00,
+parts_cost: 79.00,
+labor_cost: 37.95,
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Custom formed for a perfect fit to door edge contours
+•Compression fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help resist cracking, fading and peeling
+•Meets Toyota’s strict engineering specifications for quality, fit and finish',
+part_number: ''
+
+Accessory.find_or_create_by id: 290,
+model_id: 18,
+image_file_name: "prius-v-mudguards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mudguards',
+price: 105.00,
+parts_cost: 65.00,
+labor_cost: 37.95,
+description: 'Help protect your paint finish from road debris and the damage it causes.',
+part_number: ''
+
+Accessory.find_or_create_by id: 291,
+model_id: 18,
+image_file_name: "prius-v-bumper-applique.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Bumper Appliqué',
+price: 57.00,
+parts_cost: 38.00,
+labor_cost: 37.95,
+description: 'This nearly invisible appliqué helps protect the top surface of your rear bumper from unsightly scrapes and scratches.',
+part_number: ''
+
+Accessory.find_or_create_by id: 292,
+model_id: 18,
+image_file_name: "prius-v-remote-start.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Remote Engine Starter',
+price: 399.00,
+parts_cost: 329.00,
+labor_cost: 225.95,
+description: 'Have your Prius V ready, waiting and comfortable no matter what the weather.',
+part_number: ''
+
+Accessory.find_or_create_by id: 293,
+model_id: 18,
+image_file_name: "avalon-Glass-Breakage-Sensor.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'RS3200+ Vehicle Security System',
+price: 299.00,
+parts_cost: 179.00,
+labor_cost: 225.95,
+description: 'Includes: door-ajar warning, panic alarm, disabling of the starter if activated, glass breakage sensor and more.',
+part_number: ''
+
+
+
 # Accessory.find_or_create_by id: 2,
-# model_id: 17,
+# model_id: 18,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
