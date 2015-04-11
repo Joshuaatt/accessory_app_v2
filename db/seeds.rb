@@ -2237,7 +2237,13 @@ name: 'Alloy Wheel Locks',
 price: 41.00,
 parts_cost: 29.00,
 labor_cost: 22.95,
-description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
 part_number: ''
 
 Accessory.find_or_create_by id: 187,
@@ -2373,18 +2379,280 @@ description: 'Have your Avalon ready, waiting and comfortable no matter what the
 part_number: ''
 
 
+#### Camry ####
+
+Accessory.find_or_create_by id: 198,
+model_id: 3,
+image_file_name: "camry-all-weather-floor-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 0,
+labor_cost: 59.00,
+description: '•Helps protect vehicle’s factory carpet against mud, sand, stains and soils
+•Made from a durable and flexible thermoplastic elastomer that’s easy to clean
+•Black mats feature ribbed channels and an embossed vehicle logo
+•Lightweight',
+part_number: 'PT908-03150-20'
+
+Accessory.find_or_create_by id: 199,
+model_id: 3,
+image_file_name: "camry-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: '00276-00900'
+
+Accessory.find_or_create_by id: 200,
+model_id: 3,
+image_file_name: "74101-AE010-camry-ash-cup.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 17.00,
+parts_cost: 0,
+labor_cost: 13.00,
+description: '•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Easy to empty and clean',
+part_number: '74101-AE010'
+
+Accessory.find_or_create_by id: 201,
+model_id: 3,
+image_file_name: "camry-side-molding.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Body Side Mouldings',
+price: 135.00,
+parts_cost: 80.00,
+labor_cost: 37.95,
+description: '•Helps provide exterior door protection from scratches, dents and chipping
+•Color-matched to the factory paint of the vehicle
+•Set of four',
+part_number: ''
+
+Accessory.find_or_create_by id: 202,
+model_id: 3,
+image_file_name: "PT347-03140-camry-cargo-envelope.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net - Envelope',
+price: 49.00,
+parts_cost: 21.00,
+labor_cost: 35.00,
+description: '•Helps keep items secure and includes zipper pocket for smaller items
+•Custom fit to the vehicle’s cargo area
+•Easy to install; attaches to hooks and tabs in cargo area
+•Designed with Toyota-approved materials for long-term durability
+•Stores flat when not in use',
+part_number: 'PT347-03140'
+
+Accessory.find_or_create_by id: 203,
+model_id: 3,
+image_file_name: "camry-cargo-tote.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tote',
+price: 48.00,
+parts_cost: 29.00,
+labor_cost: 0,
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant
+Cargo load and capacity limited by weight and distribution.',
+part_number: 'PT427-00120'
+
+Accessory.find_or_create_by id: 204,
+model_id: 3,
+image_file_name: "PT908-03151-camry-cargo-tray.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tray',
+price: 86.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Molded from a tough, flexible polymer blend that’s easy to clean
+•Skid-resistant surface helps keep cargo from sliding around
+•Perimeter lip helps contain spills, debris and liquids
+•Designed to fit the vehicle’s cargo floor
+•Features molded vehicle logo',
+part_number: 'PT908-03151'
+
+Accessory.find_or_create_by id: 205,
+model_id: 3,
+image_file_name: "PT208-03150-20-camry-carpet-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Floor Mats',
+price: 129.00,
+parts_cost: 79.00,
+labor_cost: ,
+description: '•Custom fitted to the vehicle’s floor plan
+•Made of high-grade plush nylon carpeting with attractive border
+•Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position
+•Removable and easy to clean
+•Quick, easy installation',
+part_number: 'PT208-03150-20 (BLACK), PT208-03150-13 (ASH), PT208-03150-40 (IVORY)'
+
+Accessory.find_or_create_by id: 206,
+model_id: 3,
+image_file_name: "PT936-03150-camry-door-guard.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Edge Guards',
+price: 111.00,
+parts_cost: 54.00,
+labor_cost: 37.95,
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a precise fit to door edge contours
+•Compression fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help resist cracking, fading and peeling',
+part_number: 'Set of 4 PT936-03150-XX'
+
+Accessory.find_or_create_by id: 207,
+model_id: 3,
+image_file_name: "camry-first-aid.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'First Aid Kit',
+price: 29.00,
+parts_cost: 17.50,
+labor_cost: 0,
+description: '•Soft-sided, water-resistant and flame-retardant black PVC zipper case contains an assortment of first aid supplies for treatment of minor injuries.',
+part_number: 'PT420-03023'
+
+Accessory.find_or_create_by id: 208,
+model_id: 3,
+image_file_name: "Camry_2015_IlluminatedDoorSill.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Illuminated Door Sills',
+price: 229.00,
+parts_cost: 155.00,
+labor_cost: 112.95,
+description: '•Sleek design and blue LED illumination give the interior a stylish look
+•Helps protect door sills from scuffs, scrapes and scratches
+•Made from durable brushed stainless steel with polished accents',
+part_number: 'PT922-03121'
+
+Accessory.find_or_create_by id: 209,
+model_id: 3,
+image_file_name: "PU060-33015-P1-camry-mud-guards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mudguards',
+price: 85.00,
+parts_cost: 47.00,
+labor_cost: 37.95,
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Available in a set of four',
+part_number: 'PU060-33015-P1'
+
+Accessory.find_or_create_by id: 210,
+model_id: 3,
+image_file_name: "PT747-03150-camry-bumper-applique.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Bumper Applique',
+price: 57.00,
+parts_cost: 34.00,
+labor_cost: 37.95,
+description: '•Helps protect top painted surface of bumper from scrapes and scratches
+•High-grade colorless, durable urethane film with UV protection
+•Designed and cut for an exact fit to the vehicle’s rear bumper',
+part_number: 'PT747-03150'
+
+Accessory.find_or_create_by id: 211,
+model_id: 3,
+image_file_name: "Camry_2015_RearSpoiler.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Spoiler',
+price: 240.00,
+parts_cost: 118.00,
+labor_cost: 225.95,
+description: '•Manufactured from lightweight, durable material
+•Features precisely sculpted detail
+•Adds sporty, integrated appearance
+•Paint is precisely matched to the vehicle color palette
+•Spoiler meets all factory specifications and testing for secure retention to vehicle and corrosion resistance•Includes all mounting hardware ',
+part_number: 'PT890-03150-xx (ORDER PER VEHICLE COLOR CODE), PT890-03150 (INSTALL KIT)'
+
+Accessory.find_or_create_by id: 212,
+model_id: 3,
+image_file_name: "camry-remote-start.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Remote Engine Starter',
+price: 399.99,
+parts_cost: 241.00,
+labor_cost: 225.95,
+description: '•Enables owners to start and turn off the engine remotely
+•Engine starts with quick, three-step sequence using keyless factory remote entry fob
+•Activates air conditioner, heater, defroster and defogger functions (to preset temperatures and settings), so owners can have their vehicle ready with a comfortable passenger compartment
+•Integrates with keyless entry system and existing factory security where applicable
+•Vehicles withOUT OE Alarm require additional Hood switch part number PT398-03121 to complete installation
+•Do NOT install into Manual Transmission Vehicles
+•Do NOT install into Vehicles withOUT Smart Key system
+•Will NOT program with Techstream lite',
+part_number: 'PT398-03120, PT398-03121(HOOD SWITCH) ADD $42.00 IF VEHICLE DOES NOT HAVE FACTORY ALARM'
+
+Accessory.find_or_create_by id: 213,
+model_id: 3,
+image_file_name: "camry-security.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'VIP Security System (RS3200 Plus)',
+price: 299.99,
+parts_cost: 241.00,
+labor_cost: 225.95,
+description: '•Designed to integrate with the keyless entry system—no need for an additional remote
+•Alarm functions:
+•Panic alarm remotely triggers vehicle’s alarm when activated from key fob
+•Warn-away alarm triggers if an object striking a window is detected
+•Break-in alarm is activated if forced entry of a side door (or the hatchback) is attempted or if glass is broken
+•Other features:
+•Door ajar warning helps remind driver to lock vehicle
+•Remote arming and disarming
+•Automatic rearming and relocking
+•Interior light activates when vehicle is unlocked with key fob
+•Rolling code technology changes the remote code, helping prevent code theft
+•Starter disabled when system is activated
+•Includes Glass Breakage Sensor (GBS)
+•Highly sensitive microphone detects the specific sound frequency of striking on glass or glass breakage
+•Sounds alarm and disarms starter if a window is broken
+•Sounds a warn-away alarm if object striking a window is detected',
+part_number: ''
 
 # Accessory.find_or_create_by id: ,
-# model_id: ,
+# model_id: 3,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
 # name: '',
 # price: ,
 # parts_cost: ,
-# labor_cost: 0,
+# labor_cost: ,
 # description: '',
 # part_number: ''
+
 
 
 
