@@ -3465,8 +3465,147 @@ labor_cost: 225.95,
 description: 'When it comes to security, the RS3200+ vehicle security system is the ideal addition.',
 part_number: ''
 
+
+#### Prius C ####
+
+
+Accessory.find_or_create_by id: 271,
+model_id: 17,
+image_file_name: "prius-All-Weather-Floor-Mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+part_number: ''
+
+Accessory.find_or_create_by id: 272,
+model_id: 17,
+image_file_name: "2014-avalon-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 29.00,
+labor_cost: 22.95,
+description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+part_number: ''
+
+Accessory.find_or_create_by id: 273,
+model_id: 17,
+image_file_name: "prius-c-body-side-molding.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Body Side Moldings',
+price: 185.00,
+parts_cost: 0,
+labor_cost: 37.95,
+description: 'Color-matched body side moldings help protect your Prius C from careless door swings, renegade shopping carts and other parking lot mishaps.',
+part_number: ''
+
+Accessory.find_or_create_by id: 274,
+model_id: 17,
+image_file_name: "prius-c-cargo-net-envelope.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net – Envelope',
+price: 35.00,
+parts_cost: 21.00,
+labor_cost: 0,
+description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+part_number: ''
+
+Accessory.find_or_create_by id: 276,
+model_id: 17,
+image_file_name: "prius-c-cargo-tote.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tote',
+price: 48.00,
+parts_cost: 28.00,
+labor_cost: 0,
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant',
+part_number: ''
+
+Accessory.find_or_create_by id: 275,
+model_id: 17,
+image_file_name: "prius-c-cargo-tray.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tray',
+price: 74.00,
+parts_cost: 52.00,
+labor_cost: 0,
+description: 'Tough and flexible, the cargo tray helps protect your trunk area carpeting when transporting all types of items.',
+part_number: ''
+
+Accessory.find_or_create_by id: 277,
+model_id: 17,
+image_file_name: "prius-c-carpet-cargo-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Cargo Mat',
+price: 94.00,
+parts_cost: 79.00,
+labor_cost: 0,
+description: 'This durable carpet cargo mat helps keep your Prius c cargo area dressed up and looking like new.',
+part_number: ''
+
+Accessory.find_or_create_by id: 278,
+model_id: 17,
+image_file_name: "prius-c-carpet-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Floor Mats',
+price: 129.00,
+parts_cost: 89.00,
+labor_cost: 0,
+description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Prius C.',
+part_number: ''
+
+Accessory.find_or_create_by id: 279,
+model_id: 17,
+image_file_name: "prius-c-Door-Edge-Guards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Edge Guards',
+price: 94.00,
+parts_cost: 79.00,
+labor_cost: 37.95,
+description: 'Help prevent door edge dings and chipped paint with this protective finishing touch.',
+part_number: ''
+
+Accessory.find_or_create_by id: 280,
+model_id: 17,
+image_file_name: "prius-c-bumper-protector.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Bumper Protector',
+price: 70.00,
+parts_cost: 51.00,
+labor_cost: 37.95,
+description: 'Help keep the top surface of your rear bumper free of scrapes and scratches while preserving the “like new” appearance of your Prius C.',
+part_number: ''
+
+Accessory.find_or_create_by id: 281,
+model_id: 17,
+image_file_name: "avalon-Glass-Breakage-Sensor.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'RS3200+ Vehicle Security System',
+price: 299.00,
+parts_cost: 229.00,
+labor_cost: 225.95,
+description: 'Provides automatic rearming, door ajar warning, interior light activation, panic alarm, rolling code technology, disabling of the starter and GBS.',
+part_number: ''
+
 # Accessory.find_or_create_by id: 2,
-# model_id: 16,
+# model_id: 17,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
