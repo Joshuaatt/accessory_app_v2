@@ -2073,111 +2073,145 @@ part_number: 'PT228-89445'
 
 Accessory.find_or_create_by id: 176,
 model_id: 1,
-image_file_name: "",
+image_file_name: "PT218-89110-4runner-cargo-tray.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
+name: 'Cargo Tray',
+price: 99.00,
+parts_cost: 63.00,
 labor_cost: 0,
-description: '',
-part_number: ''
+description: '•Molded from a tough, flexible polymer blend that’s easy to clean
+•Skid-resistant surface helps keep cargo from sliding around
+•Perimeter lip helps contain spills, debris and liquids
+•Designed to fit the vehicle’s cargo floor
+•Features molded vehicle logo',
+part_number: 'PT218-89110 (WITH SLIDING TRAY), PT218-89111 (WITH THIRD ROW), PT218-89112 (WITHOUT THIRD ROW)'
 
 Accessory.find_or_create_by id: 177,
 model_id: 1,
-image_file_name: "",
+image_file_name: "4runner-door-edge-guards.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
-labor_cost: 0,
-description: '',
+name: 'Door Edge Guards',
+price: 55.00,
+parts_cost: 34.00,
+labor_cost: 37.95,
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a perfect fit to door edge contours
+•Compression fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to resist cracking, fading and peeling',
 part_number: ''
 
 Accessory.find_or_create_by id: 178,
 model_id: 1,
-image_file_name: "",
+image_file_name: "PT932-89100-4runner-exhaust-tip.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
-labor_cost: 0,
-description: '',
-part_number: ''
+name: 'Exhaust Tip',
+price: 70.00,
+parts_cost: 44.00,
+labor_cost: 15.95,
+description: '•Constructed of double-walled, polished 304 stainless steel
+•Corrosion resistant, ensuring its beauty for years to come
+•Eye-catching accessory that enhances the vehicle’s exterior appearance
+•Easy, bolt-on installation requires no cutting, drilling or welding; all hardware included
+Disclaimers not available',
+part_number: 'PT932-89100'
 
 Accessory.find_or_create_by id: 179,
 model_id: 1,
-image_file_name: "",
+image_file_name: "4runner-mud-guards.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
-labor_cost: 0,
-description: '',
+name: 'Mudguards',
+price: 78.00,
+parts_cost: 47.00,
+labor_cost: 37.95,
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Available in a set of four',
 part_number: ''
 
 Accessory.find_or_create_by id: 180,
 model_id: 1,
-image_file_name: "",
+image_file_name: "4runner-remote-start.jpeg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
-labor_cost: 0,
-description: '',
+name: 'Remote Engine Start',
+price: 399.00,
+parts_cost: 239.00,
+labor_cost: 225.95,
+description: '•Enables owners to start and turn off the engine remotely
+•Engine starts with quick, three-step sequence using keyless factory remote entry fob
+•Activates air conditioner, heater, defroster and defogger functions (to preset temperatures and settings), so owners can have their vehicle ready with a comfortable passenger compartment
+•Integrates with keyless entry system and existing factory security where applicable',
 part_number: ''
 
 Accessory.find_or_create_by id: 181,
 model_id: 1,
-image_file_name: "",
+image_file_name: "PT278-89100-4runner-roof-rack.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
-labor_cost: 0,
-description: '',
-part_number: ''
+name: 'Roof Rack Cross Bars',
+price: 140.00,
+parts_cost: 85.00,
+labor_cost: 37.95,
+description: '•Set of two roof rack cross bars engineered specifically to integrate with the 4Runner’s factory roof rails
+•Enhance the vehicle’s utility and cargo management versatility. Provide additional secure tie-down points for various roof rack accessories
+•Fully adjustable design; can be positioned anywhere along the vehicle’s side rails with no tools necessary
+•Can support a maximum of132 lb. (60 kg) when evenly distributed across both bar',
+part_number: 'PT278-89100'
 
 Accessory.find_or_create_by id: 182,
 model_id: 1,
-image_file_name: "",
+image_file_name: "PT925-89110-4ruuner-running-boards.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
-labor_cost: 0,
-description: '',
-part_number: ''
-
-Accessory.find_or_create_by id: 183,
-model_id: 1,
-image_file_name: "",
-image_content_type: "image/jpeg",
-active: true,
-name: '',
-price: ,
-parts_cost: ,
-labor_cost: 0,
-description: '',
-part_number: ''
+name: 'Running Boards',
+price: 549.00,
+parts_cost: 340.00,
+labor_cost: 75.00,
+description: '•Sturdy roll-formed running boards provide easy, safe step-in access to the vehicle
+•Skid resistant step pads ensure secure footing
+•Features plastic-injected end caps for a streamlined and finished look, in comparison to aftermarket products, which often use blow-molded/vac-formed end caps
+•Designed to correspond with 4Runner\'s unique styling cues
+Disclaimers not available',
+part_number: 'PT925-89110'
 
 Accessory.find_or_create_by id: 184,
 model_id: 1,
-image_file_name: "",
+image_file_name: "PTR45-35010-4runner-alloy-wheel.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: '',
-price: ,
-parts_cost: ,
+name: 'TRD Forged Alloy Wheel',
+price: 1596.00,
+parts_cost: 300.00,
+labor_cost: 150.95,
+description: '•Race-inspired
+•TRD-branded
+•17-inch
+•TRD "LONG" Lugnut installation Kit, PTR27-89100 -- required and sold separately',
+part_number: 'PTR45-35010 X 4 (ALSO ORDER PTR27-89100)'
+
+Accessory.find_or_create_by id: 183,
+model_id: 1,
+image_file_name: "PTR43-00083-4runner-air-filter.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Performance Air Filter',
+price: 93.00,
+parts_cost: 59.75,
 labor_cost: 0,
-description: '',
-part_number: ''
+description: '•Free-flowing TRD performance air filter design provides engine protection, while potentially increasing engine output
+•Allows the maximum amount of air into the engine with the minimal amount of resistance
+•Washable and reusable—regular cleaning ensures free airflow and top performance
+•Designed to last the lifetime of the vehicle
+Pre-oiled and ready to install, offering exact drop-in replacement for stock air filter',
+part_number: 'PTR43-00083'
 
 # Accessory.find_or_create_by id: ,
 # model_id: ,
