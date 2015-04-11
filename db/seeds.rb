@@ -2498,7 +2498,7 @@ active: true,
 name: 'Carpet Floor Mats',
 price: 129.00,
 parts_cost: 79.00,
-labor_cost: ,
+labor_cost: 0,
 description: '•Custom fitted to the vehicle’s floor plan
 •Made of high-grade plush nylon carpeting with attractive border
 •Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position
@@ -2641,8 +2641,257 @@ description: '•Designed to integrate with the keyless entry system—no need f
 •Sounds a warn-away alarm if object striking a window is detected',
 part_number: ''
 
-# Accessory.find_or_create_by id: ,
-# model_id: 3,
+
+#### Corolla ####
+
+Accessory.find_or_create_by id: 214,
+model_id: 4,
+image_file_name: "corolla-cargo-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All Weather Cargo Mat',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Molded from a tough, flexible polymer blend that’s easy to clean
+•Skid-resistant surface helps keep cargo from sliding around
+•Perimeter lip helps contain spills, debris and liquids
+•Designed to fit the vehicle’s cargo floor
+•Features molded vehicle logo',
+part_number: ''
+
+Accessory.find_or_create_by id: 215,
+model_id: 4,
+image_file_name: "corolla-all-weather-floor-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 0,
+labor_cost: 59.00,
+description: '•Helps protect vehicle’s factory carpet against mud, sand, stains and soils
+•Made from a durable and flexible thermoplastic elastomer that’s easy to clean
+•Black mats feature ribbed channels and an embossed vehicle logo
+•Lightweight',
+part_number: 'PT908-02140-20 (MANUAL TRANSMISSION WITHOUT SEAT HEATER), PT908-02141-20 (MANUAL TRANSMISSION WITH REAR HEATER), PT908-02143-20 (AUTOMATIC)'
+
+Accessory.find_or_create_by id: 216,
+model_id: 4,
+image_file_name: "corolla-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: '00276-00900'
+
+Accessory.find_or_create_by id: 217,
+model_id: 4,
+image_file_name: "corolla-ash-cup.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 17.00,
+parts_cost: 13.00,
+labor_cost: 0,
+description: '•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Easy to empty and clean',
+part_number: '74101-AE010'
+
+Accessory.find_or_create_by id: 218,
+model_id: 4,
+image_file_name: "corolla-body-side-molding.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Body Side Moldings',
+price: 165.00,
+parts_cost: 107.00,
+labor_cost: 37.95,
+description: '•Helps provide exterior door protection from scratches, dents and chipping
+•Color-matched to the factory paint of the vehicle
+•Set of four',
+part_number: 'PT938-02140-XX (ORDER PER VEHICLE COLOR CODE)'
+
+Accessory.find_or_create_by id: 219,
+model_id: 4,
+image_file_name: "corolla-cargo-net-envelope.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net - Envelope',
+price: 42.00,
+parts_cost: 25.00,
+labor_cost: 0,
+description: '•Helps keep everyday items from rolling around or tipping over
+•Custom-fit to the vehicle’s cargo area
+•Easy to install; attaches to hooks and tabs in cargo area',
+part_number: 'PT347-02140'
+
+Accessory.find_or_create_by id: 220,
+model_id: 4,
+image_file_name: "corolla-carpet-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Floor Mats',
+price: 129.00,
+parts_cost: 79.00,
+labor_cost: 0,
+description: '•Custom-fitted to the vehicle’s floor plan
+•Made of high-grade plush nylon carpeting with attractive border
+•Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position
+•Removable and easy to clean
+•Quick, easy installation',
+part_number: 'PT206-02142-XX (ORDER PER STITCH COLOR)'
+
+Accessory.find_or_create_by id: 221,
+model_id: 4,
+image_file_name: "corolla-carpet-trunk-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Trunk Mat',
+price: 94.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Designed to protect the vehicle’s trunk area from premature wear and stains
+•Made of durable nylon carpet that resists fading
+•Rubber-backed construction helps prevent the mat from sliding
+•Features a stylish vehicle logo',
+part_number: 'PT206-02141-20'
+
+Accessory.find_or_create_by id: 222,
+model_id: 4,
+image_file_name: "corolla-door-edg-guards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Edge Guards',
+price: 111.00,
+parts_cost: 67.00,
+labor_cost: 37.95,
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a perfect fit to door edge contours
+•Compressed-fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help prevent cracking, fading and peeling',
+part_number: ''
+
+Accessory.find_or_create_by id: 223,
+model_id: 4,
+image_file_name: "corolla-door-light.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Enhancements',
+price: 179.00,
+parts_cost: 120.00,
+labor_cost: 37.95,
+description: '•Features a brushed-aluminum overlay with polished accents
+•Helps protect door sills from unsightly scuffs and scratches during vehicle entry and exit
+•Simple installation includes self-adhesive backing
+•Set of four',
+part_number: 'PT228-02140'
+
+Accessory.find_or_create_by id: 224,
+model_id: 4,
+image_file_name: "corolla-emergency-kit.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Emergency Assistance Kit',
+price: 59.00,
+parts_cost: 42.00,
+labor_cost: 0,
+description: '•Portable emergency assistance kit provides basic supplies for minor repairs or emergencies
+•Triangle shaped zipper bag in gray/black two-tone with outer storage pockets
+•Reflective emergency indicators on kit surface
+•Contents include:
+•Versatile, stainless steel pocket tool with multiple functions including:
+•Pliers
+•Wire cutters
+•Two screw drivers
+•Heat-reflective emergency blanket
+•Hand-squeezed flashlight
+•Work gloves with textured palm area to optimize grip
+•Automotive-grade hose tape
+•Booster/jumper cables with multi-lingual instructions
+•Tire gauge
+•Bungee cord
+•Shop towel
+•Tether strap',
+part_number: 'PT420-00130'
+
+Accessory.find_or_create_by id: 225,
+model_id: 4,
+image_file_name: "corolla-first-aid-kit.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'First Aid Kit',
+price: 29.00,
+parts_cost: 17.50,
+labor_cost: 0,
+description: '•Soft-sided, water-resistant and flame-retardant black PVC zipper case contains an assortment of first aid supplies for treatment of minor injuries
+•Insect-sting relief pads
+•Self-adhesive bandages
+•Rolled stretch bandage with metal clips
+•Two multi-use, waterproof, heat-reflective survival blankets
+•Also included are stainless steel scissors capable of cutting through seatbelt strapping
+•Meets Federal Motor Vehicle Flame Retardant Safety Standards (FMVSS 302)',
+part_number: 'PT420-03023'
+
+Accessory.find_or_create_by id: 226,
+model_id: 4,
+image_file_name: "corolla-wheel.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mudguards',
+price: 85.00,
+parts_cost: 53.00,
+labor_cost: 37.95,
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Available in a set of four',
+part_number: 'PU060-12014-P1'
+
+Accessory.find_or_create_by id: 227,
+model_id: 4,
+image_file_name: "corolla-bumper-guard.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Bumper Protector',
+price: 70.00,
+parts_cost: 45.00,
+labor_cost: 37.95,
+description: '•Helps protect the top surface of the rear bumper from scrapes and scratches
+•Designed for an exact fit to the vehicle’s rear bumper
+•Durable black UV-resistant PVC construction with skid-resistant surface
+•Features vehicle logo',
+part_number: 'PT278-02140'
+
+Accessory.find_or_create_by id: 228,
+model_id: 4,
+image_file_name: "corolla-air-filter.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Performance Engine Air Filter',
+price: 59.75,
+parts_cost: 46.50,
+labor_cost: 0,
+description: '•Allows the maximum amount of air into the engine with the minimal amount of resistance
+•Washable and reusable—regular cleaning ensures free airflow and top performance
+•Designed to last the lifetime of the vehicle
+•Pre-oiled and ready to install; offers exact drop-in replacement for stock air filter',
+part_number: ''
+
+# Accessory.find_or_create_by id: 2,
+# model_id: 4,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
