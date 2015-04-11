@@ -2890,8 +2890,241 @@ description: '•Allows the maximum amount of air into the engine with the minim
 •Pre-oiled and ready to install; offers exact drop-in replacement for stock air filter',
 part_number: ''
 
+
+#### Highlander ####
+
+Accessory.find_or_create_by id: 229,
+model_id: 13,
+image_file_name: "highlander-all-weather-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All Weather Mats',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Helps protect vehicle’s factory carpet against mud, sand, stains and soils
+•Made from a durable and flexible thermoplastic elastomer that’s easy to clean
+•Black mats feature ribbed channels and an embossed vehicle logo
+•Lightweight',
+part_number: ''
+
+Accessory.find_or_create_by id: 230,
+model_id: 13,
+image_file_name: "highlander-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface.',
+part_number: '00276-00900'
+
+Accessory.find_or_create_by id: 231,
+model_id: 13,
+image_file_name: "highlander-body-molding.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Body Side Moldings',
+price: 165.00,
+parts_cost: 107.00,
+labor_cost: 37.95,
+description: '•Helps provide exterior door protection from scratches, dents and chipping
+•Color-matched to the factory paint of the vehicle
+•Set of four',
+part_number: ''
+
+Accessory.find_or_create_by id: 232,
+model_id: 13,
+image_file_name: "highlander-cargo-cover.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Cover',
+price: 175.00,
+parts_cost: 125.00,
+labor_cost: 0,
+description: '•Custom-designed to create a covered, secure cargo area
+•Offers valuable protection against sun damage, fading and theft
+•Made of durable, UV- and stain-resistant woven polyester
+•Simple to install and remove',
+part_number: ''
+
+Accessory.find_or_create_by id: 233,
+model_id: 13,
+image_file_name: "highlander-cargo-liner.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Liner',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Helps provide full protection including seatbacks and cargo area
+•Designed for maximum versatility
+•Unique design splits and folds to adjust to a multitude of configurations
+•Ribbed channel design with perimeter to help contain spills',
+part_number: ''
+
+Accessory.find_or_create_by id: 234,
+model_id: 13,
+image_file_name: "highlander-cargo-net.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net',
+price: 42.00,
+parts_cost: 25.00,
+labor_cost: 0,
+description: '•Helps keep everyday items from rolling around or tipping over
+•Custom-fit to the vehicle’s cargo area
+•Easy to install; attaches to hooks and tabs in cargo area
+•Designed with Toyota-approved materials for long-term durability
+•Stores flat when not in use',
+part_number: 'pt347-48140'
+
+Accessory.find_or_create_by id: 235,
+model_id: 13,
+image_file_name: "highlander-cargo-tote.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tote',
+price: 48.00,
+parts_cost: 29.00,
+labor_cost: 0,
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant ',
+part_number: 'PT427-00120'
+
+Accessory.find_or_create_by id: 236,
+model_id: 13,
+image_file_name: "highlander-cargo-carpet-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Cargo Mat',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Designed specifically to protect the carpet in the cargo area from stains and premature wear
+•Easily removable
+•Made of durable, fade-resistant nylon carpet
+•Rubber-backed construction helps prevent the mat from sliding
+•Features stylish vehicle logo',
+part_number: ''
+
+Accessory.find_or_create_by id: 237,
+model_id: 13,
+image_file_name: "highlander-crossbar-kit.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cross Bar Kit',
+price: 325.00,
+parts_cost: 225.00,
+labor_cost: 112.95,
+description: '•Designed to mount precisely to vehicle roof
+•Accepts all Genuine Toyota roof rack accessories
+•Maintains Toyota’s high-quality standards for ride quality, performance and strength
+•Load rating of 150 lbs.',
+part_number: ''
+
+Accessory.find_or_create_by id: 238,
+model_id: 13,
+image_file_name: "highlander-emergency-kit.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Emergency Assistance Kit',
+price: 59.00,
+parts_cost: 42.00,
+labor_cost: 0,
+description: '•Portable emergency assistance kit provides basic supplies for minor repairs or emergencies
+•Triangle shaped zipper bag in gray/black two-tone with outer storage pockets
+•Reflective emergency indicators on kit surface
+•Contents include:
+•Versatile, stainless steel pocket tool with multiple functions including:
+•Pliers
+•Wire cutters
+•Two screw drivers
+•Heat-reflective emergency blanket
+•Hand-squeezed flashlight
+•Work gloves with textured palm area to optimize grip
+•Automotive-grade hose tape
+•Booster/jumper cables with multi-lingual instructions
+•Tire gauge
+•Bungee cord
+•Shop towel
+•Tether strap',
+part_number: 'PT420-00130'
+
+Accessory.find_or_create_by id: 239,
+model_id: 13,
+image_file_name: "highlander-first-aid.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'First Aid Kit',
+price: 29.00,
+parts_cost: 17.50,
+labor_cost: 0,
+description: '•Soft-sided, water-resistant and flame-retardant black PVC zipper case contains an assortment of first aid supplies for treatment of minor injuries
+•Insect-sting relief pads
+•Self-adhesive bandages
+•Rolled stretch bandage with metal clips
+•Two multi-use, waterproof, heat-reflective survival blankets
+•Also included are stainless steel scissors capable of cutting through seatbelt strapping
+•Meets Federal Motor Vehicle Flame Retardant Safety Standards (FMVSS 302) ',
+part_number: 'PT420-03023'
+
+Accessory.find_or_create_by id: 240,
+model_id: 13,
+image_file_name: "highlander-mud-guard.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mud Guards',
+price: 85.00,
+parts_cost: 53.00,
+labor_cost: 37.95,
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware',
+part_number: 'PT345-48140'
+
+Accessory.find_or_create_by id: 241,
+model_id: 13,
+image_file_name: "highlander-remote-start.jpeg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Remote Engine Start / with Smart Key',
+price: 441.00,
+parts_cost: 264.00,
+labor_cost: 225.95,
+description: '•Enables owners to start and turn off the engine remotely
+•Engine starts with quick, three-step sequence using keyless factory remote entry fob
+•Activates air conditioner, heater, defroster and defogger functions (to preset temperatures and settings), so owners can have their vehicle ready with a comfortable passenger compartment
+•Integrates with keyless entry system and existing factory security where applicable ',
+part_number: 'PT398-48140 & PT398-03121 ( if car does not have factory alarm system)'
+
+Accessory.find_or_create_by id: 242,
+model_id: 13,
+image_file_name: "highlander-running-boards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Running Boards (Black)',
+price: 499.00,
+parts_cost: 350.00,
+labor_cost: 112.95,
+description: '•Sturdy running boards provide easy, safe step-in access to the vehicle
+•Brushed stainless steel with rubber grip points to ensure secure footing
+•Features plastic-injected end caps for a streamlined and finished look
+•Designed to correspond with Highlander’s unique styling
+•Textured black powder coat provides rugged look',
+part_number: ''
+
 # Accessory.find_or_create_by id: 2,
-# model_id: 4,
+# model_id: 13,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
