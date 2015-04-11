@@ -2213,6 +2213,167 @@ description: '•Free-flowing TRD performance air filter design provides engine 
 Pre-oiled and ready to install, offering exact drop-in replacement for stock air filter',
 part_number: 'PTR43-00083'
 
+
+#### Avalon ####
+
+Accessory.find_or_create_by id: 185,
+model_id: 2,
+image_file_name: "2015-avalon-floor-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 79.00,
+labor_cost: 0,
+description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+part_number: ''
+
+Accessory.find_or_create_by id: 186,
+model_id: 2,
+image_file_name: "2014-avalon-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 29.00,
+labor_cost: 22.95,
+description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+part_number: ''
+
+Accessory.find_or_create_by id: 187,
+model_id: 2,
+image_file_name: "PT347-0711G-avalon-cargo-net-envelope.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net – Envelope',
+price: 42.00,
+parts_cost: 31.00,
+labor_cost: 0,
+description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+part_number: 'PT347-0711G-CC'
+
+Accessory.find_or_create_by id: 188,
+model_id: 2,
+image_file_name: "avalon-cargo-tote.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tote',
+price: 48.00,
+parts_cost: 29.00,
+labor_cost: 0,
+description: 'The collapsible, soft-sided cargo tote holds a variety of items, helping ensure they don’t shift around or tip over in your cargo area.',
+part_number: ''
+
+Accessory.find_or_create_by id: 189,
+model_id: 2,
+image_file_name: "2014-Toyota-Avalon-Cargo-Tray.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tray',
+price: 99.00,
+parts_cost: 79.00,
+labor_cost: 0,
+description: 'Tough and flexible, the cargo tray helps protect your trunk area carpeting when transporting all types of items.',
+part_number: ''
+
+Accessory.find_or_create_by id: 190,
+model_id: 2,
+image_file_name: "avalon-carpet-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Floor Mats',
+price: 129.00,
+parts_cost: 89.00,
+labor_cost: 0,
+description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Avalon.',
+part_number: ''
+
+Accessory.find_or_create_by id: 191,
+model_id: 2,
+image_file_name: "avalon-carpet-trunk-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Trunk Mat',
+price: 94.00,
+parts_cost: 79.00,
+labor_cost: 0,
+description: 'This durable carpet trunk mat helps keep your Avalon trunk area dressed up and looking like new.',
+part_number: ''
+
+Accessory.find_or_create_by id: 192,
+model_id: 2,
+image_file_name: "Toyota-Avalon-2014-Door-Edge-Guards",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Edge Guards',
+price: 94.00,
+parts_cost: 79.00,
+labor_cost: 37.95,
+description: 'Help prevent door edge dings and chipped paint with this protective finishing touch.',
+part_number: ''
+
+Accessory.find_or_create_by id: 193,
+model_id: 2,
+image_file_name: "avalon-Glass-Breakage-Sensor.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Glass Breakage Sensor (GBS)',
+price: 179.00,
+parts_cost: 89.00,
+labor_cost: 112.95,
+description: 'If your Avalon already has a factory security system, enhance your protection with the Glass Breakage Sensor.',
+part_number: ''
+
+Accessory.find_or_create_by id: 197,
+model_id: 2,
+image_file_name: "avalon-Illuminated-Door-Sills.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Illuminated Door Sills',
+price: 299.00,
+parts_cost: 112.95,
+labor_cost: 219.00,
+description: 'With a two-tone brushed stainless steel finish, these illuminated door sills help protect against scuffs and scrapes while adding a touch of elegance.',
+part_number: ''
+
+Accessory.find_or_create_by id: 194,
+model_id: 2,
+image_file_name: "avalon-Mudguards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mudguards',
+price: 85.00,
+parts_cost: 68.00,
+labor_cost: 37.95,
+description: 'Help protect your paint finish from road debris and the damage it causes.',
+part_number: ''
+
+Accessory.find_or_create_by id: 195,
+model_id: 2,
+image_file_name: "PT747-07130-avalon-bumper-cover.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Bumper Appliqué',
+price: 57.00,
+parts_cost: 38.00,
+labor_cost: 37.95,
+description: 'This nearly invisible appliqué helps protect the top surface of your rear bumper from unsightly scrapes and scratches.',
+part_number: ''
+
+Accessory.find_or_create_by id: 196,
+model_id: 2,
+image_file_name: "avalon-Remote-Engine-Starter.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Remote Engine Starter',
+price: 399.00,
+parts_cost: 219.00,
+labor_cost: 225.95,
+description: 'Have your Avalon ready, waiting and comfortable no matter what the weather.',
+part_number: ''
+
+
+
 # Accessory.find_or_create_by id: ,
 # model_id: ,
 # image_file_name: "",
@@ -2224,6 +2385,7 @@ part_number: 'PTR43-00083'
 # labor_cost: 0,
 # description: '',
 # part_number: ''
+
 
 
 OrderStatus.find_or_create_by id: 1, name: "In Progress"
