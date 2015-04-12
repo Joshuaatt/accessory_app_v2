@@ -2289,7 +2289,10 @@ name: 'Cargo Tote',
 price: 48.00,
 parts_cost: 29.00,
 labor_cost: 0,
-description: 'The collapsible, soft-sided cargo tote holds a variety of items, helping ensure they don’t shift around or tip over in your cargo area.',
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant',
 part_number: ''
 
 Accessory.find_or_create_by id: 189,
@@ -3040,7 +3043,7 @@ labor_cost: 0,
 description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
 •Features carrying handles and removable divider panels
 •Soft-sided tote folds flat when not in use and pops up when needed
-•Tough outer fabric is durable and water resistant ',
+•Tough outer fabric is durable and water resistant',
 part_number: 'PT427-00120'
 
 Accessory.find_or_create_by id: 236,
@@ -3255,7 +3258,10 @@ name: 'Cargo Tote',
 price: 48.00,
 parts_cost: 23.00,
 labor_cost: 0,
-description: 'The collapsible, soft-sided cargo tote holds a variety of items, helping ensure they don’t shift around or tip over in your cargo area.',
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant',
 part_number: ''
 
 Accessory.find_or_create_by id: 249,
@@ -3453,7 +3459,10 @@ name: 'Cargo Tote',
 price: 48.00,
 parts_cost: 29.00,
 labor_cost: 0,
-description: 'The collapsible, soft-sided cargo tote holds a variety of items, helping ensure they don’t shift around or tip over in your cargo area.',
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant',
 part_number: ''
 
 Accessory.find_or_create_by id: 263,
@@ -3820,7 +3829,10 @@ name: 'Cargo Tote',
 price: 48.00,
 parts_cost: 29.00,
 labor_cost: 0,
-description: 'The collapsible, soft-sided cargo tote holds a variety of items, helping ensure they don’t shift around or tip over in your cargo area.',
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant',
 part_number: ''
 
 Accessory.find_or_create_by id: 287,
@@ -4217,8 +4229,266 @@ description: '•Powder top coat protects against ultraviolet rays and helps mai
 •Ball mount and trailer ball sold separately',
 part_number: ''
 
+
+#### Sequoia ####
+
+Accessory.find_or_create_by id: 312,
+model_id: 20,
+image_file_name: "sequoia-all-weather-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0.00,
+description: '•Helps protect vehicle’s factory carpet against mud, sand, stains and soils
+•Made from a durable and flexible thermoplastic elastomer that’s easy to clean
+•Black mats feature ribbed channels and an embossed vehicle logo
+•Lightweight',
+part_number: 'PT908-0C120-20'
+
+Accessory.find_or_create_by id: 313,
+model_id: 20,
+image_file_name: "2014-avalon-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 66.00,
+parts_cost: 40.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple, intuitive installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: 'PT276-60070'
+
+Accessory.find_or_create_by id: 314,
+model_id: 20,
+image_file_name: "sequoia-ash-cup.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 21.50,
+parts_cost: 13.25,
+labor_cost: 0,
+description: '•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Easy to empty and clean',
+part_number: '74102-02140'
+
+Accessory.find_or_create_by id: 315,
+model_id: 20,
+image_file_name: "sequoia-cargo-cover.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Cover',
+price: 175.00,
+parts_cost: 125.00,
+labor_cost: 52.50,
+description: '•Custom-designed to create a covered, secure cargo area
+•Offers valuable protection against sun damage, fading and theft
+•Made of durable, UV- and stain-resistant woven polyester
+•Simple to install and remove
+Cargo load and capacity limited by weight and distribution.',
+part_number: 'PT311-0C080-11 (ASH)
+PT311-0C080-21 (RED ROCK)
+PT311-0C080-41 (BEIGE)'
+
+Accessory.find_or_create_by id: 316,
+model_id: 20,
+image_file_name: "sequoia-cargo-net-envelope.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net - Envelope',
+price: 35.00,
+parts_cost: 21.00,
+labor_cost: 0,
+description: '•Helps keep items secure and includes zipper pocket for smaller items
+•Custom fit to the vehicle’s cargo area
+•Easy to install; attaches to hooks and tabs in cargo area
+•Designed with Toyota-approved materials for long-term durability
+•Stores flat when not in use',
+part_number: 'PT347-0C080'
+
+Accessory.find_or_create_by id: 317,
+model_id: 20,
+image_file_name: "sequoia-cargo-tote.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tote',
+price: 48.00,
+parts_cost: 29.00,
+labor_cost: 0,
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant',
+part_number: 'PT427-00120'
+
+Accessory.find_or_create_by id: 318,
+model_id: 20,
+image_file_name: "sequoia-door-sill-protectors.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Protectors',
+price: 37.00,
+parts_cost: 22.00,
+labor_cost: 37.95,
+description: '•Durable door sill protectors help protect the vehicle\'s interior from everyday scuffs, scrapes and scratches
+•Designed for a precision fit to the vehicle
+•Skid-resistant surface
+•Features a vehicle logo
+•Quick, simple installation',
+part_number: ''
+
+Accessory.find_or_create_by id: 319,
+model_id: 20,
+image_file_name: "sequoia-emergency-kit.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Emergency Assistance Kit',
+price: 82.00,
+parts_cost: 49.00,
+labor_cost: 0,
+description: '•Portable emergency assistance kit provides basic supplies for minor repairs or emergencies
+•Triangle shaped zipper bag in gray/black two-tone with outer storage pockets
+•Reflective emergency indicators on kit surface
+•Contents include:
+•Versatile, stainless steel pocket tool with multiple functions including:
+•Pliers
+•Wire cutters
+•Two screw drivers
+•Heat-reflective emergency blanket
+•Hand-squeezed flashlight
+•Work gloves with textured palm area to optimize grip
+•Automotive-grade hose tape
+•Booster/jumper cables with multi-lingual instructions
+•Tire gauge
+•Bungee cord
+•Shop towel
+•Tether strap',
+part_number: 'PT420-0C091-GC'
+
+Accessory.find_or_create_by id: 320,
+model_id: 20,
+image_file_name: "sequoia-first-aid.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'First Aid Kit',
+price: 29.00,
+parts_cost: 17.50,
+labor_cost: 0,
+description: '•Soft-sided, water-resistant and flame-retardant black PVC zipper case contains an assortment of first aid supplies for treatment of minor injuries:
+•Insect-sting relief pads
+•Self-adhesive bandages
+•Rolled stretch bandage with metal clips
+•Two multi-use, waterproof, heat-reflective survival blankets
+•Also included are stainless steel scissors capable of cutting through seatbelt strapping
+•Meets Federal Motor Vehicle Flame Retardant Safety Standards (FMVSS 302)',
+part_number: 'PT420-03023'
+
+Accessory.find_or_create_by id: 321,
+model_id: 20,
+image_file_name: "sequoia-skid-plate.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Front Skid Plate',
+price: 375.00,
+parts_cost: 265.00,
+labor_cost: 75.00,
+description: '•Enhances the vehicle’s tough, capable stance
+•Helps protect vehicle underbody from damage that can result from flying stones, branches, ice chunks and other types of road debris
+•Made from stamped and formed 1/8-in.-thick silver powder-coated aluminum
+•Skid plate won’t interfere with or block the cooling system and provides cutouts for unobstructed access to all maintenance points and vehicle tow hooks
+•Engineered to help prevent vibration stress and noise issues while ensuring no compromises to vehicle performance systems
+•Easy, no-drill installation uses vehicle’s existing attachment mounts',
+part_number: 'PT212-34071'
+
+Accessory.find_or_create_by id: 323,
+model_id: 20,
+image_file_name: "sequoia-hood-protector.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Hood Protector',
+price: 120.00,
+parts_cost: 75.00,
+labor_cost: 37.95,
+description: '•Provides superior front-end protection, while enhancing the vehicle’s clean, aerodynamic lines
+•Helps prevent potentially costly repairs to hood and windshield
+•Dark tinted and transparent
+•Made from durable, impact-resistant polycarbonate material
+•Simple, no-drill installation utilizes factory mountings for optimal fit and hold to the vehicle',
+part_number: 'PT427-0C080'
+
+Accessory.find_or_create_by id: 322,
+model_id: 20,
+image_file_name: "sequoia-remote-start.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Remote Engine Starter',
+price: 399.00,
+parts_cost: 316.00,
+labor_cost: 225.95,
+description: '•Enables owners to start and turn off the engine remotely
+•Engine starts with quick, three-step sequence using keyless factory remote entry fob
+•Activates air conditioner, heater, defroster and defogger functions (to preset temperatures and settings), so owners can have their vehicle ready with a comfortable passenger compartment
+•Integrates with keyless entry system and existing factory security where applicable
+Available only for vehicles equipped with Smart Key system or factory remote keyless entry system. Use only if aware of circumstances surrounding the vehicle at time of start. Operate only when legal and safe to do so (e.g., car uncovered in open area with no people or pets inside or nearby). See usage precautions in Owner’s Manual.
+Part# PT398-34111
+•Vehicles without factory alarm need to order and use part number (08586-0C920) to complete the installation.  This part is a hood switch.
+•Vehicle requires RKE.',
+part_number: 'PT398-34111'
+
+Accessory.find_or_create_by id: 324,
+model_id: 20,
+image_file_name: "sequoia-break-pads.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Performance Brake Pads',
+price: 95.00,
+parts_cost: 75.00,
+labor_cost: 150.95,
+description: '•High-performance, high-friction brake pads are made from an aramid/ceramic-strengthened compound, delivering an optimum combination of cold and hot friction
+•Pre-scorched to aid in initial break-in
+•Offers excellent price-to-performance ratio in a high-performance street pad
+•Anti-squeal shims pre-installed
+•Direct replacement for stock pads
+•TRD Performance Brake Pads are good for street and autocross use.  They are not intended for open track sessions',
+part_number: 'PTR09-0C111 (FRONT PADS), PTR09-0C110 (REAR PADS)'
+
+Accessory.find_or_create_by id: 325,
+model_id: 20,
+image_file_name: "avalon-Glass-Breakage-Sensor.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'VIP Security System (RS3200 Plus)',
+price: 179.00,
+parts_cost: 89.00,
+labor_cost: 225.95,
+description: '•Designed to integrate with the vehicle’s existing factory security/keyless entry system—no need for an additional remote
+•Alarm functions:
+•Panic alarm remotely triggers vehicles alarm when activated from key fob
+•Warn-away alarm triggers an alarm triggers if an object striking on a window is detected
+•Break-in alarm is activated or if forced entry of a side door (or the hatchback) is attempted or if glass is broken
+•Other features include:
+•Door ajar warning helps remind driver to lock vehicle
+•Remote arming and disarming with 80 foot range
+•Automatic rearming and relocking
+•Interior light activates when vehicle is unlocked with key fob
+•Rolling code technology changes the remote code, helping prevent code theft
+•Starter disabled when system is activated
+•Includes glass breakage sensor (GBS)
+•Highly sensitive microphone detects the specific sound frequency of striking on glass or glass breakage
+•Sounds alarm and disarms starter if a window is broken
+•Sounds a warn-away alarm if object striking on a window is detected
+•Premium accessory adds to the vehicle’s resale value',
+part_number: ''
+
 # Accessory.find_or_create_by id: 3,
-# model_id: 19,
+# model_id: 20,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
