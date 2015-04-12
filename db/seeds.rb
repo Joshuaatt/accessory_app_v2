@@ -1688,7 +1688,12 @@ name: '2 Piece Carpet Floor Mats',
 price: 89.00,
 parts_cost: 54.00,
 labor_cost: 0,
-description: 'Custom-fitted to the vehicle’s floor plan. Made of high-grade plush nylon carpeting with attractive border. Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position. Removable and easy to clean. Quick, easy installation',
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
 part_number: 'PT206-34141-20'
 
 Accessory.find_or_create_by id: 154,
@@ -1700,7 +1705,12 @@ name: '3 Piece Carpet Floor Mats',
 price: 140.00,
 parts_cost: 91.00,
 labor_cost: 0,
-description: 'Custom-fitted to the vehicle’s floor plan. Made of high-grade plush nylon carpeting with attractive border. Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position. Removable and easy to clean. Quick, easy installation',
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
 part_number: 'PT206-34143-20'
 
 Accessory.find_or_create_by id: 155,
@@ -2225,7 +2235,13 @@ name: 'All-Weather Floor Mats',
 price: 99.00,
 parts_cost: 79.00,
 labor_cost: 0,
-description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+description: '•Helps protect your vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Durable rubber/vinyl material
+•Replaces standard carpet floor mats
+•Black mats featuring a debossed light gray vehicle logo
+•Ribbed channel design
+•Available in a set of four mats
+•Easy to clean',
 part_number: ''
 
 Accessory.find_or_create_by id: 186,
@@ -2255,7 +2271,13 @@ name: 'Cargo Net – Envelope',
 price: 42.00,
 parts_cost: 31.00,
 labor_cost: 0,
-description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
+•Stores flat when not in use',
 part_number: 'PT347-0711G-CC'
 
 Accessory.find_or_create_by id: 188,
@@ -2291,7 +2313,12 @@ name: 'Carpet Floor Mats',
 price: 129.00,
 parts_cost: 89.00,
 labor_cost: 0,
-description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Avalon.',
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 191,
@@ -2315,7 +2342,13 @@ name: 'Door Edge Guards',
 price: 94.00,
 parts_cost: 79.00,
 labor_cost: 37.95,
-description: 'Help prevent door edge dings and chipped paint with this protective finishing touch.',
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a perfect fit to door edge contours
+•Compressed-fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help prevent cracking, fading and peeling',
 part_number: ''
 
 Accessory.find_or_create_by id: 193,
@@ -2351,7 +2384,10 @@ name: 'Mudguards',
 price: 85.00,
 parts_cost: 68.00,
 labor_cost: 37.95,
-description: 'Help protect your paint finish from road debris and the damage it causes.',
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Set of four',
 part_number: ''
 
 Accessory.find_or_create_by id: 195,
@@ -2433,7 +2469,7 @@ model_id: 3,
 image_file_name: "camry-side-molding.jpg",
 image_content_type: "image/jpeg",
 active: true,
-name: 'Body Side Mouldings',
+name: 'Body Side Moldings',
 price: 135.00,
 parts_cost: 80.00,
 labor_cost: 37.95,
@@ -2451,10 +2487,12 @@ name: 'Cargo Net - Envelope',
 price: 49.00,
 parts_cost: 21.00,
 labor_cost: 35.00,
-description: '•Helps keep items secure and includes zipper pocket for smaller items
-•Custom fit to the vehicle’s cargo area
-•Easy to install; attaches to hooks and tabs in cargo area
-•Designed with Toyota-approved materials for long-term durability
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
 •Stores flat when not in use',
 part_number: 'PT347-03140'
 
@@ -2730,9 +2768,13 @@ name: 'Cargo Net - Envelope',
 price: 42.00,
 parts_cost: 25.00,
 labor_cost: 0,
-description: '•Helps keep everyday items from rolling around or tipping over
-•Custom-fit to the vehicle’s cargo area
-•Easy to install; attaches to hooks and tabs in cargo area',
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
+•Stores flat when not in use',
 part_number: 'PT347-02140'
 
 Accessory.find_or_create_by id: 220,
@@ -3147,7 +3189,13 @@ name: 'All-Weather Floor Mats',
 price: 143.00,
 parts_cost: 99.00,
 labor_cost: 0,
-description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+description: '•Helps protect your vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Durable rubber/vinyl material
+•Replaces standard carpet floor mats
+•Black mats featuring a debossed light gray vehicle logo
+•Ribbed channel design
+•Available in a set of four mats
+•Easy to clean',
 part_number: ''
 
 Accessory.find_or_create_by id: 245,
@@ -3159,7 +3207,13 @@ name: 'Alloy Wheel Locks',
 price: 66.00,
 parts_cost: 36.00,
 labor_cost: 22.95,
-description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
 part_number: ''
 
 Accessory.find_or_create_by id: 246,
@@ -3183,7 +3237,13 @@ name: 'Cargo Net – Envelope',
 price: 45.00,
 parts_cost: 27.00,
 labor_cost: 0,
-description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
+•Stores flat when not in use',
 part_number: ''
 
 Accessory.find_or_create_by id: 248,
@@ -3207,7 +3267,11 @@ name: 'Carpet Cargo Mat',
 price: 94.00,
 parts_cost: 68.00,
 labor_cost: 0,
-description: 'The carpet cargo mat helps keep the Land Cruiser cargo area dressed up and looking like new.',
+description: '•Designed specifically for your vehicle to protect the cargo area from premature wear
+•Color-coordinated to vehicle interior
+•Made of durable, fade-resistant nylon that resists oils and chemicals
+•Non-slip backing helps prevent the mat from sliding
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 250,
@@ -3219,7 +3283,12 @@ name: 'Carpet Floor Mats',
 price: 129.00,
 parts_cost: 99.00,
 labor_cost: 0,
-description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Land Cruiser.',
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 251,
@@ -3318,7 +3387,13 @@ name: 'All-Weather Floor Mats',
 price: 99.00,
 parts_cost: 59.00,
 labor_cost: 0,
-description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+description: '•Helps protect your vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Durable rubber/vinyl material
+•Replaces standard carpet floor mats
+•Black mats featuring a debossed light gray vehicle logo
+•Ribbed channel design
+•Available in a set of four mats
+•Easy to clean',
 part_number: ''
 
 Accessory.find_or_create_by id: 259,
@@ -3330,7 +3405,13 @@ name: 'Alloy Wheel Locks',
 price: 41.00,
 parts_cost: 29.00,
 labor_cost: 22.95,
-description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
 part_number: ''
 
 Accessory.find_or_create_by id: 260,
@@ -3342,7 +3423,13 @@ name: 'Cargo Net – Envelope',
 price: 42.00,
 parts_cost: 30.00,
 labor_cost: 0,
-description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
+•Stores flat when not in use',
 part_number: ''
 
 Accessory.find_or_create_by id: 261,
@@ -3378,7 +3465,12 @@ name: 'Carpet Floor Mats',
 price: 129.00,
 parts_cost: 89.00,
 labor_cost: 0,
-description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Prius.',
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 264,
@@ -3390,7 +3482,13 @@ name: 'Door Edge Guards',
 price: 94.00,
 parts_cost: 69.00,
 labor_cost: 37.95,
-description: 'Help prevent door edge dings and chipped paint with this protective finishing touch.',
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a perfect fit to door edge contours
+•Compressed-fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help prevent cracking, fading and peeling',
 part_number: ''
 
 Accessory.find_or_create_by id: 265,
@@ -3478,7 +3576,13 @@ name: 'All-Weather Floor Mats',
 price: 99.00,
 parts_cost: 59.00,
 labor_cost: 0,
-description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+description: '•Helps protect your vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Durable rubber/vinyl material
+•Replaces standard carpet floor mats
+•Black mats featuring a debossed light gray vehicle logo
+•Ribbed channel design
+•Available in a set of four mats
+•Easy to clean',
 part_number: ''
 
 Accessory.find_or_create_by id: 272,
@@ -3490,7 +3594,13 @@ name: 'Alloy Wheel Locks',
 price: 41.00,
 parts_cost: 29.00,
 labor_cost: 22.95,
-description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
 part_number: ''
 
 Accessory.find_or_create_by id: 273,
@@ -3502,7 +3612,10 @@ name: 'Body Side Moldings',
 price: 185.00,
 parts_cost: 0,
 labor_cost: 37.95,
-description: 'Color-matched body side moldings help protect your Prius C from careless door swings, renegade shopping carts and other parking lot mishaps.',
+description: '•Helps provide exterior door protection from scratches, dents and chipping
+•Factory approved fastening method ensures precise fit
+•Helps preserve vehicle’s appearance
+•Available in a set of four',
 part_number: ''
 
 Accessory.find_or_create_by id: 274,
@@ -3514,7 +3627,13 @@ name: 'Cargo Net – Envelope',
 price: 35.00,
 parts_cost: 21.00,
 labor_cost: 0,
-description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
+•Stores flat when not in use',
 part_number: ''
 
 Accessory.find_or_create_by id: 276,
@@ -3553,7 +3672,11 @@ name: 'Carpet Cargo Mat',
 price: 94.00,
 parts_cost: 79.00,
 labor_cost: 0,
-description: 'This durable carpet cargo mat helps keep your Prius c cargo area dressed up and looking like new.',
+description: '•Designed specifically for your vehicle to protect the cargo area from premature wear
+•Color-coordinated to vehicle interior
+•Made of durable, fade-resistant nylon that resists oils and chemicals
+•Non-slip backing helps prevent the mat from sliding
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 278,
@@ -3565,7 +3688,12 @@ name: 'Carpet Floor Mats',
 price: 129.00,
 parts_cost: 89.00,
 labor_cost: 0,
-description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Prius C.',
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 279,
@@ -3577,7 +3705,13 @@ name: 'Door Edge Guards',
 price: 94.00,
 parts_cost: 79.00,
 labor_cost: 37.95,
-description: 'Help prevent door edge dings and chipped paint with this protective finishing touch.',
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a perfect fit to door edge contours
+•Compressed-fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help prevent cracking, fading and peeling',
 part_number: ''
 
 Accessory.find_or_create_by id: 280,
@@ -3616,7 +3750,13 @@ name: 'All-Weather Floor Mats',
 price: 99.00,
 parts_cost: 69.00,
 labor_cost: 0,
-description: 'Count on these rugged all-weather floor mats to help protect your original carpet.',
+description: '•Helps protect your vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Durable rubber/vinyl material
+•Replaces standard carpet floor mats
+•Black mats featuring a debossed light gray vehicle logo
+•Ribbed channel design
+•Available in a set of four mats
+•Easy to clean',
 part_number: ''
 
 Accessory.find_or_create_by id: 283,
@@ -3628,7 +3768,13 @@ name: 'Alloy Wheel Locks',
 price: 41.00,
 parts_cost: 27.00,
 labor_cost: 22.95,
-description: 'Precision-machined, weight-balanced alloy wheel locks offer added protection for your wheels and tires.',
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
 part_number: ''
 
 Accessory.find_or_create_by id: 284,
@@ -3640,7 +3786,11 @@ name: 'Capet Cargo Mat',
 price: 94.00,
 parts_cost: 68.00,
 labor_cost: 0,
-description: 'This durable carpet cargo mat helps keep your Prius v cargo area dressed up and looking like new.',
+description: '•Designed specifically for your vehicle to protect the cargo area from premature wear
+•Color-coordinated to vehicle interior
+•Made of durable, fade-resistant nylon that resists oils and chemicals
+•Non-slip backing helps prevent the mat from sliding
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 285,
@@ -3652,7 +3802,13 @@ name: 'Cargo Net – Envelope',
 price: 35.00,
 parts_cost: 18.00,
 labor_cost: 0,
-description: 'The convenient cargo net is a flexible solution to securing small, lightweight items.',
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
+•Stores flat when not in use',
 part_number: ''
 
 Accessory.find_or_create_by id: 286,
@@ -3688,7 +3844,12 @@ name: 'Carpet Floor Mats',
 price: 129.00,
 parts_cost: 89.00,
 labor_cost: 0,
-description: 'Plush, long-wearing carpet floor mats help protect and enhance the interior of your Prius v.',
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
 part_number: ''
 
 Accessory.find_or_create_by id: 289,
@@ -3719,7 +3880,10 @@ name: 'Mudguards',
 price: 105.00,
 parts_cost: 65.00,
 labor_cost: 37.95,
-description: 'Help protect your paint finish from road debris and the damage it causes.',
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Set of four',
 part_number: ''
 
 Accessory.find_or_create_by id: 291,
@@ -3759,9 +3923,302 @@ description: 'Includes: door-ajar warning, panic alarm, disabling of the starter
 part_number: ''
 
 
+#### RAV4 ####
 
-# Accessory.find_or_create_by id: 2,
-# model_id: 18,
+Accessory.find_or_create_by id: 294,
+model_id: 19,
+image_file_name: "rav4-all-weather-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Helps protect your vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Durable rubber/vinyl material
+•Replaces standard carpet floor mats
+•Black mats featuring a debossed light gray vehicle logo
+•Ribbed channel design
+•Available in a set of four mats
+•Easy to clean',
+part_number: 'PT908-42130-20'
+
+Accessory.find_or_create_by id: 295,
+model_id: 19,
+image_file_name: "2014-avalon-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: '00276-00900'
+
+Accessory.find_or_create_by id: 296,
+model_id: 19,
+image_file_name: "corolla-ash-cup.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 17.00,
+parts_cost: 13.00,
+labor_cost: 0,
+description: '•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Easy to empty and clean',
+part_number: '74101-AE010'
+
+Accessory.find_or_create_by id: 297,
+model_id: 19,
+image_file_name: "rav4-body-molding.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Body Side Moldings',
+price: 155.00,
+parts_cost: 100.00,
+labor_cost: 37.95,
+description: '•Helps provide exterior door protection from scratches, dents and chipping
+•Factory approved fastening method ensures precise fit
+•Helps preserve vehicle’s appearance
+•Available in a set of four',
+part_number: 'PT938-42130-XX (ORDER PER VEHICLE COLOR CODE)'
+
+Accessory.find_or_create_by id: 298,
+model_id: 19,
+image_file_name: "rav4-cargo-net.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net - Envelope',
+price: 42.00,
+parts_cost: 25.00,
+labor_cost: 0,
+description: '•Custom fit to the vehicle’s cargo area
+•Envelope-style netting accommodates items of various shapes and sizes
+•Stretchy for easy loading and unloading Restrains light objects during normal driving conditions, including starts and stops
+•Helps protect cargo area from spills
+•Designed with Toyota-approved materials to help ensure long-term durability
+•Easy to install; attaches to hooks in cargo area
+•Stores flat when not in use',
+part_number: 'PT347-42130'
+
+Accessory.find_or_create_by id: 299,
+model_id: 19,
+image_file_name: "rav4-cargo-hammock.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net Hammock',
+price: 99.00,
+parts_cost: 60.00,
+labor_cost: 0,
+description: '•Offers added convenience and enhanced functionality for the RAV4’s rear cargo area
+•Constructed of durable mesh netting coupled with two lightweight, high-strength aluminum poles that feature spring-loaded tips
+•Attaches to the RAV4 via hooks that are molded into the vehicle’s rear quarter panel trim
+•Can be positioned horizontally to hold smaller, lightweight items and help keep them secure or vertically to divide the cargo area and help prevent items from rolling out of the vehicle when the hatch is opened
+•The length of the tray is approximately 54-in. and the width is 19-in.
+•Designed to exceed Toyota’s rigorous engineering specifications',
+part_number: 'PT731-42100'
+
+Accessory.find_or_create_by id: 300,
+model_id: 19,
+image_file_name: "rav4-carpet-cargo.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Cargo Mat',
+price: 94.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Designed specifically for your vehicle to protect the cargo area from premature wear
+•Color-coordinated to vehicle interior
+•Made of durable, fade-resistant nylon that resists oils and chemicals
+•Non-slip backing helps prevent the mat from sliding
+•Meets Toyota’s stringent quality and design specifications',
+part_number: 'PT206-42131-20'
+
+Accessory.find_or_create_by id: 301,
+model_id: 19,
+image_file_name: "rav4-carpet-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpet Floor Mats',
+price: 129.00,
+parts_cost: 79.00,
+labor_cost: 0,
+description: '•Help protect the original carpet from wear and stains
+•Fitted to vehicle floor pattern
+•Nibbed backing underside and quarter-turn fasteners help prevent mats from sliding
+•Features stylish vehicle logo
+•Constructed of high-grade nylon carpeting
+•Meets Toyota’s stringent quality and design specifications',
+part_number: 'PT206-42130-20 (BLACK ONLY)'
+
+Accessory.find_or_create_by id: 302,
+model_id: 19,
+image_file_name: "4runner-door-edge-guards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Edge Guards',
+price: 94.00,
+parts_cost: 54.00,
+labor_cost: 37.95,
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a perfect fit to door edge contours
+•Compressed-fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help prevent cracking, fading and peeling',
+part_number: ''
+
+Accessory.find_or_create_by id: 303,
+model_id: 19,
+image_file_name: "rav4-door-sill.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Appliqué',
+price: 40.00,
+parts_cost: 24.00,
+labor_cost: 37.95,
+description: '•Durable door sill appliqué helps protect the vehicle\'s interior from everyday scuffs and scratches
+•Custom-designed for a precision fit to the vehicle
+•Stylish carbon fiber-style pattern complements the interior of the vehicle
+•Features a vehicle logo
+•Quick, simple installation
+•Available in a set of four',
+part_number: 'PT747-42130'
+
+Accessory.find_or_create_by id: 304,
+model_id: 19,
+image_file_name: "rav4-lighting-kit.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Front Floor Lighting Kit',
+price: 85.00,
+parts_cost: 56.00,
+labor_cost: 225.95,
+description: '•Illuminates the vehicle’s front footwell areas
+•Lights come on when front doors are opened
+•Provides an added measure of style and personalization to the RAV4 interior
+•Maintains Toyota\'s high factory standards for quality, performance and durability',
+part_number: 'PT413-42130'
+
+Accessory.find_or_create_by id: 305,
+model_id: 19,
+image_file_name: "rav4-mudguards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mudguards',
+price: 80.00,
+parts_cost: 48.00,
+labor_cost: 37.95,
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Set of four',
+part_number: ''
+
+Accessory.find_or_create_by id: 306,
+model_id: 19,
+image_file_name: "rav4-remote-start.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Remote Engine Starter(w/Smart Key)',
+price: 399.00,
+parts_cost: 239.00,
+labor_cost: 225.95,
+description: '•Enables owners to start and turn off the engine remotely
+•Engine starts with quick, three-step sequence using keyless factory remote entry fob
+•Activates air conditioner, heater, defroster and defogger functions (to pre-set temperatures and settings), so owners can have their vehicle ready and idling with a comfortable passenger compartment
+•Integrates with the vehicle’s existing factory security/keyless entry system—no need for an additional remote',
+part_number: 'PT398-42130'
+
+Accessory.find_or_create_by id: 307,
+model_id: 19,
+image_file_name: "rav4-cross-bars.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Roof Rail Cross Bars',
+price: 180.00,
+parts_cost: 115.00,
+labor_cost: 37.95,
+description: '•Integrates with vehicle’s roof rails
+•Provides additional secure tie-down points for various roof rack accessories
+•Can support a maximum of 100 lb. when weight is evenly distributed across both bars
+•Maintain Toyota’s high standards for ride quality, performance and strength
+•Available in a set of two',
+part_number: 'PT278-42130'
+
+Accessory.find_or_create_by id: 308,
+model_id: 19,
+image_file_name: "rav4-rails.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Roof Rails',
+price: 280.00,
+parts_cost: 200.00,
+labor_cost: 150.95,
+description: '•Offers a sporty, versatile look to your vehicle
+•Enhances cargo management capability
+•Provides secure platform for carrying items
+•Features a silver-painted finish
+•Maintain Toyota’s high standards for ride quality, performance and strength',
+part_number: 'PT278-42131'
+
+Accessory.find_or_create_by id: 309,
+model_id: 19,
+image_file_name: "rav4-running-boards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Running Boards',
+price: 499.00,
+parts_cost: 325.00,
+labor_cost: 150.95,
+description: '•Designed to integrate with the exterior styling
+•Provides easy step-in access to the vehicle
+•Skid-resistent surface helps provide for secure footing',
+part_number: 'PT925-42131'
+
+Accessory.find_or_create_by id: 310,
+model_id: 19,
+image_file_name: "rav4-shift-knob.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Shift Knob',
+price: 149.00,
+parts_cost: 91.00,
+labor_cost: 22.95,
+description: '•Enhances driving experience while adding a touch of style to vehicle\'s interior
+•Shift knob features chrome accents and leather trim
+•Adds a touch of distinction to your vehicle’s interior
+•Features unique textured design
+•Designed with Toyota-approved materials for long-term durability',
+part_number: 'PT37A-42090'
+
+Accessory.find_or_create_by id: 311,
+model_id: 19,
+image_file_name: "rav4-tow-hitch.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tow Hitch Receiver with Wire Harness',
+price: 610.00,
+parts_cost: 515.00,
+labor_cost: 375.95,
+description: '•Powder top coat protects against ultraviolet rays and helps maintain a “like-new” appearance
+•Advanced, no-drill installation process maintains the structural integrity of the vehicle frame
+•Custom replacement bumper trim panel matches vehicle contours and color
+•16 connection points to the vehicle frame transfer force of towing across vehicle to reduce stress and preserve integrity of the frame and body structure
+•Extensive stress point, fatigue and on-road testing ensure the product’s capabilities to meet or exceed all Toyota durability testing
+•Ball mount and trailer ball sold separately',
+part_number: ''
+
+# Accessory.find_or_create_by id: 3,
+# model_id: 19,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
