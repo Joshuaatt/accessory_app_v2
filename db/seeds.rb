@@ -4487,8 +4487,286 @@ description: '•Designed to integrate with the vehicle’s existing factory sec
 •Premium accessory adds to the vehicle’s resale value',
 part_number: ''
 
+
+#### Sienna ####
+
+Accessory.find_or_create_by id: 326,
+model_id: 21,
+image_file_name: "sienna-all-weather-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 143.00,
+parts_cost: 86.00,
+labor_cost: 0,
+description: '•Helps protect vehicle’s factory carpet against mud, sand, stains and soils
+•Made from a durable and flexible thermoplastic elastomer that’s easy to clean
+•Black mats feature ribbed channels and an embossed vehicle logo
+•Lightweight',
+part_number: 'PT908-08130-20'
+
+Accessory.find_or_create_by id: 327,
+model_id: 21,
+image_file_name: "2014-avalon-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: '00276-00900'
+
+Accessory.find_or_create_by id: 328,
+model_id: 21,
+image_file_name: "sienna-ash-cup.gif",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 17.00,
+parts_cost: 13.00,
+labor_cost: 0,
+description: '•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Easy to empty and clean',
+part_number: '74101-AE010'
+
+Accessory.find_or_create_by id: 329,
+model_id: 21,
+image_file_name: "sienna-cargo-net-envelope.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net - Envelople',
+price: 35.00,
+parts_cost: 21.00,
+labor_cost: 0,
+description: '•Helps keep items secure and includes zipper pocket for smaller items
+•Custom fit to the vehicle’s cargo area
+•Easy to install; attaches to hooks and tabs in cargo area
+•Designed with Toyota-approved materials for long-term durability
+•Stores flat when not in use',
+part_number: 'PT347-08100'
+
+Accessory.find_or_create_by id: 330,
+model_id: 21,
+image_file_name: "sienna-tote.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tote',
+price: 48.00,
+parts_cost: 29.00,
+labor_cost: 0,
+description: '•Helps keep items from tipping or rolling around the trunk or cargo areas
+•Features carrying handles and removable divider panels
+•Soft-sided tote folds flat when not in use and pops up when needed
+•Tough outer fabric is durable and water resistant',
+part_number: 'PT427-00120'
+
+Accessory.find_or_create_by id: 331,
+model_id: 21,
+image_file_name: "sienna-carpet-floor-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Carpete Floor Mats',
+price: 129.00,
+parts_cost: 79.00,
+labor_cost: 0,
+description: '•Custom-fitted to the vehicle’s floor plan
+•Made of high-grade plush nylon carpeting with attractive border
+•Nibbed backing and quarter-turn fasteners (on the driver’s side) help keep mats in position
+•Removable and easy to clean
+•Quick, easy installation',
+part_number: 'PT206-08130-XX (ORDER PER VEHICLE INTERIOR COLOR AND NUMBER OF MATS) may be priced wrong'
+
+Accessory.find_or_create_by id: 332,
+model_id: 21,
+image_file_name: "sienna-door-guard.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Edge Guards',
+price: 55.00,
+parts_cost: 34.00,
+labor_cost: 37.95,
+description: '•Helps provide vertical door edge protection from dings and chipped paint
+•Color-matched to the vehicle’s exterior factory paint
+•Encapsulated in thermoplastic to help prevent any metal-to-metal contact
+•Designed for a perfect fit to door edge contours
+•Compression fit with no need for adhesives or mechanical fasteners
+•Seamlessly blends into the vehicle’s styling
+•Tested for temperature, weather and impact to help resist cracking, fading and peeling',
+part_number: ''
+
+Accessory.find_or_create_by id: 333,
+model_id: 21,
+image_file_name: "sienna-door-sill-protectors.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Protectors',
+price: 27.00,
+parts_cost: 16.08,
+labor_cost: 37.95,
+description: '•Durable door sill protectors help protect the vehicle\'s interior from everyday scuffs, scrapes and scratches
+•Designed for a precision fit to the vehicle
+•Skid-resistant surface
+•Features vehicle logo
+•Quick, simple installation',
+part_number: ''
+
+Accessory.find_or_create_by id: 334,
+model_id: 21,
+image_file_name: "sequoia-first-aid.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'First Aid Kit',
+price: 29.00,
+parts_cost: 17.50,
+labor_cost: 0,
+description: '•Soft-sided, water-resistant and flame-retardant black PVC zipper case contains an assortment of first aid supplies for treatment of minor injuries:
+•Insect-sting relief pads
+•Self-adhesive bandages
+•Rolled stretch bandage with metal clips
+•Two multi-use, waterproof, heat-reflective survival blankets
+•Also included are stainless steel scissors capable of cutting through seatbelt strapping
+•Meets Federal Motor Vehicle Flame Retardant Safety Standards (FMVSS 302)',
+part_number: 'PT420-03023'
+
+Accessory.find_or_create_by id: 335,
+model_id: 21,
+image_file_name: "sienna-ipod-kit.png",
+image_content_type: "image/jpeg",
+active: true,
+name: 'iPod Interface Kit',
+price: 246.00,
+parts_cost: 176.00,
+labor_cost: 150.95,
+description: '•Provides direct connection from an iPod®  to the vehicle audio head unit
+•Uses a proprietary 30-pin Apple iPod®  connector for seamless compatibility
+•Connection point in glove compartment serves as interface to vehicle audio system, and also serves as a charger for the iPod®, when connected
+•Allows user to connect, control and charge the iPod®  and display text on the audio system
+•Displays Artist, Song Title and Playlist searches, along with Shuffle and Shuffle All functions
+•Allows drivers to keep eyes on the road and hands on the wheel, rather than searching for and selecting music on iPod®
+•Glove compartment connection point keeps iPod®  well concealed within vehicle
+•Direct connection to vehicle audio system provides enhanced sound quality in comparison to RF modulators, transmitters and cassette adapters
+•Compatible with: iPod®  Mini, iPod® 4th Generation, iPod®  4th Generation (color display), iPod®  Nano 1st Generation, iPod®   5th Generation (video), iPod®  Nano 2nd Generation (aluminum), iPod® Classic, iPod® Nano 3rd Generation (video) and iPod® Touch',
+part_number: ''
+
+Accessory.find_or_create_by id: 336,
+model_id: 21,
+image_file_name: "sienna-door-moldings.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Lower Door Moulding (Chrome)',
+price: 175.00,
+parts_cost: 105.00,
+labor_cost: 75.00,
+description: '•Helps preserve the vehicle’s appearance
+•Adds protection and style to exterior doors
+•High quality factory finish in bright chrome',
+part_number: ''
+
+Accessory.find_or_create_by id: 337,
+model_id: 21,
+image_file_name: "sienna-mudguards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mudguards',
+price: 78.00,
+parts_cost: 47.00,
+labor_cost: 37.95,
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Available in a set of four',
+part_number: ''
+
+Accessory.find_or_create_by id: 338,
+model_id: 21,
+image_file_name: "sienna-remote-start.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Remote Engine Starter',
+price: 399.00,
+parts_cost: 239.00,
+labor_cost: 225.95,
+description: '•Enables owners to start and turn off the engine remotely
+•Engine starts with quick, three-step sequence using keyless factory remote entry fob
+•Activates air conditioner, heater, defroster and defogger functions (to preset temperatures and settings), so owners can have their vehicle ready with a comfortable passenger compartment
+•Integrates with keyless entry system and existing factory security where applicable ',
+part_number: 'PT398-08103 (WITHOUT SMART KEY), PT398-08130 (WITH SMART KEY)'
+
+Accessory.find_or_create_by id: 339,
+model_id: 21,
+image_file_name: "sienna-crossbars.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Roof Rack Cross Bars',
+price: 140.00,
+parts_cost: 85.00,
+labor_cost: 37.95,
+description: '•Engineered specifically to integrate with the Sienna’s factory roof rails
+•Enhances the Sienna’s utility by adding external ski, snowboard, bike and luggage transportability
+•Provides additional secure tie-down points for various roof rack accessories
+•Fully adjustable “clamp on” design allows the cross bars to be positioned anywhere along the vehicle’s roof rails with no tools necessary and allows for easy removal
+•Can support a maximum of 150 lb. (68 kg) when weight is evenly distributed across both bars
+•Cross bars are constructed of durable lightweight aluminum and feature structural nylon end clamps for added strength
+•Features black e-coated primer and powder-coated top coat to help protect against corrosion and the elements
+•Maintain Toyota’s high standards for ride quality, performance and strength
+•Comes in a set of two',
+part_number: 'PT278-08102'
+
+Accessory.find_or_create_by id: 340,
+model_id: 21,
+image_file_name: "avalon-Glass-Breakage-Sensor.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'VIP Security (RS3200 Plus)',
+price: 199.00,
+parts_cost: 124.00,
+labor_cost: 225.95,
+description: '•Designed to integrate with the keyless entry system—no need for an additional remote
+•Alarm functions:
+•Panic alarm remotely triggers vehicle’s alarm when activated from key fob
+•Warn-away alarm triggers if an object striking a window is detected
+•Break-in alarm is activated if forced entry of a side door (or the hatchback) is attempted or if glass is broken
+•Other features:
+•Door ajar warning helps remind driver to lock vehicle
+•Remote arming and disarming
+•Automatic rearming and relocking
+•Interior light activates when vehicle is unlocked with key fob
+•Rolling code technology changes the remote code, helping prevent code theft
+•Starter disabled when system is activated
+•Includes Glass Breakage Sensor (GBS)
+•Highly sensitive microphone detects the specific sound frequency of striking on glass or glass breakage
+•Sounds alarm and disarms starter if a window is broken
+•Sounds a warn-away alarm if object striking a window is detected',
+part_number: ''
+
+Accessory.find_or_create_by id: 341,
+model_id: 21,
+image_file_name: "sienna-headphones.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Wireless Headphones',
+price: 40.00,
+parts_cost: 32.00,
+labor_cost: 0,
+description: '•Personalizes audio experience for vehicle occupants, allowing multiple users to enjoy the rear-seat entertainment system wirelessly
+•Fully adjustable headband, featuring cushioned padding to help ensure comfort
+•Personal volume control and on/off switch with LED indicator
+•Headphones fold for compact storage
+•“Auto-off” feature helps extend battery life',
+part_number: ''
+
+
+
 # Accessory.find_or_create_by id: 3,
-# model_id: 20,
+# model_id: 21,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
@@ -4498,7 +4776,7 @@ part_number: ''
 # labor_cost: ,
 # description: '',
 # part_number: ''
-
+#
 
 
 
