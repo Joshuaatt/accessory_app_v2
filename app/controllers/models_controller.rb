@@ -24,16 +24,18 @@ class ModelsController < ApplicationController
   end
 
   def edit
-    @manufacturer = Manufacturer.find(params[:manufacturer_id])
-    @model = @manufacturer.models.find(params[:id])
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    # @model = @manufacturer.models.find(params[:id])
+    @model = Model.find(params[:id])
   end
 
   def update
-    @manufacturer = Manufacturer.find(params[:manufacturer_id])
-    @model = @manufacturer.models.find(params[:id])
+    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
+    # @model = @manufacturer.models.find(params[:id])
+    @model = Model.find(params[:id])
     if @model.update(model_params)
       flash[:notice] = "Your model has been changed successfully"
-      redirect_to manufacturer_path(@manufacturer)
+      redirect_to root_path
     else
       flash[:error] = "There was an error with your edit"
       render action: :edit

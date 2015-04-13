@@ -1,0 +1,8 @@
+<%= render 'layouts/errors', object: @model %>
+
+<%= bootstrap_form_for [@model] do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_field :year %>
+  <%= f.file_field :image %>
+  <%= f.submit %>
+<% end %>

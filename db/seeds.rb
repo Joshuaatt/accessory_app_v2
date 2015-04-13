@@ -42,12 +42,12 @@ Model.find_or_create_by id: 4,
   image_file_name: "2015-toyota-corolla.jpg",
   image_content_type: "image/jpeg"
 
-Model.find_or_create_by id: 12,
-  name: "FR-S",
-  year: "2015",
-  manufacturer_id: 1,
-  image_file_name: "2015-scion-fr-s.jpeg",
-  image_content_type: "image/jpeg"
+# Model.find_or_create_by id: 12,
+#   name: "FR-S",
+#   year: "2015",
+#   manufacturer_id: 1,
+#   image_file_name: "2015-scion-fr-s.jpeg",
+#   image_content_type: "image/jpeg"
 
 Model.find_or_create_by id: 13,
   name: "Highlander",
@@ -56,12 +56,12 @@ Model.find_or_create_by id: 13,
   image_file_name: "2015-Toyota-Highlander.jpg",
   image_content_type: "image/jpeg"
 
-Model.find_or_create_by id: 14,
-  name: "iQ",
-  year: "2015",
-  manufacturer_id: 1,
-  image_file_name: "2015-scion-iq.jpg",
-  image_content_type: "image/jpeg"
+# Model.find_or_create_by id: 14,
+#   name: "iQ",
+#   year: "2015",
+#   manufacturer_id: 1,
+#   image_file_name: "2015-scion-iq.jpg",
+#   image_content_type: "image/jpeg"
 
 Model.find_or_create_by id: 15,
   name: "Land Cruiser",
@@ -120,12 +120,12 @@ Model.find_or_create_by id: 22,
   image_file_name: "2015_toyota_tacoma.jpeg",
   image_content_type: "image/jpeg"
 
-Model.find_or_create_by id: 23,
-  name: "tC",
-  year: "2015",
-  manufacturer_id: 1,
-  image_file_name: "2015-scion-tc.jpg",
-  image_content_type: "image/jpeg"
+# Model.find_or_create_by id: 23,
+#   name: "tC",
+#   year: "2015",
+#   manufacturer_id: 1,
+#   image_file_name: "2015-scion-tc.jpg",
+#   image_content_type: "image/jpeg"
 
 Model.find_or_create_by id: 24,
   name: "Tundra",
@@ -134,12 +134,12 @@ Model.find_or_create_by id: 24,
   image_file_name: "2015-toyota-tundra.jpg",
   image_content_type: "image/jpeg"
 
-Model.find_or_create_by id: 25,
-  name: "Venza",
-  year: "2015",
-  manufacturer_id: 1,
-  image_file_name: "2015-toyota-venza.jpg",
-  image_content_type: "image/jpeg"
+# Model.find_or_create_by id: 25,
+#   name: "Venza",
+#   year: "2015",
+#   manufacturer_id: 1,
+#   image_file_name: "2015-toyota-venza.jpg",
+#   image_content_type: "image/jpeg"
 
 Model.find_or_create_by id: 26,
   name: "xB",
@@ -148,19 +148,19 @@ Model.find_or_create_by id: 26,
   image_file_name: "2015-scion-xb.jpg",
   image_content_type: "image/jpeg"
 
-Model.find_or_create_by id: 27,
-  name: "xD",
-  year: "2015",
-  manufacturer_id: 1,
-  image_file_name: "2015-scion-xd.jpg",
-  image_content_type: "image/jpeg"
+# Model.find_or_create_by id: 27,
+#   name: "xD",
+#   year: "2015",
+#   manufacturer_id: 1,
+#   image_file_name: "2015-scion-xd.jpg",
+#   image_content_type: "image/jpeg"
 
-Model.find_or_create_by id: 28,
-  name: "Yaris",
-  year: "2015",
-  manufacturer_id: 1,
-  image_file_name: "2015-toyota-yaris.jpg",
-  image_content_type: "image/jpeg"
+# Model.find_or_create_by id: 28,
+#   name: "Yaris",
+#   year: "2015",
+#   manufacturer_id: 1,
+#   image_file_name: "2015-toyota-yaris.jpg",
+#   image_content_type: "image/jpeg"
 
 Model.find_or_create_by id: 29,
   name: "Tundra",
