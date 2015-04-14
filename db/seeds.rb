@@ -4764,9 +4764,342 @@ description: '•Personalizes audio experience for vehicle occupants, allowing m
 part_number: ''
 
 
+#### 2015 Tacoma ####
+
+Accessory.find_or_create_by id: 342,
+model_id: 22,
+image_file_name: "tacoma-all-weather-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats (2 Piece)',
+price: 55.00,
+parts_cost: 35.00,
+labor_cost: 0,
+description: '•Helps protect vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Replaces standard carpet floor mats
+•Black mat featuring a debossed gray Tacoma logo
+•Ribbed channels
+•Easy to clean—can be wiped off
+•Lightweight',
+part_number: 'PT908-35120-20'
+
+Accessory.find_or_create_by id: 343,
+model_id: 22,
+image_file_name: "tacoma-all-weather-floor-mats-4.JPG",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats (4 Piece)',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Helps protect vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Replaces standard carpet floor mats
+•Black mat featuring a debossed gray Tacoma logo
+•Ribbed channels
+•Easy to clean—can be wiped off
+•Lightweight',
+part_number: 'PT908-35121-20'
+
+Accessory.find_or_create_by id: 344,
+model_id: 22,
+image_file_name: "2014-avalon-wheel-locks.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Alloy Wheel Locks',
+price: 41.00,
+parts_cost: 27.00,
+labor_cost: 22.95,
+description: '•Helps provide dependable protection against wheel and tire theft
+•Design corresponds with stock lug nuts to guarantee proper fit
+•Weight matched to the stock lug nut weight, making rebalancing unnecessary
+•Triple nickel chrome plating helps ensure superior corrosion protection and enduring shine
+•Wheel lock system installs in minutes
+•Special key tool and collar guide enable simple installation
+•Vehicle-specific key patterns resist lock removal tools and allow only a single unique key to interface',
+part_number: '00276-00900'
+
+Accessory.find_or_create_by id: 345,
+model_id: 22,
+image_file_name: "tacoma-ash-cup.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Ashtray Cup',
+price: 21.50,
+parts_cost: 13.25,
+labor_cost: 0,
+description: '•Self-contained unit with hinged lid helps minimize odors and prevent flyaway ash
+•Features a durable cup that fits snugly inside the cupholder of the vehicle
+•Easy to empty and clean',
+part_number: '74102-02140'
+
+Accessory.find_or_create_by id: 346,
+model_id: 22,
+image_file_name: "tacoma-bed-extender.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Bed Extender',
+price: 270.00,
+parts_cost: 175.00,
+labor_cost: 75.00,
+description: '•Increases usable cargo length by approximately two feet with tailgate open
+•Enhances Tacoma’s rugged, off-road appearance
+•Helps contain and protect smaller items like tools, camping gear or groceries when tailgate is closed
+•Toyota-specific design ensures optimal fit, while complementing the Tacoma’s unique styling cues
+•Manufactured to Toyota’s strict engineering and quality standards
+•Features lightweight, aircraft-grade 6063 T6 aluminum tube construction and rugged, glass-reinforced nylon uprights
+•Angle-release mounting brackets enable easy installation or removal
+•Adjustable strap latches secure bed extender to the tailgate
+•Corrosion-resistant silver powder coat finish enhances appearance and stands up to both repeated washing and the elements
+•Taillights remain visible when extended
+•Compliant with DOT lighting requirements',
+part_number: 'PT392-35120'
+
+Accessory.find_or_create_by id: 347,
+model_id: 22,
+image_file_name: "tacoma-bed-liner.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Bed Mat',
+price: 109.00,
+parts_cost: 69.00,
+labor_cost: 0,
+description: '•Custom-molded, heavyweight bed mat helps protect truck and cargo
+•Provides superior abrasion resistance and tear strength for durable truck bed protection
+•Features stylish pebble finish to help restrict shifting of cargo and raised, angled ribs to facilitate cargo loading/unloading
+•Knobby underside promotes aeration and drainage to keep truck bed dry, helping prevent rust and mildew
+•Manufactured from a high-strength, cord-enhanced rubber compound
+•Tested to help safeguard against fading, rusting, cracking or breaking—even in extreme temperatures',
+part_number: ''
+
+Accessory.find_or_create_by id: 348,
+model_id: 22,
+image_file_name: "tacome-bed-net.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Bed Net',
+price: 113.00,
+parts_cost: 68.00,
+labor_cost: 0,
+description: '•Designed to fit the vehicle truck bed
+•Nylon webbing accommodates items of various shapes and sizes to ensure they don’t shift around or tip over during normal driving conditions
+•Helps protect truck bed from spills
+•Netting is stain resistant, helping maintain a “like-new” appearance
+•Designed with Toyota-approved materials for long-term durability
+•Easy to install; attaches to defined points in truck bed
+•Folds flat for storage when not in use',
+part_number: ''
+
+Accessory.find_or_create_by id: 349,
+model_id: 22,
+image_file_name: "tacoma-exhaust-tip.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Exhaust Tip',
+price: 64.00,
+parts_cost: 40.00,
+labor_cost: 15.95,
+description: '•Constructed of double-walled, polished 304 stainless steel
+•Corrosion-resistant, ensuring its beauty for years to come
+•Eye-catching accessory that enhances the vehicle’s exterior appearance
+•Easy, bolt-on installation requires no cutting, drilling or welding; all hardware included',
+part_number: 'PT18A-35090'
+
+Accessory.find_or_create_by id: 350,
+model_id: 22,
+image_file_name: "tacoma-front-skid-plate.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Front Skid Plate',
+price: 200.00,
+parts_cost: 140.00,
+labor_cost: 75.00,
+description: '•Stamped and formed silver powder-coated 1/8-in.-thick heavy duty aluminum skid plate helps protect vehicle underbody from damage that can result from flying stones, branches, ice chunks and other types of road debris
+•Black coated steel brackets provide a durable, corrosion-resistant attachment to existing vehicle body mounts and sturdy support for skid plate
+•Rigorous CAD simulations conducted by Toyota engineers to ensure against vibration stress and noise issues; aftermarket products are not likely to be analyzed for vibration
+•Skid plate won’t interfere with or block the cooling system, while providing cut outs for unobstructed access to all maintenance points and vehicle tow hooks
+•Designed and approved by Toyota engineers to ensure no interference with airbag deployment
+•Enhances Tacoma’s tough, capable stance
+•Attachment interface designed using CAD data, ensuring no compromises to vehicle performance systems
+•Easy, no-drill installation using vehicle’s existing attachment mounts',
+part_number: 'PT212-35075'
+
+Accessory.find_or_create_by id: 351,
+model_id: 22,
+image_file_name: "tacoma-hood-protector.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Hood Protector',
+price: 159.00,
+parts_cost: 99.00,
+labor_cost: 37.95,
+description: '•Provides superior front-end protection, while enhancing the vehicle’s clean, aerodynamic lines
+•Helps prevent potentially costly repairs to hood and windshield
+•Dark tinted and transparent
+•Made from durable, impact-resistant polycarbonate material
+•Simple, no-drill installation utilizes factory mountings for optimal fit and hold to the vehicle
+•Comes with all required Toyota-tested and -approved mounting hardware and “do-it-yourself” installation instructions',
+part_number: 'PT427-35120'
+
+Accessory.find_or_create_by id: 352,
+model_id: 22,
+image_file_name: "tacoma-roof-rack.jpeg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Roof Rack',
+price: 295.00,
+parts_cost: 185.00,
+labor_cost: 112.95,
+description: '•Low-profile roof rack installs with ease on factory roof rail channels
+•Accepts all Genuine Toyota roof rack accessories
+•Can be easily adjusted with no tools necessary
+•Offers a 75-lb. load capacity
+•Maintains Toyota’s high quality standards for ride quality, performance and strength',
+part_number: 'PT278-35130 (DOUBLE CAB)'
+
+Accessory.find_or_create_by id: 353,
+model_id: 22,
+image_file_name: "tacoma-running-boards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Running Boards',
+price: 386.00,
+parts_cost: 253.00,
+labor_cost: 112.95,
+description: '•Sturdy running boards provide easy, safe step-in access to the vehicle
+•Skid resistant step pads ensure secure footing
+•Features plastic-injected end caps for a streamlined and finished look, in comparison to aftermarket products, which often use blow-molded/vac-formed end caps
+•Designed to correspond with Tacoma’s unique styling cues
+•Textured black powder coat provides rugged look',
+part_number: 'PT212-35053 (EXTRA CAB), PT212-35055 (DOUBLE CAB)'
+
+Accessory.find_or_create_by id: 354,
+model_id: 22,
+image_file_name: "tacoma-tow-hitch.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tow Hitch Receiver & Wiring',
+price: 505.00,
+parts_cost: 345.00,
+labor_cost: 225.95,
+description: '•Electro-deposition coating, or “e-coating,” helps protect against corrosion and the environment
+•Powder top coat protects against ultraviolet rays and helps maintain “like-new” appearance
+•Advanced, no-drill installation process maintains the structural integrity of the vehicle frame
+•Custom replacement bumper trim panel matches vehicle contours and color
+•16 connection points to the vehicle frame transfer force of towing across vehicle to reduce stress and preserve integrity of the frame and body structure
+•Extensive stress point, fatigue and on-road testing ensure the product’s capabilities to meet or exceed all Toyota durability testing
+•Ball mount and trailer ball sold separately',
+part_number: ''
+
+Accessory.find_or_create_by id: 355,
+model_id: 22,
+image_file_name: "tacoma-break-pads.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Brake Pads',
+price: 95.00,
+parts_cost: 75.00,
+labor_cost: 150.95,
+description: '•High-performance, high-friction brake pads manufactured from an aramid/ceramic-strengthened compound, delivering optimum combination of cold and hot friction
+•Pre-scorched to aid in initial break-in
+•Offers excellent price-to-performance ratio in a high-performance street pad
+•Anti-squeal shims pre-installed
+•Direct replacement for stock pads
+•TRD Performance brake pads are suitable for street and autocross use; they are not intended for open track sessions',
+part_number: ''
+
+Accessory.find_or_create_by id: 356,
+model_id: 22,
+image_file_name: "tacoma-trd-cat-back-exhaust.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Cat Back Exhaust',
+price: 510.00,
+parts_cost: 335.00,
+labor_cost: 150.95,
+description: '•Stainless steel, cat-back exhaust design with TRD logo etched tip
+•Allows for a less restrictive path, helping reduce backpressure for added low- to mid-range torque, along with improved horsepower (between 5- and 8-wheel horsepower, depending upon application)
+•Produces a deep, throaty tone while meeting the legal 95-decibel noise limit, as required by law
+•Superior corrosion resistance',
+part_number: ''
+
+Accessory.find_or_create_by id: 357,
+model_id: 22,
+image_file_name: "tacoma-trd-supercharger.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Supercharger',
+price: 4750.00,
+parts_cost: 4000.00,
+labor_cost: 1499.95,
+description: '•Features air-to-liquid intercooler with a low-temperature radiator, coolant reservoir and circulation pump, delivering improved engine response and power output.
+•Intercooler provides higher performance and better fuel economy, as well as improved passing power than non-intercooled superchargers, restoring sea level performance when at altitude.
+•Produces 304 hp @ 5,400 rpm and 334 lb.-ft. torque @ 3,600 rpm (from 239 hp @ 5200 rpm; 278 lb.-ft. @ 3700 rpm.
+•Uses Eaton Roots-type rotating components in a compact one-piece, supercharger plenum/manifold casting that integrates the heat exchanger core for the intercooler.
+•Integral by-pass valve prevents supercharger from going into “boost” when driving at a steady state of speed such as on the highway or light traffic. Takes less than ½ hp to operate when by-pass valve is open, helping reduce parasitic drag from the crankshaft.
+•Kit includes new 455cc fuel injectors for the increased power output, iridium spark plugs for better detonation resistance—ensuring proper fuel delivery when using supercharger system at full capacity.
+•Integrates factory calibration of ECU for optimal fuel mileage when combined with torque/horsepower increase.
+•All OE hose connections accommodated and OE throttle body bolts to original location.
+•Complete kit includes all necessary hardware for “factory installed” appearance. No cutting, welding or fabrication required for installation.
+•Supercharger has self-contained lubrication, so there’s no maintenance required on supercharger—or supercharger system components.
+•Emissions legal in all 50 states
+
+•MAY NOT BE FINANCED TOGETHER WITH THE NEW VEHICLE',
+part_number: ''
+
+Accessory.find_or_create_by id: 358,
+model_id: 22,
+image_file_name: "tacoma-tube-steps.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tube Steps (Chrome)',
+price: 494.00,
+parts_cost: 345.00,
+labor_cost: 75.00,
+description: '•5-in. oval tube steps provide dual molded and skid-resistant heavy duty step pads on both sides of the Tacoma
+•Step pads help to channel water off the tube
+•Durable, lightweight aluminum construction is chip- and rust-resistant
+•Features chrome or black powder coat finish for protection against the elements
+•Meets all Toyota-required load, cyclic and durability testing ensuring steps last for life of vehicle
+•Custom-engineered for specific mounting locations provided on the vehicle, allowing for strongest possible mount with the quickest and easiest secured installation
+•Simple, no-drill installation',
+part_number: 'PT767-35120 (EXTRA CAB), PT767-35121 (DOUBLE CAB SHORT BED), PT767-35122 (DOUBLE CAB LONG BED)'
+
+Accessory.find_or_create_by id: 359,
+model_id: 22,
+image_file_name: "camry-security.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'VIP Security System (RS3200 plus)',
+price: 379.00,
+parts_cost: 239.00,
+labor_cost: 225.95,
+description: '•Designed to integrate with the vehicle’s existing factory security/keyless entry system—no need for an additional remote
+•Alarm functions:
+•Panic alarm remotely triggers vehicles alarm when activated from key fob
+•Warn-away alarm triggers an alarm triggers if an object striking on a window is detected
+•Break-in alarm is activated or if forced entry of a side door (or the trunk) is attempted or if glass is broken
+•Other features include:
+•Door ajar warning helps remind driver to lock vehicle
+•Remote arming and disarming with 80 foot range
+•Automatic rearming and relocking
+•Interior light activates when vehicle is unlocked with key fob
+•Rolling code technology changes the remote code, helping prevent code theft
+•Starter disabled when system is activated
+•Includes glass breakage sensor (GBS)
+•Highly sensitive microphone detects the specific sound frequency of striking on glass or glass breakage
+•Sounds alarm and disarms starter if a window is broken
+•Sounds a warn-away alarm if object striking on a window is detected
+•Meets Toyota’s stringent quality standards
+•Premium accessory adds to the vehicle’s resale value
+•CANNOT BE INSTALLED onto the following vehicles due to conflict in knock out location. MY: 13. Katashiki: GRN245L-PRFDKA (code: 7593, 4WD double cab base V6 6MT) WITH Off-road Package.
+•During installation the driver side foot rest is removed - A Replacement foot rest - Part Number 58190-04021 - MUST be used
+•Must only be installed on vehicles with factory keyless entry',
+part_number: 'PT398-35121'
+
+
 
 # Accessory.find_or_create_by id: 3,
-# model_id: 21,
+# model_id: 22,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
@@ -4776,7 +5109,7 @@ part_number: ''
 # labor_cost: ,
 # description: '',
 # part_number: ''
-#
+
 
 
 
