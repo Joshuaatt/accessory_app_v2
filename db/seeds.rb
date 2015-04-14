@@ -5442,8 +5442,230 @@ description: '•Skid-resistant heavy-duty step pads on both sides of the vehicl
 •Attachment interface designed for ease of installation using Toyota engineer-approved CAD data',
 part_number: ''
 
+
+#### xB ####
+
+Accessory.find_or_create_by id: 382,
+model_id: 26,
+image_file_name: "xb-auto-dimming-mirror.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Auto Dimming Mirror',
+price: 145.00,
+parts_cost: 99.00,
+labor_cost: 150.95,
+description: '•Provides automatic progressive dimming of the inside mirror, reducing the glare caused by the headlights of vehicles behind
+•Helps relieve glare that can lead to temporary night blindness, increased average stopping distances and slowed reaction time
+•Helps reduce eye strain and driver fatigue
+•Features an amber-colored LED console light on the underside of the mirror to illuminate the gearshift area
+•Provides refined, integrated styling and appearance
+•Auto-dimming function can be manually deselected',
+part_number: ''
+
+Accessory.find_or_create_by id: 383,
+model_id: 26,
+image_file_name: "xb-cargo-cover.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Cover',
+price: 169.00,
+parts_cost: 89.00,
+labor_cost: 0,
+description: '•Custom-designed to create a covered, secure area
+•Offers valuable protection against sun damage, fading and theft
+•Made of durable, UV- and stain-resistant woven polyester
+•Simple to install and remove',
+part_number: ''
+
+Accessory.find_or_create_by id: 384,
+model_id: 26,
+image_file_name: "xB_2015_CarpetCargoMat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Tray',
+price: 74.00,
+parts_cost: 59.00,
+labor_cost: 0,
+description: '•Molded from a tough, flexible polymer blend that’s easy to clean
+•Skid-resistant surface helps keep cargo from sliding around
+•Perimeter lip helps contain spills, debris and liquids
+•Designed to fit the vehicle’s cargo floor
+•Features a molded vehicle logo',
+part_number: ''
+
+Accessory.find_or_create_by id: 385,
+model_id: 26,
+image_file_name: "xb-fog-light.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Fog Lights',
+price: 285.00,
+parts_cost: 189.00,
+labor_cost: 225.95,
+description: '•Helps increase visibility in inclement weather conditions and night driving
+•Enhances style and functionality of the vehicle
+•Seamlessly integrates into lower front grille
+•Designed to complement the vehicle’s exterior lines
+•High-performance halogen bulbs are DOT-approved and corrosion- and shock-resistant
+•Maintains Scion’s high quality standards for fit and finish',
+part_number: ''
+
+Accessory.find_or_create_by id: 386,
+model_id: 26,
+image_file_name: "xB_2015_Mudguards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mudguards',
+price: 59.00,
+parts_cost: 35.00,
+labor_cost: 37.95,
+description: '•Helps provide protection to vehicle paint from mud, road debris, dirt and stone chipping
+•Precise fit to match vehicle body panels and structure
+•Corrosion-resistant mounting hardware
+•Available in a set of four',
+part_number: ''
+
+Accessory.find_or_create_by id: 387,
+model_id: 26,
+image_file_name: "xb-bumper-applique.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Bumper Applique',
+price: 43.00,
+parts_cost: 22.00,
+labor_cost: 37.95,
+description: '•Helps protect the top painted surface of the vehicle’s rear bumper from scrapes and scratches
+•Designed and cut for an exact fit to the vehicle’s rear bumper
+•Durable black UV-resistant PVC construction with skid-resistant surface',
+part_number: ''
+
+Accessory.find_or_create_by id: 388,
+model_id: 26,
+image_file_name: "xB_2015_RearWindDeflector.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Rear Wind Deflector',
+price: 345.00,
+parts_cost: 265.00,
+labor_cost: 225.95,
+description: '•Enhances your xB’s profile presentation
+•Scion factory paint color precisely matched to your xB
+•Built to exacting Scion standards for long-term durability and performance
+•Includes all mounting hardware to aid proper installation
+•Wind deflector meets all factory specifications and testing for durability and weather resistance
+(Includes Installation Kit required to install rear wind deflector)',
+part_number: ''
+
+Accessory.find_or_create_by id: 389,
+model_id: 26,
+image_file_name: "xb-security.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Scion Security System',
+price: 269.00,
+parts_cost: 200.00,
+labor_cost: 225.95,
+description: '•Designed to integrate with the vehicle’s existing factory security/keyless entry system—no need for an additional remote
+•Alarm functions:
+•Panic alarm remotely triggers vehicle’s alarm when activated from key fob
+•Warn-away alarm triggers if an object striking a window is detected
+•Break-in alarm is activated if forced entry of a side door (or cargo hatch) is attempted or if glass is broken
+•Other features:
+•Door ajar warning helps remind driver to lock vehicle
+•Remote arming and disarming
+•Passive arming—system automatically rearms the vehicle if the owner forgets
+•Interior light activates when vehicle is unlocked with key fob
+•Rolling code technology changes the remote code, helping prevent code theft
+•Starter disabled when system is activated
+•Includes glass breakage sensor (GBS):
+•Highly sensitive microphone detects the specific sound frequency of striking on glass or glass breakage
+•Sounds alarm and disarms starter if a window is broken
+•Sounds a warn-away alarm if object striking a window is detected',
+part_number: ''
+
+Accessory.find_or_create_by id: 391,
+model_id: 26,
+image_file_name: "xB-Sport-Steering-Wheel-detail.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Steering Wheel',
+price: 279.00,
+parts_cost: 225.00,
+labor_cost: 112.95,
+description: '•Stylish, perforated leather-wrapped design with silver side accents
+•Retains steering-wheel-mounted audio controls and air bag integrity by utilizing existing air bag/air bag cover',
+part_number: ''
+
+Accessory.find_or_create_by id: 392,
+model_id: 26,
+image_file_name: "xb-lowering-spring.JPG",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Lowering Springs',
+price: 250.00,
+parts_cost: 165.00,
+labor_cost: 495.95,
+description: '•Provides enhanced on-road vehicle performance, quicker turn-in, enhanced steering response and improved cornering
+•Lowers vehicle\'s center of gravity by 1-in. in front and 1.5-in. in the rear
+•Features TRD-developed proprietary spring rate (linear in front, progressive in rear)
+•Engineered to maintain vehicle dynamics and improve performance
+•Rigorously tested for durability and suspension balance
+•Designed to work with stock struts
+•Rigorously tested through the slalom, on the skid pad and around a high-speed road course',
+part_number: ''
+
+Accessory.find_or_create_by id: 393,
+model_id: 26,
+image_file_name: "xb-air-intake.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Performance Air Intake',
+price: 425.00,
+parts_cost: 375.00,
+labor_cost: 75.00,
+description: '•System takes cool air from behind and below the headlight area (rather than hot air from the engine compartment) to supply engine with cooler, denser air to increase horsepower and improve cooling
+•Designed to work with the factory ECU and emissions system
+•Features reusable TRD high-flow conical air filter with custom-calibrated filter service gauge that provides visual indication when filter needs servicing
+•Dyno-tested to deliver an increase in both horsepower and torque for superior acceleration and greater pulling power
+•Tested according to Scion’s stringent performance standards
+•Emissions legal in all 50 states',
+part_number: ''
+
+Accessory.find_or_create_by id: 394,
+model_id: 26,
+image_file_name: "xB_2015_TRD_SportMuffler.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Sport Muffler',
+price: 469.00,
+parts_cost: 389.00,
+labor_cost: 150.95,
+description: '•Polished muffler body—exclusively built of 304 stainless steel—features a double-walled body and delivers an increase in vehicle horsepower as well as a more resonant engine sound
+•Axle-back muffler featuring stainless steel pipes and large polished exhaust tip
+•Crafted with precision welds for a jewel-like appearance
+•Uses OEM connector flanges and gaskets (in most applications), and reuses factory hardware and hangers for easy, professional no-drill, no-cut installation
+•Emissions legal in all 50 states',
+part_number: ''
+
+Accessory.find_or_create_by id: 395,
+model_id: 26,
+image_file_name: "xB_2015_WindoTrimApplique.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Window Trim Applique',
+price: 245.00,
+parts_cost: 156.00,
+labor_cost: 150.95,
+description: '•Allows owners to further personalize their xB
+•Made of real carbon fiber
+•Designed specifically for the xB, ensuring precise fit
+•Urethane top coat prevents peeling or yellowing
+•Easy peel-and-stick, long-lasting application',
+part_number: ''
+
+
 # Accessory.find_or_create_by id: 3,
-# model_id: 24,
+# model_id: 26,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
