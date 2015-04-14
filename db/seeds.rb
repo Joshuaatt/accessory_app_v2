@@ -449,6 +449,7 @@ Accessory.find_or_create_by id: 42,
   active: true,
   part_number: 'B321SFG000'
 
+
 #### 2014 Subaru Tribeca ####
 
 Accessory.find_or_create_by id: 43,
@@ -5663,6 +5664,19 @@ description: '•Allows owners to further personalize their xB
 •Easy peel-and-stick, long-lasting application',
 part_number: ''
 
+#### Decline ####
+
+Accessory.find_or_create_by id: 396,
+model_id: nil,
+image_file_name: "no-thank-you-.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Decline',
+price: 0,
+parts_cost: 0,
+labor_cost: 0,
+description: 'I do not want to order accessories at this time.'
+
 
 # Accessory.find_or_create_by id: 3,
 # model_id: 26,
@@ -5675,7 +5689,6 @@ part_number: ''
 # labor_cost: ,
 # description: '',
 # part_number: ''
-
 
 
 
