@@ -5097,9 +5097,353 @@ description: '•Designed to integrate with the vehicle’s existing factory sec
 part_number: 'PT398-35121'
 
 
+#### 2015 Tundra ####
+
+Accessory.find_or_create_by id: 360,
+model_id: 24,
+image_file_name: "tundra-7-pin-connector.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: '7-Pin and 4-Pin Trailer Connector',
+price: 65.00,
+parts_cost: 45.00,
+labor_cost: 0,
+description: 'Want to take your trailer on the road? Be sure the connection is a snap with this 7-Pin and 4-Pin trailer connector.',
+part_number: 'PT725-34140'
+
+Accessory.find_or_create_by id: 361,
+model_id: 24,
+image_file_name: "tundra-all-weather-floor-mats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'All-Weather Floor Mats',
+price: 99.00,
+parts_cost: 59.00,
+labor_cost: 0.00,
+description: '•Helps protect vehicle’s factory carpet against mud, embedded sand, stains and soils
+•Replaces standard carpet floor mats
+•Black mat featuring a debossed gray Tacoma logo
+•Ribbed channels
+•Easy to clean—can be wiped off
+•Lightweight',
+part_number: ''
+
+Accessory.find_or_create_by id: 362,
+model_id: 24,
+image_file_name: "tundra-bed-extender.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Bed Extender',
+price: 300.00,
+parts_cost: 210.00,
+labor_cost: 75.00,
+description: '•Powder coat finish enhances appearance and durability
+•Taillights remain visible when extended, in compliance with DOT lighting requirements
+•Bed extender cannot be removed when tailgate is up and locked, making theft difficult
+•Angle-release mounting brackets enable easy installation or removal
+•Adjustable strap latches make sure the open bed extender is secured to the tailgate when down
+•Increases usable cargo length by approximately two feet with tailgate open
+•Helps contain and protect smaller items like tools, camping gear or groceries when tailgate is closed
+•Complements the Tundra’s unique styling cues and enhances its rugged, off-road appearance
+•Lightweight, aircraft-grade aluminum tube construction and rugged, glass-reinforced nylon uprights provide optimum strength',
+part_number: ''
+
+Accessory.find_or_create_by id: 363,
+model_id: 24,
+image_file_name: "tundra-bed-mat.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Bed Mat',
+price: 125.00,
+parts_cost: 85.00,
+labor_cost: 0,
+description: '•Custom-molded, heavy weight bed mat helps protect truck and cargo
+•Provides superior abrasion resistance and tear strength for durable truck bed protection
+•Pebble finish helps minimize shifting of cargo
+•Raised angled ribs eases cargo loading/unloading
+•Knobby underside promotes aeration and drainage to keep truck bed dry, helping prevent rust and mildew
+•Manufactured from a high-strength, cord-enhanced rubber compound
+•Tested to help safeguard against fading, rusting, cracking or breaking—even in extreme temperatures',
+part_number: ''
+
+Accessory.find_or_create_by id: 364,
+model_id: 24,
+image_file_name: "tundra-step-boards.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Brushed Stainless Steel Step Boards',
+price: 585.00,
+parts_cost: 395.00,
+labor_cost: 75.00,
+description: '•Enhances your vehicle’s go-anywhere capability and sophisticated appearance
+•Features two, heavy duty injection-molded step pads providing skid-resistant tread surface at each door
+•Precise fit of plastic to metal components ensures minimal gapping and clean appearance
+•Brackets and structures optimized as a cohesive system for fit, weight and strength using sophisticated CAD modeling techniques
+•Sturdy black-coated steel brackets ensure optimal support for step boards
+•Attachment interface designed for ease of installation using Toyota engineer-approved CAD data
+•Optimized open structure?helps reduce weight up to 25% in comparison to conventional closed-section running boards, while meeting or exceeding load requirements
+•Injection-molded end caps help reduce wind noise and offer a more finished appearance
+•Provides added measure of protection for reducing dirt and stone chipping of lower door and body
+•Manufactured from high-quality stainless steel with superior corrosion resistance',
+part_number: ''
+
+Accessory.find_or_create_by id: 365,
+model_id: 24,
+image_file_name: "tundra-exterior-cargo-net.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Cargo Net – Exterior',
+price: 40.00,
+parts_cost: 25.00,
+labor_cost: 0,
+description: '•Custom-crafted for the Tundra\'s truck bed
+•Designed to hold a variety of everyday items
+•Features a hammock-style design and durable netting that attaches to defined points in the rear cargo area, making it easily accessible
+•Can be installed or detached in seconds, and folds flat for storage when not in use.',
+part_number: 'PT347-34070'
+
+Accessory.find_or_create_by id: 366,
+model_id: 24,
+image_file_name: "tundra-deck-rail-system.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Deck Rail System',
+price: 200.00,
+parts_cost: 150.00,
+labor_cost: 75.00,
+description: '•Galvanized steel construction for superior strength
+•Black powder top coat helps ensure durable corrosion resistance
+•Adds functionality and versatility for optimal truck bed use
+•Custom-fitted for the Tundra truck bed
+•Includes four tie-down bed cleats made of sturdy die-cast aluminum, accommodating a maximum load of 880 lb. (220 lb. each)
+•Includes locators for bed cleats every four inches
+•Deck rails accommodate a variety of additional accessories to enhance utility
+•Mini tie downs are sold separately',
+part_number: ''
+
+Accessory.find_or_create_by id: 367,
+model_id: 24,
+image_file_name: "tundra-door-sill-protectors.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Protectors (Crew Max Black And Platinum)',
+price: 65.00,
+parts_cost: 45.00,
+labor_cost: 37.95,
+description: '•Durable black-molded door sills helps protect the vehicle\'s interior from everyday scuffs, scrapes and scratches
+•Custom-designed for a precision fit to the vehicle
+•Skid-resistant surface
+•Vehicle name molded into the sill',
+part_number: 'PT747-34140'
+
+Accessory.find_or_create_by id: 368,
+model_id: 24,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Protectors (Crew Max)',
+price: 48.00,
+parts_cost: 29.00,
+labor_cost: 37.95,
+description: '•Durable black-molded door sills helps protect the vehicle\'s interior from everyday scuffs, scrapes and scratches
+•Custom-designed for a precision fit to the vehicle
+•Skid-resistant surface
+•Vehicle name molded into the sill
+•Quick, simple installation',
+part_number: ''
+
+Accessory.find_or_create_by id: 369,
+model_id: 24,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Protectors (Double-Cab)',
+price: 40.00,
+parts_cost: 24.00,
+labor_cost: 37.95,
+description: '•Durable black-molded door sills helps protect the vehicle\'s interior from everyday scuffs, scrapes and scratches
+•Custom-designed for a precision fit to the vehicle
+•Skid-resistant surface
+•Vehicle name molded into the sill',
+part_number: 'PT747-34143'
+
+Accessory.find_or_create_by id: 370,
+model_id: 24,
+image_file_name: "",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Door Sill Protectors (Regular Cab)',
+price: 32.00,
+parts_cost: 19.00,
+labor_cost: 37.95,
+description: '•Durable black-molded door sills helps protect the vehicle\'s interior from everyday scuffs, scrapes and scratches
+•Custom-designed for a precision fit to the vehicle
+•Skid-resistant surface
+•Vehicle name molded into the sill',
+part_number: 'PT747-34142'
+
+Accessory.find_or_create_by id: 371,
+model_id: 24,
+image_file_name: "tundra-exhaust-tip.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Exhaust Tip',
+price: 79.00,
+parts_cost: 48.00,
+labor_cost: 15.95,
+description: '•Constructed of double-walled, polished 304 stainless steel
+•Corrosion resistant, ensuring its beauty for years to come
+•Eye-catching accessory that enhances the vehicle\'s exterior appearance
+•Easy, bolt-on installation requires no cutting, drilling or welding; all hardware included',
+part_number: ''
+
+Accessory.find_or_create_by id: 372,
+model_id: 24,
+image_file_name: "tundra-locking-bike-rack.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Locking Fork Bike Rack',
+price: 95.00,
+parts_cost: 75.00,
+labor_cost: 0,
+description: 'Bringing your bike along for the ride is easier when you add this locking fork bike rack to your deck rail system.',
+part_number: ''
+
+Accessory.find_or_create_by id: 373,
+model_id: 24,
+image_file_name: "tundra-mini-tie-downs.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Mini Tie-Downs With Hooks',
+price: 45.00,
+parts_cost: 31.00,
+labor_cost: 0,
+description: 'Maximize your Tundra\'s functionality by adding a set of two fully adjustable mini tie-downs with hooks.',
+part_number: ''
+
+Accessory.find_or_create_by id: 374,
+model_id: 24,
+image_file_name: "tundra-tie-down-cleats.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tie-Down Cleats',
+price: 42.00,
+parts_cost: 32.00,
+labor_cost: 0,
+description: '•1pc, single part
+•Fully adjustable
+•Slide along Tundra’s deck rail system using a steel locking plate to hold them securely in place
+•Made of sturdy die-cast aluminum
+•Each bed cleat holds a maximum of 220 pounds apiece',
+part_number: ''
+
+Accessory.find_or_create_by id: 375,
+model_id: 24,
+image_file_name: "tundra-tow-hitch.jpeg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tow Hitch Receiver',
+price: 450.00,
+parts_cost: 350.00,
+labor_cost: 225.95,
+description: '•Easy, no-drill installation maintains the structural integrity of the vehicle frame
+•Custom replacement bumper trim panel matches vehicle contours and color
+•16 connection points to the vehicle frame transfer force of towing across vehicle to reduce stress and preserve integrity of the frame and body structure
+•Extensive stress point, fatigue and on-road testing ensure the product meets or exceeds all Toyota durability testing
+•Ball mount and trailer ball sold separately
+•Available for the 4.6L Engine
+•Requires an additional purchase of the 7 pin wire harness
+•It is not included with hitch kit',
+part_number: ''
+
+Accessory.find_or_create_by id: 376,
+model_id: 24,
+image_file_name: "tundra-alloy-wheels.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD 17-in. Forged Off- Road Beadlock Style Wheels',
+price: 1771.00,
+parts_cost: 1390.00,
+labor_cost: 150.95,
+description: '•Off-road race-inspired 17-in. x 8-in. x 50-mm. six-spoke forged aluminum wheels with 5 x 150-mm. lug nut pattern
+•Features gunmetal gray finish and machined outer lip with bead-lock styling
+•Hot forged wheels are lighter than their cast counterparts and offer a higher strength-to-weight ratio, which helps keep corner weight down and maintains unsprung weight specifications
+•Incorporates the proper weight, offset and brake clearance to ensure proper fit, finish and reliability
+•Extensive ride, handling and strength tests ensure wheels meet TRD\'s high quality standards
+•TRD Wheel Installation Kit required: PTR27-60080
+•May require 20 degree sensors when installing',
+part_number: ''
+
+Accessory.find_or_create_by id: 377,
+model_id: 24,
+image_file_name: "tundra-oil-cap.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Oil Cap – Japan',
+price: 57.00,
+parts_cost: 39.00,
+labor_cost: 0,
+description: 'Dress up your engine with the race-ready look of a TRD oil cap. Features forged, polished billet aluminum construction.',
+part_number: ''
+
+Accessory.find_or_create_by id: 378,
+model_id: 24,
+image_file_name: "tundra-oil-filter.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Performance Oil Filter',
+price: 12.75,
+parts_cost: 7.75,
+labor_cost: 0,
+description: 'TRD premium oil filter features three-ply, 100% synthetic glass/polyester-blend filtration medium for optimal efficiency',
+part_number: ''
+
+Accessory.find_or_create_by id: 379,
+model_id: 24,
+image_file_name: "tundra-radiator-cap.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'TRD Radiator Cap',
+price: 37.56,
+parts_cost: 26.30,
+labor_cost: 0,
+description: 'TRD radiator caps release at higher cooling system pressures than factory caps, raising the coolant boiling point to protect engines under high rpm.',
+part_number: ''
+
+Accessory.find_or_create_by id: 380,
+model_id: 24,
+image_file_name: "tundra-tube-steps.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tube Steps – Chrome',
+price: 494.00,
+parts_cost: 325.00,
+labor_cost: 75.00,
+description: '•Skid-resistant heavy-duty step pads on both sides of the vehicle help to channel water off the steps
+•Durable, lightweight aluminum construction is chip and rust resistant
+•Simple, no-drill installation
+•Precise fit of components ensures minimal gapping and clean appearance
+•Attachment interface designed for ease of installation using Toyota engineer-approved CAD data',
+part_number: ''
+
+Accessory.find_or_create_by id: 381,
+model_id: 24,
+image_file_name: "tundra-tube-steps-black.jpg",
+image_content_type: "image/jpeg",
+active: true,
+name: 'Tube Steps – Painted  Black Stainless Steel',
+price: 450.00,
+parts_cost: 295.00,
+labor_cost: 75.00,
+description: '•Skid-resistant heavy-duty step pads on both sides of the vehicle help to channel water off the steps
+•Durable, lightweight aluminum construction is chip and rust resistant
+•Simple, no-drill installation
+•Precise fit of components ensures minimal gapping and clean appearance
+•Attachment interface designed for ease of installation using Toyota engineer-approved CAD data',
+part_number: ''
 
 # Accessory.find_or_create_by id: 3,
-# model_id: 22,
+# model_id: 24,
 # image_file_name: "",
 # image_content_type: "image/jpeg",
 # active: true,
