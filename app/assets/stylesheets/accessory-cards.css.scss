@@ -41,9 +41,14 @@
   background: #5cb85c;
 }
 
-.add-button {
+.add-button, .decline-button {
   min-width: 100%;
-  margin-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.decline-button {
+ margin-top: 70%;
 }
 
 @media only screen and (min-width: 545px) {

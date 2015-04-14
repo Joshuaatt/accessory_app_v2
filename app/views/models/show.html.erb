@@ -56,7 +56,7 @@
         <%= form_for @order_item, remote: true do |f| %>
           <%= f.hidden_field :quantity, value: 1, class: "form-control", min: 1 %>
           <%= f.hidden_field :accessory_id, value: 396 %>
-          <%= f.submit "Decline", class: "btn btn-danger add-button" %>
+          <%= f.submit "Decline", class: "btn btn-danger decline-button" %>
         <% end %>
       </div>
     </div>
