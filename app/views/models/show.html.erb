@@ -4,7 +4,7 @@
 
 <% if @model.accessories.any? %>
   <% @model.accessories.each do |accessory| %>
-    <div class="cards col-xs-12 col-md-12">
+    <div class="cards col-xs-12 col-md-12" data-id="<%= accessory.id %>">
       <div class="row">
         <div class="accessory-image col-xs-12 col-md-4">
           <%= image_tag accessory.image.url(:large), class: "large-image" %>
