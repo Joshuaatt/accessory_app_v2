@@ -24,9 +24,13 @@ class Accessory < ActiveRecord::Base
     :size => { :in => 0..10.megabytes },
     :content_type => { :content_type => /^image\/(jpeg|png|gif|tiff)$/ }
 
+  def full_price
+    self.price + self.labor_cost
+  end
+
   def discount
     if self.price != nil
-      self.price * 0.85
+      (self.price * 0.85) + self.labor_cost
     end
   end
 

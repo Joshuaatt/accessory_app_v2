@@ -1,16 +1,6 @@
 <% if @order.errors.any? || @order_item.errors.any? %>
 alert("not valid.")
 <% else %>
-
-
-
-
-
-
-// $("div.cards").click(function() {
-//   card = $(this).data("id");
-//   $('div[data-id="'+ card +'"]').css("background-color", "red");
-// });
-
+  $('div[id="'+ <%= @order_item.accessory_id %> +'"]').css("background-color", "#ADD6FF");
   $(".cart-text").html("<%= escape_javascript(render 'layouts/cart_text') %>");
 <% end %>
