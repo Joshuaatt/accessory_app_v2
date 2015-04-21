@@ -11,6 +11,7 @@ gem 'bootstrap-sass'
 gem "paperclip", "~> 4.2"
 gem 'devise'
 gem 'bootstrap_form'
+gem 'puma'
 
 
 
