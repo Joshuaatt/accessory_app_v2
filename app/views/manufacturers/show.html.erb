@@ -1,6 +1,15 @@
 
 <div class="page-header col-xs-12">
-  <h1>Select your <%= @manufacturer.name %> model <small><%= link_to 'Add Model', new_manufacturer_model_path(@manufacturer, @model), id: "add_link" %></small></h1>
+  <h1>
+    <%= link_to manufacturers_path do %>
+      Select your <%= @manufacturer.name %> model
+    <% end %>
+    <% if admin_signed_in? %>
+      <small>
+        <%= link_to 'Add Model', new_manufacturer_model_path(@manufacturer, @model), id: "add_link" %>
+      </small>
+    <% end %>
+  </h1>
 </div>
 
 <% if @manufacturer.models.any? %>
