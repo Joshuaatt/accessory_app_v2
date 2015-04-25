@@ -15,10 +15,13 @@
       <%= form_for order_item, remote: true do |f| %>
       <div class="price-and-price-per-month">
         <div class="price">
-          <h4><%= number_to_currency order_item.total_price %></h4>
+          <h4><%= number_to_currency accessory.full_price %></h4>
+        </div>
+        <div class="price-discount">
+          <h4><%= number_to_currency accessory.discount %></h4>
         </div>
         <div class="price-per-month">
-          <h4>$2.66/mo *</h4>
+          <h4><%= number_to_currency accessory.monthly %> *</h4>
         </div>
       </div>
         <%= f.hidden_field :quantity, value: order_item.quantity.to_i, class: "form-control", min: 1 %>
