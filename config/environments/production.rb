@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #Change this when the new url is decided on
+  config.action_mailer.default_url_options = { host: 'nameless-wildwood-6504.herokuapp.com', port: 3000 }
 end
