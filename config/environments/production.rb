@@ -78,5 +78,14 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #Change this when the new url is decided on
-  config.action_mailer.default_url_options = { host: 'http://nameless-wildwood-6504.herokuapp.com', port: 3000 }
+  # config.action_mailer.default_url_options = { host: 'http://nameless-wildwood-6504.herokuapp.com', port: 3000 }
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :port           => ENV['MAILGUN_SMTP_PORT'],
+    :address        => ENV['MAILGUN_SMTP_SERVER'],
+    :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
+    :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+    :domain         => 'nameless-wildwood-6504.herokuapp.com',
+    :authentication => :plain,
 end
