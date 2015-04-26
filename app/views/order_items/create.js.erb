@@ -2,5 +2,10 @@
 alert("not valid.")
 <% else %>
   $('div[id="'+ <%= @order_item.accessory_id %> +'"]').css("background-color", "#ADD6FF");
+
+  $('div[id="'+ <%= @order_item.accessory_id %> +'"]').find('div.add').replaceWith('<%= link_to "Remove", @order_item,
+    { data: { confirm: "Are you sure you wish to delete the accessory '#{@order_item.accessory.name}' from your cart?" },
+    method: :delete, remote: true, class: "btn btn-danger add-button" } %>');
+
   $(".cart-text").html("<%= escape_javascript(render 'layouts/cart_text') %>");
 <% end %>

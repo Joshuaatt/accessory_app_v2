@@ -1,2 +1,7 @@
+$('div[id="'+ <%= @order_item.accessory_id %> +'"]').css("background-color", "white");
+
+$('div[id="'+ <%= @order_item.accessory_id %> +'"]').find('div.add').replaceWith('"'+<%= f.submit "Add", class: "btn btn-primary add-button" %>+'"');
+
+
 $(".cart-text").html("<%= escape_javascript(render 'checkout/checkout_footer') %>")
 $(".shopping-cart").html("<%= escape_javascript(render 'carts/shopping_cart') %>")
