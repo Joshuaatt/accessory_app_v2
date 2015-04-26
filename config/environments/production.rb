@@ -87,5 +87,5 @@ Rails.application.configure do
     :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
     :password       => ENV['MAILGUN_SMTP_PASSWORD'],
     :domain         => 'nameless-wildwood-6504.herokuapp.com',
-    :authentication => :plain,
+    :authentication => :plain,}
 end
