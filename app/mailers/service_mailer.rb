@@ -9,7 +9,7 @@ class ServiceMailer < ApplicationMailer
     @order_items = order_items
 
     # Delete line when ready for production
-    mail(:to => joshuaatteberry@gmail.com, :subject => "Customer Accessories Request")
+    mail(:to => 'joshuaatteberry@gmail.com', :subject => "Customer Accessories Request")
 
     # Uncomment the code below when ready for production
     # mail(:to => @associate.email, :subject => "Customer Accessories Request",
