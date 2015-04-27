@@ -26,7 +26,7 @@ class AccessoriesController < ApplicationController
   def edit
     # @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
-    @accessory = @model.accessory.find(params[:id])
+    @accessory = @model.accessories.find(params[:id])
   end
 
   def update
