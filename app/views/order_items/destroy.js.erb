@@ -1,7 +1,9 @@
 $('div[id="'+ <%= @order_item.accessory_id %> +'"]').css("background-color", "white");
 
-$('div[id="'+ <%= @order_item.accessory_id %> +'"]').find('div.add').replaceWith('"'+<%= f.submit "Add", class: "btn btn-primary add-button" %>+'"');
+$('div[id="'+ <%= @order_item.accessory_id %> +'"]').find('div.add').show();
 
+$('div[id="'+ <%= @order_item.accessory_id %> +'"]').find('div.remove').empty();
 
-$(".cart-text").html("<%= escape_javascript(render 'checkout/checkout_footer') %>")
+$(".cart-text").html("<%= escape_javascript(render 'layouts/cart_text') %>");
+$(".cart-text-checkout").html("<%= escape_javascript(render 'checkout/checkout_footer') %>")
 $(".shopping-cart").html("<%= escape_javascript(render 'carts/shopping_cart') %>")
