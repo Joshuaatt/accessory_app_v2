@@ -1,8 +1,9 @@
 <%= render 'layouts/errors', object: @model %>
+<div class="page-header">
+  <h1>Edit <%= @model.name %></h1>
+</div>
 
-<%= bootstrap_form_for [@model] do |f| %>
-  <%= f.text_field :name %>
-  <%= f.text_field :year %>
-  <%= f.file_field :image %>
-  <%= f.submit %>
-<% end %>
+<div class="admin-controls col-xs-12 col-md-6 col-md-offset-3">
+  <%= image_tag @model.image.url(:large), class: "large-image" %>
+  <%= render 'form' %>
+</div>

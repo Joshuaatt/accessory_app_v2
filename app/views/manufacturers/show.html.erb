@@ -30,9 +30,11 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="admin-controls edit-model col-xs-5">
-              <%= link_to 'edit', edit_manufacturer_model_path(@manufacturer, model) %> | <%= link_to 'delete', manufacturer_model_path(@manufacturer, model), data: { confirm: "This will delete the model and all accessories associated with this model. Are you sure?", method: "delete" } %></li>
-            </div> -->
+          </div>
+        <% end %>
+        <% if admin_signed_in? %>
+          <div class="admin-controls edit-model col-xs-5">
+            <%= link_to 'edit', edit_manufacturer_model_path(@manufacturer, model) %>
           </div>
         <% end %>
       <% end %>
