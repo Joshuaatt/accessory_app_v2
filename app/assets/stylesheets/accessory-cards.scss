@@ -16,7 +16,8 @@ div:visited {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.2em;
-  text-align: justify;
+  // text-align: justify;
+  margin-bottom: 10px;
 }
 
 .price-and-button {
@@ -24,10 +25,13 @@ div:visited {
 }
 
 .price-and-price-per-month {
-  border: 1px solid black;
-  border-radius: 5px;
-  margin-top: 5px;
+  // border: 1px solid black;
+  // border-radius: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.33);
 }
 
 .price {
@@ -43,10 +47,19 @@ div:visited {
   background: #5cb85c;
 }
 
+.price-per-month {
+  padding-top: .5px;
+  padding-bottom: .5px;
+  background: white;
+}
+
 .add-button, .decline-button {
+  margin-top: 5px;
   min-width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 1.4em;
+  font-weight: 300;
 }
 
 .decline-button {
