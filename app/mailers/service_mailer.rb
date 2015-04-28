@@ -1,5 +1,5 @@
 class ServiceMailer < ApplicationMailer
-  default :from => "joshuaatteberry@gmail.com"
+  default :from => "brianm@toyotacorvallis.com"
   # include OrderHelper
   # helper :order
 
