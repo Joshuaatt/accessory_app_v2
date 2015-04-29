@@ -11,6 +11,7 @@
   </h1>
 </div>
 
+
 <% if @model.accessories.any? %>
   <% @model.accessories.each do |accessory| %>
     <div class="cards col-xs-12 col-md-12">
@@ -31,6 +32,9 @@
             <div class="price-and-price-per-month">
               <div class="price">
                 <h4><%= number_to_currency accessory.full_price %></h4>
+                <% if accessory.labor_cost > 0 %>
+                  <p>Includes <%= number_to_currency accessory.labor_cost %> labor</p>
+                <% end %>
               </div>
               <!-- <div class="price-discount">
                 <h4><%= number_to_currency accessory.discount %></h4>
