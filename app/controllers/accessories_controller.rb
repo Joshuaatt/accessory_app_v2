@@ -30,12 +30,12 @@ class AccessoriesController < ApplicationController
   end
 
   def update
-    # @manufacturer = Manufacturer.find(params[:manufacturer_id])
     @model = Model.find(params[:model_id])
-    @accessory = @model.accessory.find(params[:id])
+    @accessory = @model.accessories.find(params[:id])
+    @manufacturer = @model.manufacturer_id
     if @accessory.update(accessory_params)
       flash[:notice] = "Your accessory has been changed successfully"
-      redirect_to model_path(@model)
+      redirect_to manufacturer_model_path(@model, @manufacturer)
     else
       flash[:error] = "There was an error with your edit"
       render action: :edit
