@@ -6,7 +6,15 @@
       </div>
       <div class="col-xs-4 cart-text-checkout">
         <%= link_to "Confirm order", youre_done_index_path, class: "btn btn-success continue-button" %>
-        <%= link_to "#{current_order.order_items.size} Items in Cart ( #{number_to_currency current_order.subtotal} )", cart_path, class: "btn btn-link" %>
+        <span class="total">Total:</span>
+        <div class="cart-total">
+          <div class="subtotal">
+            <%= number_to_currency current_order.subtotal %>
+          </div>
+          <div class="monthly_subtotal">
+            <%= number_to_currency current_order.monthly_subtotal %>
+          </div>
+        </div>
       </div>
     </div>
   </div>

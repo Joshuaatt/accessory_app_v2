@@ -10,6 +10,41 @@
   margin: 10px 0;
 }
 
+.continue-button {
+  display: inline-block;
+}
+
+.back {
+  text-align: center;
+}
+
 .cart-text {
   display: inline-block;
+}
+
+.total {
+  font-size: 1.4em;
+  margin: 0 8px 0;
+}
+
+.cart-total {
+  display: inline-block;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+}
+
+.subtotal, .monthly_subtotal {
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.subtotal {
+  background: gray;
+  color: white;
+}
+
+.monthly_subtotal {
+  background: white;
+  margin-left: -4px;
 }
