@@ -1,3 +1,4 @@
+
 <div class="navbar navbar-fixed-bottom" role="navigation">
   <div class="container-fluid checkout-bar">
     <div class="row">
@@ -6,8 +7,15 @@
       </div>
       <div class="col-xs-4 cart-text">
         <%= link_to "Continue", cart_path, class: "btn btn-success continue-button" %>
-        <%= link_to "#{current_order.order_items.size} Items in Cart ( #{number_to_currency current_order.subtotal} )", cart_path, class: "btn btn-link" %>
+        <p>Total<p><p class="cart-total"></p>
+        <%= number_to_currency current_order.subtotal %>
+        <%= number_to_currency current_order.monthly_subtotal %>
       </div>
+    </div>
+    <div>
+      * Monthly price is an estimate based on 10% APR for 60 months. Speak with dealer representative for price including tax, installation, and other interest rates.
     </div>
   </div>
 </div>
+
+<!-- # <%= link_to "#{current_order.order_items.size} Items in Cart ( #{number_to_currency current_order.subtotal} )", cart_path, class: "btn btn-link" %> -->

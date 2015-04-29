@@ -12,15 +12,15 @@ class OrderItem < ActiveRecord::Base
 # is changed in the database while the customer is checking out, it will not
 # change the final price.
   def unit_price
-    if persisted?
-      self[:unit_price]
-    else
-      accessory.price
-    end
+    accessory.price + accessory.labor_cost
   end
 
   def total_price
     unit_price * quantity
+  end
+
+  def monthly_price
+    accessory.monthly
   end
 
 private
@@ -39,5 +39,6 @@ private
   def finalize
     self[:unit_price] = unit_price
     self[:total_price] = quantity * self[:unit_price]
+    self[:monthly_price] = monthly_price
   end
 end
