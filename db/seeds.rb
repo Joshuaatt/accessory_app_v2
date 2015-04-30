@@ -237,7 +237,7 @@ Accessory.find_or_create_by id: 25,
   price: 599.99,
   parts_cost: 449.99,
   description: 'Provides powerful deep bass, and also assists in clean sound reproduction from all vehicle speakers. This is achieved by its integrated 100W amplifier and a passive crossover network. The self-contained unit mounts in the trunk of the vehicle. Manufactured for Subaru of America by Kicker®. Cannot be installed with Cargo Tray.',
-  labor_cost: 0,
+  labor_cost: 225.00,
   active: true,
   part_number: "H630SCA000"
 
@@ -249,7 +249,7 @@ Accessory.find_or_create_by id: 26,
   price: 165.00,
   parts_cost: 107.25,
   description: "Mirror darkens when headlights are detected from behind the vehicle. Includes integrated electronic compass.",
-  labor_cost: 0,
+  labor_cost: 75.00,
   active: true,
   part_number: 'H501SCA000, H501SSA041 Mirror adapter required for installation @ $10.00'
 
@@ -265,7 +265,7 @@ Accessory.find_or_create_by id: 27,
     buttons which can be programmed to operate most garage door openers and
     openers and other HomeLink compatible devices. (MSRP includes
     Installation Kit and adapter)",
-  labor_cost: 0,
+  labor_cost: 75.00,
   active: true,
   part_number: 'H501SCA101, H501SSA041 Mirror adapter required for installation @ $10.00'
 
@@ -301,7 +301,7 @@ Accessory.find_or_create_by id: 30,
   price: 99.00,
   parts_cost: 64.35,
   description: 'Adds a stylish touch of chrome to the fender grill panels.',
-  labor_cost: 0,
+  labor_cost: 60.00,
   active: true,
   part_number: 'E7110CA000'
 
@@ -313,7 +313,7 @@ Accessory.find_or_create_by id: 31,
   price: 79.00,
   parts_cost: 51.35,
   description: 'Adds a touch of flair to the fuel door cover.',
-  labor_cost: 0,
+  labor_cost: 37.50,
   active: true,
   part_number: 'J1210CA800'
 
@@ -325,7 +325,7 @@ Accessory.find_or_create_by id: 32,
   price: 335.00,
   parts_cost: 251.25,
   description: 'Casts a low and wide beam of light to help enhance vision in inclement weather.',
-  labor_cost: 0,
+  labor_cost: 112.50,
   active: true,
   part_number: 'H4510CA000'
 
@@ -337,7 +337,7 @@ Accessory.find_or_create_by id: 33,
   price: 169.95,
   parts_cost: 110.47,
   description: 'Casts a soft glow onto the front floor area. Also available in blue or red.',
-  labor_cost: 0,
+  labor_cost: 112.50,
   active: true,
   part_number: 'H701SCA000 - Red, H701SCA100 - Blue'
 
@@ -373,7 +373,7 @@ Accessory.find_or_create_by id: 36,
   price: 69.95,
   parts_cost: 45.47,
   description: 'Clear, scratch-resistant vinyl film helps to protect bumper upper surface and leading edge. Includes a discrete pearl-colored Subaru logo.',
-  labor_cost: 0,
+  labor_cost: 37.50,
   active: true,
   part_number: 'E771SCA700'
 
@@ -385,7 +385,7 @@ Accessory.find_or_create_by id: 37,
   price: 749.00,
   parts_cost: 561.75,
   description: 'Lower rear body panel helps to direct air flow and adds a sculpted finishing touch to the BRZ lower rear body line.',
-  labor_cost: 0,
+  labor_cost: 52.50,
   active: true,
   part_number: 'E5610CA000'
 
@@ -397,7 +397,7 @@ Accessory.find_or_create_by id: 38,
   price: 399.99,
   parts_cost: 299.99,
   description: 'New! STI Under Spoiler gives the BRZ a mean, ground-hugging attitude. Includes STI logo.',
-  labor_cost: 0,
+  labor_cost: 112.50,
   active: true,
   part_number: 'E2410CA000'
 
@@ -409,7 +409,7 @@ Accessory.find_or_create_by id: 39,
   price: 335.00,
   parts_cost: 251.25,
   description: 'New! Complete the ground-hugging look on the side of the BRZ with the addition of the rear quarter under spoiler. Kit includes both left and right side under spoilers.',
-  labor_cost: 0,
+  labor_cost: 37.50,
   active: true,
   part_number: 'E5610CA100'
 
@@ -421,7 +421,7 @@ Accessory.find_or_create_by id: 40,
   price: 499.99,
   parts_cost: 374.99,
   description: 'New! Continue the mean ground-hugging attitude down the rocker panels of the BRZ. Kit includes both left and right side under spoilers. Includes STI logo.',
-  labor_cost: 0,
+  labor_cost: 52.50,
   active: true,
   part_number: 'E2610CA000'
 
@@ -433,7 +433,7 @@ Accessory.find_or_create_by id: 41,
   price: 499.99,
   parts_cost: 374.25,
   description: 'Sleek, low profile design adds just the right amount of attitude to your vehicle. Comes pre-painted and ready to install.',
-  labor_cost: 0,
+  labor_cost: 225.00,
   active: true,
   part_number: 'E7218CA000XX'
 
@@ -460,7 +460,7 @@ Accessory.find_or_create_by id: 43,
   price: 266.00,
   parts_cost: 173.00,
   description: "",
-  labor_cost: 0,
+  labor_cost: 75.00,
   active: true,
   part_number: 'B310SXA000'
 
@@ -484,7 +484,7 @@ Accessory.find_or_create_by id: 45,
   price: 95.00,
   parts_cost: 61.75,
   description: "",
-  labor_cost: 0,
+  labor_cost: 37.50,
   active: true,
   part_number: 'E5110XA000'
 
@@ -496,7 +496,7 @@ Accessory.find_or_create_by id: 46,
   price: 116.00,
   parts_cost: 75.40,
   description: "",
-  labor_cost: 0,
+  labor_cost: 112.50,
   active: true,
   part_number: 'H621SXA200'
 
@@ -508,7 +508,7 @@ Accessory.find_or_create_by id: 47,
   price: 49.95,
   parts_cost: 32.47,
   description: "",
-  labor_cost: 0,
+  labor_cost: 37.50,
   active: true,
   part_number: 'E771SXA000'
 
@@ -520,7 +520,7 @@ Accessory.find_or_create_by id: 48,
   price: 40.00,
   parts_cost: 26.00,
   description: "",
-  labor_cost: 0,
+  labor_cost: 37.50,
   active: true,
   part_number: 'J101SXA200'
 
@@ -532,7 +532,7 @@ Accessory.find_or_create_by id: 49,
   price: 335.00,
   parts_cost: 217.75,
   description: "",
-  labor_cost: 0,
+  labor_cost: 225.00,
   active: true,
   part_number: 'H001SXA000'
 
@@ -544,7 +544,7 @@ Accessory.find_or_create_by id: 50,
   price: 269.50,
   parts_cost: 175.47,
   description: "",
-  labor_cost: 0,
+  labor_cost: 150.00,
   active: true,
   part_number: 'H481SXA000'
 
@@ -556,7 +556,7 @@ Accessory.find_or_create_by id: 52,
   price: 398.00,
   parts_cost: 298.50,
   description: "",
-  labor_cost: 0,
+  labor_cost: 225.00,
   active: true,
   part_number: 'H621SXA100'
 
@@ -765,7 +765,7 @@ Accessory.find_or_create_by id: 77,
   name: '10 Inch Powered Subwoofer',
   price: 499.99,
   parts_cost: 374.99,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Provides powerful deep bass, and also assists in clean sound reproduction from all vehicle speakers. This is achieved by its integrated 100W amplifier and a passive crossover network. The self-contained unit mounts in the trunk of 4-door models and behind the rear seat in 5-door models. Manufactured for Subaru of America by Kicker®.',
   part_number: 'H630SFJ100'
 
@@ -801,7 +801,7 @@ Accessory.find_or_create_by id: 80,
   name: 'Body Side Molding Kit',
   price: 229.95,
   parts_cost: 149.47,
-  labor_cost: 0,
+  labor_cost: 52.50,
   description: 'Attractive, color-matched moldings coordinate with the styling of the vehicle while helping to protect doors from unsightly dings.',
   part_number: 'J101SFJ000##'
 
@@ -813,7 +813,7 @@ Accessory.find_or_create_by id: 81,
   name: 'Cargo Net - Rear (5-Door)',
   price: 34.95,
   parts_cost: 22.72,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Neatly holds cargo and prevents it from sliding while vehicle is in motion.',
   part_number: 'F551SFJ100'
 
@@ -825,7 +825,7 @@ Accessory.find_or_create_by id: 82,
   name: 'Cargo Net – Rear (4-Door)',
   price: 34.95,
   parts_cost: 22.72,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Neatly holds cargo upright and prevents it from sliding while the vehicle is in motion.',
   part_number: 'F551SVA000'
 
@@ -837,7 +837,7 @@ Accessory.find_or_create_by id: 83,
   name: 'Cargo Net – Rear Seat Back',
   price: 34.95,
   parts_cost: 22.72,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Additional cargo net storage to help keep the cargo area organized.',
   part_number: 'F551SFJ000'
 
@@ -849,7 +849,7 @@ Accessory.find_or_create_by id: 84,
   name: 'Cargo Nets - Side',
   price: 54.95,
   parts_cost: 35.72,
-  labor_cost: 0,
+  labor_cost: 52.50,
   description: 'Holds smaller cargo items upright inside the trunk on the Impreza 5-door. Kit includes 2 nets.',
   part_number: 'F551SFJ200'
 
@@ -861,7 +861,7 @@ Accessory.find_or_create_by id: 85,
   name: 'Crossbar Set - Fixed',
   price: 199.95,
   parts_cost: 129.97,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: "May be used in conjunction with Genuine Subaru roof attachments and carriers. Crossbar Set required. Consult vehicle owner's manual for total roof load limit.",
   part_number: 'E361SFJ000'
 
@@ -873,7 +873,7 @@ Accessory.find_or_create_by id: 86,
   name: 'Crossbar Set-Aero (Sport)',
   price: 199.95,
   parts_cost: 129.97,
-  labor_cost: 0,
+  labor_cost: 22.50,
   description: "May be used in conjunction with Genuine Subaru roof attachments and carriers. Crossbar Set required. Consult vehicle owner's manual for total roof load limit.",
   part_number: 'E361SFJ100'
 
@@ -885,7 +885,7 @@ Accessory.find_or_create_by id: 87,
   name: 'Fog light Kit - Impreza',
   price: 337.95,
   parts_cost: 253.46,
-  labor_cost: 0,
+  labor_cost: 112.50,
   description: 'Casts a low and wide beam of light to enhance vision in inclement weather.',
   part_number: 'SOA635089 - Black Switch Bezel, SOA635090 - Beige Switch Bezel'
 
@@ -909,7 +909,7 @@ Accessory.find_or_create_by id: 89,
   name: 'Roof Cargo Carrier - Extended',
   price: 459.95,
   parts_cost: 344.96,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: "Provides 16 cubic feet of lockable storage capacity. Convenient dual-side opening allows for loading from either side of the vehicle. Measures 76in L x 36in W x 16in H. Crossbar Set required. Consult vehicle owner's manual for total roof load limit.",
   part_number: 'E361SAJ200'
 
@@ -921,7 +921,7 @@ Accessory.find_or_create_by id: 90,
   name: 'Roof Cargo Carrier',
   price: 369.95,
   parts_cost: 277.46,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: "Provides 13 cubic feet of lockable storage capacity. Opens from rear to accommodate loading from three sides. Measures 56in L x 36in W x 18in H. Crossbar Set required. Consult vehicle owner's manual for total roof load limit.",
   part_number: 'E361SAG200'
 
@@ -933,7 +933,7 @@ Accessory.find_or_create_by id: 91,
   name: 'Roof Spoiler 5D',
   price: 314.00,
   parts_cost: 204.10,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Adds a sporty touch to the Impreza 5-door models.',
   part_number: 'E7210FJ600##'
 
@@ -945,7 +945,7 @@ Accessory.find_or_create_by id: 92,
   name: 'Side Window Deflectors (4-Door)',
   price: 119.95,
   parts_cost: 77.97,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Lets the fresh air in while helping to keep the weather out. May not be legal in all states. Please check the laws of your state.',
   part_number: 'E3610FJ860'
 
@@ -957,7 +957,7 @@ Accessory.find_or_create_by id: 93,
   name: 'Side Window Deflectors (5 - Door)',
   price: 119.95,
   parts_cost: 77.97,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Lets the fresh air in while helping to keep the weather out. May not be legal in all states. Please check the laws of your state.',
   part_number: 'E3610FJ660'
 
@@ -969,7 +969,7 @@ Accessory.find_or_create_by id: 94,
   name: 'Upgraded Speakers',
   price: 249.00,
   parts_cost: 161.85,
-  labor_cost: 0,
+  labor_cost: 150.00,
   description: 'Replacement speakers result in enhanced sound clarity and high-end definition. Manufactured for Subaru by Kicker®.',
   part_number: 'H631SFJ000'
 
@@ -981,7 +981,7 @@ Accessory.find_or_create_by id: 95,
   name: 'Upgraded Tweeters',
   price: 119.00,
   parts_cost: 77.35,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Tweeter speakers help to enhance high-frequency response. Manufactured for Subaru by Kicker®.',
   part_number: 'H631SFJ100'
 
@@ -1008,7 +1008,7 @@ Accessory.find_or_create_by id: 97,
   name: 'Aluminum Wheel ( 17” )',
   price: 715.00,
   parts_cost: 517.16,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Add a touch of flair to your Legacy 2.5i with these alloy wheels. Order four of each part number.',
   part_number: '28111AL00A'
 
@@ -1020,7 +1020,7 @@ Accessory.find_or_create_by id: 98,
   name: 'Auto-Dimming Mirror with Compass and HomeLink®',
   price: 260.00,
   parts_cost: 169.00,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Mirror automatically darkens when headlights are detected from behind the vehicle. Features an electronic compass with a red transflective display. Three HomeLink® buttons can be programmed to operate most garage door openers and other HomeLink® compatible devices.',
   part_number: 'H501SAL100'
 
@@ -1032,7 +1032,7 @@ Accessory.find_or_create_by id: 99,
   name: 'Auto-Dimming Mirror with Compass',
   price: 175.00,
   parts_cost: 113.75,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: "Mirror automatically darkens when headlights are detected from behind the vehicle. Features an electronic compass with a red transflective display that projects the current direction onto the mirror's surface.",
   part_number: 'H501SAL000'
 
@@ -1044,7 +1044,7 @@ Accessory.find_or_create_by id: 100,
   name: 'Body Side Molding Kit',
   price: 249.95,
   parts_cost: 162.47,
-  labor_cost: 0,
+  labor_cost: 52.50,
   description: 'Attractive, color-matched moldings coordinate with the styling of the vehicle while helping to protect doors from unsightly dings.',
   part_number: 'J101SAL800XX'
 
@@ -1068,7 +1068,7 @@ Accessory.find_or_create_by id: 102,
   name: 'Exterior Auto Dimming Mirror with Approach Light',
   price: 199.95,
   parts_cost: 129.97,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'New! Enhance your Auto-Dimming Mirror experience by adding the Exterior Auto-Dimming Mirrors with Approach Light*. Open or unlock the doors with the keyless entry system and LED lights located behind the Subaru logo in each exterior mirror help to light the way. Light is cast down all four doors and onto the ground next to and towards the rear of the vehicle. When in traffic, the Exterior Auto-Dimming Mirrors help add to a safer driving experience by reducing headlight glare on the exterior mirrors. This occurs when excessive light is detected from the rear of the vehicle. The dimming level of the exterior mirrors is regulated by the level of light detected by the Interior Auto-Dimming Mirror. Requires Interior Auto-Dimming Mirror',
   part_number: 'J201SAL000'
 
@@ -1080,7 +1080,7 @@ Accessory.find_or_create_by id: 103,
   name: 'Fog Lamp Kit',
   price: 269.95,
   parts_cost: 175.47,
-  labor_cost: 0,
+  labor_cost: 112.50,
   description: 'Casts a low and wide beam of light to enhance vision in inclement weather.',
   part_number: 'H451SAL000'
 
@@ -1092,7 +1092,7 @@ Accessory.find_or_create_by id: 104,
   name: 'Rear Bumper Applique',
   price: 69.95,
   parts_cost: 45.47,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Clear, scratch-resistant vinyl film helps to protect bumper upper surface and leading edge. Includes a discrete pearl-colored Subaru logo.',
   part_number: 'E771SAL300'
 
@@ -1104,7 +1104,7 @@ Accessory.find_or_create_by id: 105,
   name: 'Remote Engine Starter ( Push Start Models/Smart Start )',
   price: 359.95,
   parts_cost: 269.96,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Allows the vehicle to be started at the push of a buttom from outside the vehicle. Preset the heating or air conditioner controls to help bring the interior temperature to a more comfortable level prior to entry. Smart Engine Start works in conjunction with the Keyless Access and Start system. Operating distance is up to 75 feet away, depending on vehicle obstructions.',
   part_number: 'H001SAL800'
 
@@ -1116,7 +1116,7 @@ Accessory.find_or_create_by id: 106,
   name: 'Remote Engine Starter ( Turn Start Models )',
   price: 369.95,
   parts_cost: 277.46,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Allows the vehicle to be started at the push of a button from outside the vehicle. Preset the heating or air conditioner controls to help bring the interior temperature to a more comfortable level prior to entry. Smart Engine Start works in conjunction with the Keyless Access and Start system. Operating distance is up to 75 feet away, depending on vehicle obstructions.',
   part_number: 'H001SAL000'
 
@@ -1128,7 +1128,7 @@ Accessory.find_or_create_by id: 110,
   name: 'Side Window Deflectors',
   price: 245.00,
   parts_cost: 159.25,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Lets the fresh air in while helping to keep the weather out. Deflector design includes integrated chrome insert to match window frame trim. May not be legal in all states. Please check the laws of your state.',
   part_number: 'F0010AL900'
 
@@ -1140,7 +1140,7 @@ Accessory.find_or_create_by id: 107,
   name: 'Splash Guard Kit',
   price: 109.95,
   parts_cost: 71.47,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Helps protect vehicle paint finish from stones and road grime.',
   part_number: 'J101SAL100'
 
@@ -1152,7 +1152,7 @@ Accessory.find_or_create_by id: 108,
   name: 'Tweeter Kit',
   price: 99.95,
   parts_cost: 64.97,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Special speakers enhance high-frequency audio as well as improved stereo imaging.',
   part_number: 'H631SAL000'
 
@@ -1191,7 +1191,7 @@ Accessory.find_or_create_by id: 112,
   name: 'Aluminum Wheel ( 17” )',
   price: 925.56,
   parts_cost: 595.12,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Add a touch of flair to your Outback 2.5i with these alloy wheels.',
   part_number: 'Order four of each part number. Reuses original TPMS sensor, 28111AL02A (Wheel), 28821VA000 (Center Cap), 28194SC000 (Valve), 28192SA000 (Screw)'
 
@@ -1203,7 +1203,7 @@ Accessory.find_or_create_by id: 113,
   name: 'Auto-Dimming Mirror with Compass and HomeLink®',
   price: 260.00,
   parts_cost: 169.00,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Mirror automatically darkens when headlights are detected from behind the vehicle. Features an electronic compass with a red transflective display. Three HomeLink buttons can be programmed to operate most garage door openers and other HomeLink compatible devices.',
   part_number: 'H501SAL100'
 
@@ -1215,7 +1215,7 @@ Accessory.find_or_create_by id: 114,
   name: 'Auto-Dimming Mirror with Compass',
   price: 175.00,
   parts_cost: 113.75,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: "Mirror automatically darkens when headlights are detected from behind the vehicle. Features an electronic compass with a red transflective display that projects the current direction onto the mirror's surface.",
   part_number: 'H501SAL000'
 
@@ -1227,7 +1227,7 @@ Accessory.find_or_create_by id: 115,
   name: 'Bumper Underguard - Front',
   price: 97.75,
   parts_cost: 63.54,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Adds a rugged look while protecting the lower bumper area from brush and debris.',
   part_number: 'E551SAL000'
 
@@ -1239,7 +1239,7 @@ Accessory.find_or_create_by id: 116,
   name: 'Bumper Underguard - Rear',
   price: 129.00,
   parts_cost: 83.85,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Completes the rugged look of the Outback. Not compatible with Trailer Hitch.',
   part_number: 'E551SAL200'
 
@@ -1275,7 +1275,7 @@ Accessory.find_or_create_by id: 119,
   name: 'Exterior Auto Dimming Mirror with Approach Light',
   price: 239.95,
   parts_cost: 155.35,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: "New! Enhance your Auto-Dimming Mirror experience by adding the Exterior Auto-Dimming Mirrors with Approach Light*. Open or unlock the doors with the keyless entry system and LED lights located behind the Subaru logo in each exterior mirror help to light the way. Light is cast down all four doors and onto the ground next to and towards the rear of the vehicle. When in traffic, the Exterior Auto-Dimming Mirrors help add to a safer driving experience by reducing headlight glare on the exterior mirrors. This occurs when excessive light is detected from the rear of the vehicle. The dimming level of the exterior mirrors is regulated by the level of light detected by the Interior Auto-Dimming Mirror.",
   part_number: "J201SAL000, J201SAL100 (with Blind Spot Detection), * Requires Interior Auto-Dimming Mirror."
 
@@ -1287,7 +1287,7 @@ Accessory.find_or_create_by id: 120,
   name: 'Fog Lamp Kit',
   price: 269.95,
   parts_cost: 175.47,
-  labor_cost: 0,
+  labor_cost: 112.50,
   description: 'Casts a low and wide beam of light to enhance vision in inclement weather.',
   part_number: 'H451SAL100 (2.5i Only)'
 
@@ -1299,7 +1299,7 @@ Accessory.find_or_create_by id: 121,
   name: 'Heavy Duty Roof Cargo Basket',
   price: 369.95,
   parts_cost: 277.46,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Heavy-Duty Roof Cargo Basket is constructed powder-coated steel. Includes mounting hardware, black stretch net with hooks and a custom fairing to help deflect wind and reduce noise. Measures 44" L x 39" W x 6.5" H.',
   part_number: 'E361SSA201'
 
@@ -1311,7 +1311,7 @@ Accessory.find_or_create_by id: 122,
   name: 'Rear Bumper Cover',
   price: 69.95,
   parts_cost: 45.47,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Helps protect the upper surface of the painted bumper from scratches and dings.',
   part_number: 'E771SAL000'
 
@@ -1323,7 +1323,7 @@ Accessory.find_or_create_by id: 130,
   name: 'Rear Seat Back Protector',
   price: 59.95,
   parts_cost: 38.97,
-  labor_cost: 0,
+  labor_cost: 30.00,
   description: 'Provides additional protection to the rear seat backs when lowering the seats to transport larger cargo. Use in conjunction with the Rear Cargo Tray.',
   part_number: 'J501SAL600'
 
@@ -1335,7 +1335,7 @@ Accessory.find_or_create_by id: 123,
   name: 'Remote Engine Starter ( Push Start Models/Smart Engine Start)',
   price: 359.95,
   parts_cost: 269.95,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Allows the vehicle to be started at the push of a button from outside the vehicle. Preset the heating or air conditioner controls to help bring the interior temperature to a more comfortable level prior to entry. Smart Engine Start works in conjunction with the Keyless Access and Pushbutton Start system. Operating distance is up to 75 feet away, depending on vehicle obstructions.',
   part_number: 'H001SAL800 (A/T Only)'
 
@@ -1347,7 +1347,7 @@ Accessory.find_or_create_by id: 124,
   name: 'Remote Engine Starter ( Turn Start Models )',
   price: 369.95,
   parts_cost: 277.46,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Allows vehicle to be started by pushing a button from the convenience of home or the office (up to 400 feet away depending on obstructions) so that the vehicle’s interior temperature is more comfortable upon entry. The start/stop button blinks to confirm the engine has started.',
   part_number: 'H001SAL000 (A/T Only)'
 
@@ -1359,7 +1359,7 @@ Accessory.find_or_create_by id: 125,
   name: 'Side Window Deflectors',
   price: 245.00,
   parts_cost: 159.25,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Lets the fresh air in while helping to keep the weather out. Deflector design includes integrated chrome insert to match window frame trim. May not be legal in all states. Please check the laws of your state.',
   part_number: 'F0010AL500'
 
@@ -1371,7 +1371,7 @@ Accessory.find_or_create_by id: 126,
   name: 'Splash Guards',
   price: 109.95,
   parts_cost: 71.47,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Helps protect vehicle paint finish from stones and road grime. (Set of four)',
   part_number: 'J101SAL000'
 
@@ -1383,7 +1383,7 @@ Accessory.find_or_create_by id: 127,
   name: 'Trailer Hitch',
   price: 449.95,
   parts_cost: 337.46,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Subaru hitches are engineered to the same rigorous standards as the rest of your Outback. The hitch is rated at 3,000 lbs. maximum towing capacity with 3.6L engine (2,700 lbs. maximum with 2.5L engine) and 200 lbs. maximum tongue weight. Hitch ball not included. Trailer brakes may be needed. Not compatible with Rear Bumper Underguard.',
   part_number: 'L101SAL011'
 
@@ -1395,7 +1395,7 @@ Accessory.find_or_create_by id: 128,
   name: 'Tweeter Kit',
   price: 99.95,
   parts_cost: 64.97,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Special speakers enhance high-frequency audio response and improve stereo imaging.',
   part_number: 'H631SAL000 (2.5i model)'
 
@@ -1407,7 +1407,7 @@ Accessory.find_or_create_by id: 129,
   name: 'Wheel Arch Molding Kit',
   price: 399.95,
   parts_cost: 299.96,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Black textured moldings help protect the wheel arch areas, while adding a rugged, yet classy look. The wheel arch moldings look great with the accessory Splash Guards. (Set of four)',
   part_number: 'E201SAL000'
 
@@ -1434,7 +1434,7 @@ Accessory.find_or_create_by id: 132,
   name: '10 Inch Powered Subwoofer (Non Navi)',
   price: 499.99,
   parts_cost: 374.99,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Provides powerful deep bass, and also assists in clean sound reproduction from all vehicle speakers. This is achieved by its integrated 100W amplifier and a passive crossover network. The self-contained unit mounts in the trunk. Manufactured for Subaru of America by Kicker®. Excludes models with NAVI and Harman Kardon sound systems.',
   part_number: 'H630SFJ200'
 
@@ -1446,7 +1446,7 @@ Accessory.find_or_create_by id: 133,
   name: 'Auto-Dimming Mirror with Compass and HomeLink®',
   price: 260.00,
   parts_cost: 169.00,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Mirror darkens when headlights are detected from behind the vehicle. Includes electronic compass and three integrated HomeLink® buttons which can be programmed to operate most garage door openers and other HomeLink® compatible devices. Requires Installation Kit and adapter, included.',
   part_number: 'H501SFJ101'
 
@@ -1458,7 +1458,7 @@ Accessory.find_or_create_by id: 134,
   name: 'Auto-Dimming Mirror with Compass',
   price: 175.00,
   parts_cost: 113.75,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Mirror darkens when headlights are detected from behind the vehicle. Includes integrated electronic compass.',
   part_number: 'H501SFJ000'
 
@@ -1470,7 +1470,7 @@ Accessory.find_or_create_by id: 135,
   name: 'Body Side Molding Kit',
   price: 229.95,
   parts_cost: 149.47,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Attractive, color-matched moldings coordinate with the styling of the vehicle while helping to protect doors from unsightly dings.',
   part_number: 'J101SFJ000##'
 
@@ -1482,7 +1482,7 @@ Accessory.find_or_create_by id: 136,
   name: 'Center Armrest Extension',
   price: 144.00,
   parts_cost: 93.60,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Raises up and forward for additional comfort when driving.',
   part_number: 'J2010AG000JD'
 
@@ -1494,7 +1494,7 @@ Accessory.find_or_create_by id: 137,
   name: 'Fog Lamp Kit',
   price: 349.95,
   parts_cost: 262.46,
-  labor_cost: 0,
+  labor_cost: 112.50,
   description: "Casts a low and wide beam of light to enhance vision in inclement weather.",
   part_number: 'H4510VA000'
 
@@ -1506,7 +1506,7 @@ Accessory.find_or_create_by id: 138,
   name: 'Footwell Illumination kit',
   price: 149.95,
   parts_cost: 97.47,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Casts a soft blue or red glow onto the front floor area.',
   part_number: 'H701SFJ000 - Blue, H701SFJ100 - Red'
 
@@ -1518,7 +1518,7 @@ Accessory.find_or_create_by id: 139,
   name: 'Remote Engine Starter Kit',
   price: 399.99,
   parts_cost: 299.99,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Not Applicable to Models With Manual Transmissions. For Push Button Start Models',
   part_number: 'H001SVA800'
 
@@ -1530,7 +1530,7 @@ Accessory.find_or_create_by id: 140,
   name: 'Side Window Deflectors',
   price: 119.95,
   parts_cost: 77.97,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Lets the fresh air in while helping to keep the weather out.',
   part_number: 'E3610FJ860'
 
@@ -1554,7 +1554,7 @@ Accessory.find_or_create_by id: 142,
   name: 'STI Alloy Wheel 17" (Qty 4)',
   price: 1585.56,
   parts_cost: 1161.08,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'The STI 15-spoke, 17” wheels help to give the WRX the perfect blend of attitude and style, combined with improved handling performance and steering precision. This is due to the reduced weight of the alloy when compared to stock alloy wheel. The wheels are finished in black and finished off STI branded center caps.',
   part_number: 'B3110VA000, Requires the following parts - reuses the original TPMS senor, 28821FE141 Wheel Cap (Qty 4), 28194SC000 TPMS Valve Assembly (Qty 4), 28192SA000 Screw (Qty 4)'
 
@@ -1578,7 +1578,7 @@ Accessory.find_or_create_by id: 144,
   name: 'STI Front Under Spoiler',
   price: 399.00,
   parts_cost: 299.99,
-  labor_cost: 0,
+  labor_cost: 112.50,
   description: 'STI Front Lip Spoiler gives the WRX and STI a mean, ground-hugging attitude.',
   part_number: 'E2410VA000'
 
@@ -1602,7 +1602,7 @@ Accessory.find_or_create_by id: 146,
   name: 'STI Performance Exhaust System-STI',
   price: 1099.95,
   parts_cost: 824.96,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Mounted behind the catalytic converter, the STI Performance Exhaust System provides smooth mandrel bend construction to help reduce exhaust flow restrictions, allowing the engine to “breathe” more efficiently. The exhaust system includes a free-flowing center pipe after the catalytic converter that splits into two pipes and mufflers with engraved STI tips.',
   part_number: 'D441SVA000'
 
@@ -1614,7 +1614,7 @@ Accessory.find_or_create_by id: 147,
   name: 'STI Performance Exhaust System-WRX',
   price: 1099.95,
   parts_cost: 824.96,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'Mounted behind the catalytic converter, the STI Performance Exhaust System provides smooth mandrel bend construction to help reduce exhaust flow restrictions, allowing the engine to “breathe” more efficiently. The exhaust system includes a free-flowing center pipe after the catalytic converter that splits into two pipes and mufflers with engraved STI tips.',
   part_number: 'D441SVA100'
 
@@ -1626,7 +1626,7 @@ Accessory.find_or_create_by id: 148,
   name: 'STI Rear Quarter Under Spoiler',
   price: 335.00,
   parts_cost: 251.25,
-  labor_cost: 0,
+  labor_cost: 37.50,
   description: 'Complete the ground-hugging look on the side of the WRX or STI with the addition of the rear quarter under spoiler. Kit includes both right and left side under spoilers.',
   part_number: 'E5610VA000'
 
@@ -1638,7 +1638,7 @@ Accessory.find_or_create_by id: 149,
   name: 'STI Rear Under Spoiler',
   price: 499.00,
   parts_cost: 374.99,
-  labor_cost: 0,
+  labor_cost: 52.50,
   description: "",
   part_number: 'E5610VA100'
 
@@ -1650,7 +1650,7 @@ Accessory.find_or_create_by id: 150,
   name: 'STI Shifter Bushing - STI only',
   price: 25.95,
   parts_cost: 16.87,
-  labor_cost: 0,
+  labor_cost: 75.00,
   description: 'STI Shifter Bushing',
   part_number: 'B0220FG300'
 
@@ -1662,7 +1662,7 @@ Accessory.find_or_create_by id: 151,
   name: 'STI Short Throw Shifter - STI',
   price: 395.00,
   parts_cost: 296.25,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Significantly reduces shift throw lengths for crisper shifts and sportier driving feel.',
   part_number: 'C1010FG600'
 
@@ -1674,7 +1674,7 @@ Accessory.find_or_create_by id: 152,
   name: 'STI Short Throw Shifter - WRX',
   price: 339.95,
   parts_cost: 254.96,
-  labor_cost: 0,
+  labor_cost: 225.00,
   description: 'Significantly reduces shift throw lengths for crisper shifts and sportier driving feel.',
   part_number: 'C1010VA000'
 
