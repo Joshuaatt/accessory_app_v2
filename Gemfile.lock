@@ -104,6 +104,7 @@ GEM
     mime-types (2.5)
     mini_portile (0.6.2)
     minitest (5.6.0)
+    newrelic_rpm (3.11.2.286)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
@@ -223,6 +224,7 @@ DEPENDENCIES
   dotenv-rails
   jquery-rails
   letter_opener
+  newrelic_rpm
   paperclip (~> 4.2)
   pg
   pry
