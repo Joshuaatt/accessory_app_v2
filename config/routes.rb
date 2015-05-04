@@ -16,6 +16,8 @@ Rails.application.routes.draw do
     resource :checkouts, only: [:create]
   end
 
+  resources :charges
+
 
 
 
