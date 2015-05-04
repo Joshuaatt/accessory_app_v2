@@ -13,6 +13,7 @@ gem 'devise'
 gem 'bootstrap_form'
 gem 'puma'
 gem 'newrelic_rpm'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 
 
