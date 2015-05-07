@@ -714,7 +714,7 @@ Accessory.find_or_create_by id: 73,
   name: 'Round Cross Bar Kit',
   price: 375.00,
   parts_cost: 281.25,
-  labor_cost: 225.00,
+  labor_cost: 22.50,
   description: "Wider and more rigid bars have a universal round profile that allows the use of numerous attachments. Also compatible with most Genuine Subaru roof carriers.",
   part_number: 'E361SSC200'
 
