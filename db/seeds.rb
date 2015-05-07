@@ -593,7 +593,7 @@ Accessory.find_or_create_by id: 398,
   name: 'Rear Seat Back Protector',
   price: 71.45,
   parts_cost: 0,
-  description: '',
+  description: 'Provides additional protection to the rear seat backs when lowering the seats to transport larger cargo. Use in conjunction with the Rear Cargo Tray.',
   labor_cost: 0,
   active: true,
   part_number: ''
