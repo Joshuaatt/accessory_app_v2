@@ -12,9 +12,16 @@ describe 'the user flow through process' do
     expect(page).to have_content "Select your Toyota model"
   end
 
-  # it 'selects a Toyota model' do
-  #   visit manufacturer_path(manufacturer)
-  #   click_on '4runnner'
-  #   expect(page).to have_content "2015 4Runner Accessories"
-  # end
+  it 'selects a Toyota model' do
+    visit manufacturer_path(1)
+    click_on "4Runner"
+    expect(page).to have_content "2015 4Runner Accessories"
+  end
+
+  it "continues through to chouckout page without selecting an accessory" do
+    visit manufacturer_path(1)
+    click_on "4Runner"
+    click_on "Continue"
+    expect(page).to have_content "There are no items in your shopping cart. Please go back and add some items to your cart."
+  end
 end
