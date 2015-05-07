@@ -35,7 +35,7 @@ class AccessoriesController < ApplicationController
     @manufacturer = @model.manufacturer_id
     if @accessory.update(accessory_params)
       flash[:notice] = "Your accessory has been changed successfully"
-      redirect_to manufacturer_model_path(@model, @manufacturer)
+      redirect_to manufacturer_model_path(@manufacturer, @model)
     else
       flash[:error] = "There was an error with your edit"
       render action: :edit
