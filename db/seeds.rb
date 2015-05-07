@@ -574,6 +574,30 @@ Accessory.find_or_create_by id: 54,
 
 #### Forester ####
 
+Accessory.find_or_create_by id: 397,
+  model_id: 7,
+  image_file_name: "subaru-rear-cargo-cover.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Luggage Compartment Cover',
+  price: 178.45,
+  parts_cost: 0,
+  description: 'Hide your valuables with this cover that stores in the spare-wheel well.',
+  labor_cost: 0,
+  active: true,
+  part_number: ''
+
+Accessory.find_or_create_by id: 398,
+  model_id: 7,
+  image_file_name: "forester-2015-seat-back-protector.jpg",
+  image_content_type: "image/jpeg",
+  name: 'Rear Seat Back Protector',
+  price: 71.45,
+  parts_cost: 0,
+  description: '',
+  labor_cost: 0,
+  active: true,
+  part_number: ''
+
 Accessory.find_or_create_by id: 55,
   model_id: 7,
   image_file_name: "E361SSG000-forester-crossbars.jpg",
