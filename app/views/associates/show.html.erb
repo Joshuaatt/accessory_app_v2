@@ -14,7 +14,7 @@
     <%= f.submit "Send" %>
   <% end %>
 
-  <% if current_order.subtotal > 0 %>
+  <% if current_order.subtotal > 0 && current_order.order_items.where({ accessory_id: 396 }).empty? %>
     <% current_order.order_items.each do |order_item| %>
       <div>
         <h1 class="checkout-list">Model:</h1>

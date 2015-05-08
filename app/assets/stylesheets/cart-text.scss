@@ -34,7 +34,7 @@
   box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.33);
 }
 
-.subtotal, .monthly_subtotal {
+.cart-text-cards {
   display: inline-block;
   padding: 15px 20px;
 }
@@ -46,5 +46,11 @@
 
 .monthly_subtotal {
   background: white;
+  margin-left: -4px;
+}
+
+.declined {
+  background: #d9534f;
+  color: white;
   margin-left: -4px;
 }
