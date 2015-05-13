@@ -21,7 +21,7 @@ gem 'aws-sdk', '< 2.0'
 group :development do
   gem 'byebug'
   gem 'web-console'
-  gem 'spring'
+  gem 'spring', "~> 1.3.6"
   gem 'quiet_assets'
   gem 'pry'
   gem "letter_opener"
