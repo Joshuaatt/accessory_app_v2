@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150429145652) do
+ActiveRecord::Schema.define(version: 20150513000601) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -64,9 +64,11 @@ ActiveRecord::Schema.define(version: 20150429145652) do
     t.string  "customer_name"
     t.string  "stock_number"
     t.integer "associate_id"
+    t.integer "order_id"
   end
 
   add_index "checkouts", ["associate_id"], name: "index_checkouts_on_associate_id", using: :btree
+  add_index "checkouts", ["order_id"], name: "index_checkouts_on_order_id", using: :btree
 
   create_table "manufacturers", force: :cascade do |t|
     t.string   "name"
@@ -114,14 +116,22 @@ ActiveRecord::Schema.define(version: 20150429145652) do
     t.integer  "order_status_id"
     t.datetime "created_at",                               null: false
     t.datetime "updated_at",                               null: false
+    t.string   "customer_phone"
+    t.string   "customer_email"
+    t.string   "customer_name"
+    t.string   "stock_number"
+    t.integer  "associate_id"
   end
 
+  add_index "orders", ["associate_id"], name: "index_orders_on_associate_id", using: :btree
   add_index "orders", ["order_status_id"], name: "index_orders_on_order_status_id", using: :btree
 
   add_foreign_key "accessories", "models"
   add_foreign_key "checkouts", "associates"
+  add_foreign_key "checkouts", "orders"
   add_foreign_key "models", "manufacturers"
   add_foreign_key "order_items", "accessories"
   add_foreign_key "order_items", "orders"
+  add_foreign_key "orders", "associates"
   add_foreign_key "orders", "order_statuses"
 end

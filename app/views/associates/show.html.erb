@@ -11,6 +11,7 @@
     <%= f.text_field :customer_phone %>
     <%= f.text_field :stock_number %>
     <%= f.hidden_field :associate, :value => @associate %>
+    <%= f.hidden_field :order_id, :value => @order_id %>
     <%= f.submit "Send" %>
   <% end %>
 
