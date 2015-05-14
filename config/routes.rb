@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root :to => 'manufacturers#index'
 
   resources :console
+  resources :emails  
 
   resources :manufacturers do
     resources :models

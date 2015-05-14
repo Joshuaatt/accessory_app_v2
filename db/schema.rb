@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150514032109) do
+ActiveRecord::Schema.define(version: 20150514051011) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -69,6 +69,10 @@ ActiveRecord::Schema.define(version: 20150514032109) do
 
   add_index "checkouts", ["associate_id"], name: "index_checkouts_on_associate_id", using: :btree
   add_index "checkouts", ["order_id"], name: "index_checkouts_on_order_id", using: :btree
+
+  create_table "emails", force: :cascade do |t|
+    t.string "address"
+  end
 
   create_table "manufacturers", force: :cascade do |t|
     t.string   "name"
