@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   devise_for :admins
   root :to => 'manufacturers#index'
 
+  resources :console
+
   resources :manufacturers do
     resources :models
   end
