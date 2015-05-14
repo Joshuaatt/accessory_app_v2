@@ -1,5 +1,6 @@
 class Checkout < ActiveRecord::Base
   belongs_to :associate
+  has_one :order
   # after_create :send_service_email
   # include OrderHelper
   # helper :order
