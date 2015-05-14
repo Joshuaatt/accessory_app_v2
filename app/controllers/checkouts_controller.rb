@@ -6,9 +6,11 @@ class CheckoutsController < ApplicationController
   end
   def create
     @order_items = current_order.order_items
+    @order = Order.find(current_order.id)
     @associate = Associate.find(params[:associate_id])
     @checkout = Checkout.new(checkout_params)
     @checkout.associate = @associate
+    @checkout.order_id = @order.id
     if @checkout.save
       ServiceMailer.send_service_email(@checkout, @order_items).deliver
       flash[:notice] = "Service request has been sent"
