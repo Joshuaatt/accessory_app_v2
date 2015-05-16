@@ -8,7 +8,7 @@ class ServiceMailer < ApplicationMailer
     @associate = @checkout.associate
     @order_items = order_items
     @email = Email.find(1)
-    mail(:to => @associate.email, :subject => "Customer Accessories Request",
+    mail(:to => @associate.email, :subject => "Customer Accessories Request [ " + @checkout.customer_name + " ]",
 
       :cc => [@email.address])
   end
