@@ -1,5 +1,5 @@
 class ServiceMailer < ApplicationMailer
-  default :from => "joshuaatteberry@gmail.com"
+  default :from => "brianm@toyotacorvallis.com"
   # include OrderHelper
   # helper :order
 
@@ -8,7 +8,8 @@ class ServiceMailer < ApplicationMailer
     @associate = @checkout.associate
     @order_items = order_items
     @email = Email.find(1)
-    mail(:to => "joshuaatteberry@gmail.com", :subject => "Customer Accessories Request",
+    binding.pry
+    mail(:to => @associate.email, :subject => "Customer Accessories Request",
 
       :cc => [@email.address])
   end
