@@ -15,7 +15,8 @@ gem 'puma'
 gem 'newrelic_rpm'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'aws-sdk', '< 2.0'
-
+gem 'chartkick'
+gem 'groupdate'
 
 
 group :development do

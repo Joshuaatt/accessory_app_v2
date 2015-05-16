@@ -1,17 +1,42 @@
 class Checkout < ActiveRecord::Base
   belongs_to :associate
-  # after_create :send_service_email
-  # include OrderHelper
-  # helper :order
+  belongs_to :order
 
+  def self.total_on(date)
 
-  # attr_accessor :associate
+    # Order.joins(:checkout).where("date(orders.created_at) IN (?)", date).sum(:subtotal)
+    Checkout.joins(:order).where("date(orders.created_at) = (?)", date).sum(:subtotal)
+    # Order.joins(:checkout).where(orders: { created_at: [date]}).sum(:subtotal)
 
-  # @current_order = Checkout.find(session[:id])
-  # @current_order = current_order
-
-  # def send_service_email
-  #   ServiceMailer.send_service_email(self).deliver_now
-  # end
-
+    # ActiveRecord::Base.connection.execute(
+    #   "SELECT SUM(subtotal)
+    #   FROM orders
+    #   INNER JOIN checkouts
+    #   ON orders.id = checkouts.order_id
+    #   WHERE (date(checkouts.created_at) IN '#{date}')"
+    # )
+  end
 end
+
+
+
+
+# order.collect { |oi| oi.subtotal }.sum
+
+# Checkout.joins(:order).where("date(orders.created_at) = (?)", date).sum(:subtotal)
+
+# SELECT SUM(subtotal) FROM "checkouts" INNER JOIN "orders" ON "orders"."id" = "checkouts"."order_id" WHERE (date(orders.created_at) = '2015-04-23','2015
+
+# ActiveRecord::Base.connection.execute(
+#   "SELECT SUM(subtotal)
+#   FROM orders
+#   INNER JOIN checkouts
+#   ON orders.id = checkouts.order_id
+#   WHERE (date(checkouts.created_at) = '#{begin_date}', '#{end_date}')"
+# )
+# checkout_orders = []
+# self.all.each do |checkout_order|
+#   order = Order.find(checkout_order.order_id)
+#   checkout_orders.push(order)
+# end
+# checkout_orders.where("date(created_at) = ?", date).sum(:subtotal)

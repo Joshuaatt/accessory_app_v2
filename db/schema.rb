@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150514051011) do
+ActiveRecord::Schema.define(version: 20150514155228) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -59,12 +59,14 @@ ActiveRecord::Schema.define(version: 20150514051011) do
   end
 
   create_table "checkouts", force: :cascade do |t|
-    t.string  "customer_phone"
-    t.string  "customer_email"
-    t.string  "customer_name"
-    t.string  "stock_number"
-    t.integer "associate_id"
-    t.integer "order_id"
+    t.string   "customer_phone"
+    t.string   "customer_email"
+    t.string   "customer_name"
+    t.string   "stock_number"
+    t.integer  "associate_id"
+    t.integer  "order_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "checkouts", ["associate_id"], name: "index_checkouts_on_associate_id", using: :btree

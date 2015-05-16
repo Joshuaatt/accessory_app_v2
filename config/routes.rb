@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   devise_for :admins
   root :to => 'manufacturers#index'
 
-  resources :console
-  resources :emails  
+
+  resources :emails, only: [:edit, :update]
 
   resources :manufacturers do
     resources :models
@@ -20,7 +20,12 @@ Rails.application.routes.draw do
   end
 
   resources :charges
-
+  resources :console
+  resources :charts do
+    collection do
+      get 'sales'
+    end
+  end
 
 
 

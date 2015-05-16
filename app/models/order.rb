@@ -13,6 +13,10 @@ class Order < ActiveRecord::Base
     order_items.collect { |oi| oi.monthly_price }.sum
   end
 
+  # def total_on(date)
+  #   where("date(created_at) = ?", date).sum(:subtotal)
+  # end
+
 private
   def set_order_status
     self.order_status_id = 1
