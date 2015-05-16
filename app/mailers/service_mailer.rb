@@ -8,7 +8,6 @@ class ServiceMailer < ApplicationMailer
     @associate = @checkout.associate
     @order_items = order_items
     @email = Email.find(1)
-    binding.pry
     mail(:to => @associate.email, :subject => "Customer Accessories Request",
 
       :cc => [@email.address])
