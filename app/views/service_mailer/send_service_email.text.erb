@@ -11,11 +11,9 @@ Customer Accessories Request
 
 Model: <%= Model.find(Accessory.find(order_item.accessory_id).model_id).name %>,
 Accessory: <%= Accessory.find(order_item.accessory_id).name %>,
-Parts cost: <%= number_to_currency Accessory.find(order_item.accessory_id).parts_cost %>,
 Labor cost: <%= number_to_currency Accessory.find(order_item.accessory_id).labor_cost %>,
-Customer price: <%= number_to_currency order_item.total_price %>,
-Total price: <%= number_to_currency (Accessory.find(order_item.accessory_id).labor_cost) + (order_item.total_price) %>,
-Part number: <%= Accessory.find(order_item.accessory_id).part_number %>,
+Total price: <%= number_to_currency order_item.total_price %>,
+Part number: <%= Accessory.find(order_item.accessory_id).part_number %>
 <% end %>
 
 <% else %>
