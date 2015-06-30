@@ -32,7 +32,7 @@
             <div class="price-and-price-per-month">
               <div class="price">
                 <h4><%= number_to_currency accessory.full_price %></h4>
-                <% if accessory.labor_cost > 0 %>
+                <% if accessory.labor_cost != nil || accessory.labor_cost > 0 %>
                   <p>Includes <%= number_to_currency accessory.labor_cost %> labor</p>
                 <% end %>
               </div>
