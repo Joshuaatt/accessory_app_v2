@@ -25,7 +25,15 @@ class Accessory < ActiveRecord::Base
     :content_type => { :content_type => /^image\/(jpeg|png|gif|tiff)$/ }
 
   def full_price
-    self.price + self.labor_cost
+    if self.price != nil && self.labor_cost != nil
+      self.price + self.labor_cost
+    elsif self.price != nil && self.labor_cost = nil
+      self.price
+    elsif self.price = nil && self.labor_cost != nil
+      self.labor_cost
+    else
+      full_price = 0
+    end
   end
 
   def discount
