@@ -5,11 +5,11 @@
 <div class="admin-controls col-xs-12 col-md-6 col-md-offset-3">
   <%= image_tag @accessory.image.url(:large), class: "large-image" %>
   <%= bootstrap_form_for [ @model, @accessory ] do |f| %>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, required: true %>
     <%= f.text_area :description, :rows => "10" %>
-    <%= f.number_field :price, :step => 0.01 %>
-    <%= f.number_field :parts_cost, :step => 0.01 %>
-    <%= f.number_field :labor_cost, :step => 0.01 %>
+    <%= f.number_field :price, :step => 0.01, :placeholder => "$0", :input_html => { :value => 0 } %>
+    <%= f.number_field :parts_cost, :step => 0.01, :placeholder => "$0", :input_html => { :value => 0 } %>
+    <%= f.number_field :labor_cost, :step => 0.01, :placeholder => "$0", :input_html => { :value => 0 } %>
     <%= f.text_field :part_number %>
     <%= f.file_field :image %>
     <%= f.submit %>

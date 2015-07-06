@@ -16,9 +16,10 @@ class AccessoriesController < ApplicationController
     @model = Model.find(params[:model_id])
     @accessory = @model.accessories.new(accessory_params)
     if @accessory.save
-      flash[:notice] = "Accessory submitted"
+      flash[:notice] = 'Accessory submitted'
       redirect_to manufacturer_model_path(@accessory.model.manufacturer_id, @accessory.model)
     else
+      flash[:error] = 'Something went wrong with your accessory submission.'
       render :new
     end
   end

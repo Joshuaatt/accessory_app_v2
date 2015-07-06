@@ -20,7 +20,6 @@ gem 'groupdate'
 
 
 group :development do
-  gem 'byebug'
   gem 'web-console'
   gem 'spring', "~> 1.3.6"
   gem 'quiet_assets'
