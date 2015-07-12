@@ -3,24 +3,22 @@ class Checkout < ActiveRecord::Base
   belongs_to :order
 
   def self.total_on(date)
-
-    # Order.joins(:checkout).where("date(orders.created_at) IN (?)", date).sum(:subtotal)
     Checkout.joins(:order).where("date(orders.created_at) = (?)", date).sum(:subtotal)
-    # Order.joins(:checkout).where(orders: { created_at: [date]}).sum(:subtotal)
-
-    # ActiveRecord::Base.connection.execute(
-    #   "SELECT SUM(subtotal)
-    #   FROM orders
-    #   INNER JOIN checkouts
-    #   ON orders.id = checkouts.order_id
-    #   WHERE (date(checkouts.created_at) IN '#{date}')"
-    # )
   end
 end
 
 
+# Order.joins(:checkout).where("date(orders.created_at) IN (?)", date).sum(:subtotal)
 
+# Order.joins(:checkout).where(orders: { created_at: [date]}).sum(:subtotal)
 
+# ActiveRecord::Base.connection.execute(
+#   "SELECT SUM(subtotal)
+#   FROM orders
+#   INNER JOIN checkouts
+#   ON orders.id = checkouts.order_id
+#   WHERE (date(checkouts.created_at) IN '#{date}')"
+# )
 # order.collect { |oi| oi.subtotal }.sum
 
 # Checkout.joins(:order).where("date(orders.created_at) = (?)", date).sum(:subtotal)

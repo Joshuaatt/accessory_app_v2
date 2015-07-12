@@ -23,3 +23,18 @@ ul.console-nav li {
 .delete-my-account-text {
   padding: 10px 20px;
 }
+
+ul#order-detail li {
+  display: inline;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#order-detail-1, #order-detail-2, #order-detail-3 {
+  text-align: center;
+}
+
+#sandwich {
+  margin: 40px;
+  border-bottom: 1px solid #eeeeee;
+}

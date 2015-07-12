@@ -4,6 +4,7 @@ class CheckoutsController < ApplicationController
   def new
     @checkout = Checkout.new
   end
+
   def create
     @order_items = current_order.order_items
     @order = Order.find(current_order.id)
@@ -18,6 +19,10 @@ class CheckoutsController < ApplicationController
     else
       render root_path
     end
+  end
+
+  def order_details
+    @checkouts = Checkout.all
   end
 
 private

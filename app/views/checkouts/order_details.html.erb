@@ -1,0 +1,18 @@
+<%= render "shared/navbar" %>
+<%= render "console/console_nav" %>
+
+<% @checkouts.each do |checkout| %>
+<div id='sandwich'>
+  <ul id="order-detail">
+    <div id="order-detail-1" class="col-lg-4">
+      <li><%= checkout.customer_name %></li>
+    </div>
+    <div id="order-detail-2" class="col-lg-4">
+      <li><%= checkout.customer_email %></li>
+    </div>
+    <div id="order-detail-3" class="col-lg-4">
+      <li><%= checkout.created_at.strftime("%B %d, %Y") %></li>
+    </div>
+  </ul>
+</div>
+<% end %>

@@ -21,6 +21,7 @@ Rails.application.routes.draw do
 
   resources :charges
   resources :console
+  get 'checkouts/order_details'
   resources :charts do
     collection do
       get 'sales'
