@@ -10,8 +10,12 @@
     <div id="order-detail-2" class="col-lg-4">
       <li><%= checkout.customer_email %></li>
     </div>
+
     <div id="order-detail-3" class="col-lg-4">
-      <li><%= checkout.created_at.strftime("%B %d, %Y") %></li>
+      <% if checkout.created_at == nil %>
+      <% else %>
+        <li><%= checkout.created_at.strftime("%B %d, %Y") %></li>
+      <% end %>
     </div>
   </ul>
 </div>
