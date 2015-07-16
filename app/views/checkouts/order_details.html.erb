@@ -1,7 +1,7 @@
 <%= render "shared/navbar" %>
 <%= render "console/console_nav" %>
 
-<% @checkouts.each do |checkout| %>
+<% @checkouts.order('created_at desc').each do |checkout| %>
 <div id='sandwich'>
   <ul id="order-detail">
     <div id="order-detail-1" class="col-lg-4">
