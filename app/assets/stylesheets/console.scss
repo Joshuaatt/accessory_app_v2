@@ -7,7 +7,7 @@
 
 ul.console-nav li {
   text-align: center;
-  margin-left: 18%;
+  margin-left: 12%;
 }
 
 .address {
@@ -24,17 +24,34 @@ ul.console-nav li {
   padding: 10px 20px;
 }
 
+#order-detail-container {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.33);
+}
+
+.order-detail-headers {
+  font-size: 1.4em;
+  padding-bottom: 25px;
+}
+
 ul#order-detail li {
   display: inline;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
 }
 
-#order-detail-1, #order-detail-2, #order-detail-3 {
+#order-detail-1, #order-detail-2, #order-detail-3, #order-detail-4 {
   text-align: center;
 }
 
 #sandwich {
-  margin: 40px;
+  padding: 20px;
   border-bottom: 1px solid #eeeeee;
+}
+
+.colored {
+  background-color: #E6E6E6;
 }

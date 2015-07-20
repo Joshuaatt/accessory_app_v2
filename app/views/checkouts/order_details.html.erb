@@ -1,22 +1,32 @@
 <%= render "shared/navbar" %>
 <%= render "console/console_nav" %>
 
-<% @checkouts.order('created_at desc').each do |checkout| %>
-<div id='sandwich'>
-  <ul id="order-detail">
-    <div id="order-detail-1" class="col-lg-4">
-      <li><%= checkout.customer_name %></li>
+<div id="order-detail-container">
+      <ul id="order-detail" class="order-detail-headers">
+        <div id="order-detail-1" class="col-lg-3">
+          <li>Name</li>
+        </div>
+        <div id="order-detail-1" class="col-lg-3">
+          <li>Email</li>
+        </div>
+        <div id="order-detail-1" class="col-lg-3">
+          <li>Phone</li>
+        </div>
+        <div id="order-detail-1" class="col-lg-3">
+          <li>Date</li>
+        </div>
+      </ul>
+    <% @checkouts.order('created_at desc').each do |checkout| %>
+    <div id='sandwich' class="<%= cycle('not-colored', 'colored') %>">
+      <ul id="order-detail">
+          <li id="order-detail-1" class="col-lg-3"><%= checkout.customer_name %></li>
+          <li id="order-detail-2" class="col-lg-3"><%= checkout.customer_email %></li>
+          <li id="order-detail-3" class="col-lg-3"><%= checkout.customer_phone %></li>
+          <% if checkout.created_at == nil %>
+          <% else %>
+            <li id="order-detail-4" class="col-lg-3"><%= checkout.created_at.strftime("%B %d, %Y") %></li>
+          <% end %>
+      </ul>
     </div>
-    <div id="order-detail-2" class="col-lg-4">
-      <li><%= checkout.customer_email %></li>
-    </div>
-
-    <div id="order-detail-3" class="col-lg-4">
-      <% if checkout.created_at == nil %>
-      <% else %>
-        <li><%= checkout.created_at.strftime("%B %d, %Y") %></li>
-      <% end %>
-    </div>
-  </ul>
-</div>
 <% end %>
+</div>
