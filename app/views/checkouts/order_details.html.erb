@@ -35,9 +35,9 @@
         <% order = Order.find(checkout.order_id) %>
         <% order.order_items.each do |ord| %>
         <div class="col-lg-4">
-          <% unless Model.find(Accessory.find(ord.accessory_id).model_id) == nil %>
-            Model: <%= Model.find(Accessory.find(ord.accessory_id).model_id).name %>, <br />
-          <% end %>
+          <%# unless Model.find(Accessory.find(ord.accessory_id).model_id) == nil %>
+            <!--Model: <%# Model.find(Accessory.find(ord.accessory_id).model_id).name %>, <br />-->
+          <%# end %>
           Accessory: <%= Accessory.find(ord.accessory_id).name %>, <br />
           Labor cost: <%= number_to_currency Accessory.find(ord.accessory_id).labor_cost %>, <br />
           Total price: <%= number_to_currency ord.total_price %>, <br />
