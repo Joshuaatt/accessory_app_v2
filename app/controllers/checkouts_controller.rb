@@ -23,6 +23,7 @@ class CheckoutsController < ApplicationController
 
   def order_details
     @checkouts = Checkout.all
+
   end
 
 private
