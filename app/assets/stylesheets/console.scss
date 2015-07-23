@@ -30,9 +30,9 @@ ul.console-nav li {
   box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.33);
 }
 
-.order-detail-headers {
-  font-size: 1.4em;
-  padding-bottom: 25px;
+.your-orders {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 5px;
 }
 
 ul#order-detail li {
@@ -54,4 +54,12 @@ ul#order-detail li {
 
 .colored {
   background-color: #E6E6E6;
+}
+
+.order-detail-associate {
+  padding-bottom: 10px;
+}
+
+.order-breakdown {
+  padding-bottom: 10px;
 }
